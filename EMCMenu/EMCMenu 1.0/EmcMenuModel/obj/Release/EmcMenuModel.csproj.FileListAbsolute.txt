@@ -1,0 +1,4 @@
+D:\fontes\jlmtech\EMCTech\EMCMenu\EMCMenu 1.0\EmcMenuModel\bin\Release\EmcMenuModel.dll
+D:\fontes\jlmtech\EMCTech\EMCMenu\EMCMenu 1.0\EmcMenuModel\bin\Release\EmcMenuModel.pdb
+D:\fontes\jlmtech\EMCTech\EMCMenu\EMCMenu 1.0\EmcMenuModel\obj\Release\EmcMenuModel.dll
+D:\fontes\jlmtech\EMCTech\EMCMenu\EMCMenu 1.0\EmcMenuModel\obj\Release\EmcMenuModel.pdb

@@ -1,0 +1,10 @@
+D:\fontes\jlmtech\EMCTech\EMCMenu\EMCMenu 1.0\EmcMenuDAO\bin\Debug\EmcMenuDAO.dll
+D:\fontes\jlmtech\EMCTech\EMCMenu\EMCMenu 1.0\EmcMenuDAO\bin\Debug\EmcMenuDAO.pdb
+D:\fontes\jlmtech\EMCTech\EMCMenu\EMCMenu 1.0\EmcMenuDAO\bin\Debug\EMCLibrary.dll
+D:\fontes\jlmtech\EMCTech\EMCMenu\EMCMenu 1.0\EmcMenuDAO\bin\Debug\EmcMenuModel.dll
+D:\fontes\jlmtech\EMCTech\EMCMenu\EMCMenu 1.0\EmcMenuDAO\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+D:\fontes\jlmtech\EMCTech\EMCMenu\EMCMenu 1.0\EmcMenuDAO\bin\Debug\EmcMenuModel.pdb
+D:\fontes\jlmtech\EMCTech\EMCMenu\EMCMenu 1.0\EmcMenuDAO\bin\Debug\FirebirdSql.Data.FirebirdClient.pdb
+D:\fontes\jlmtech\EMCTech\EMCMenu\EMCMenu 1.0\EmcMenuDAO\obj\Debug\EmcMenuDAO.csprojResolveAssemblyReference.cache
+D:\fontes\jlmtech\EMCTech\EMCMenu\EMCMenu 1.0\EmcMenuDAO\obj\Debug\EmcMenuDAO.dll
+D:\fontes\jlmtech\EMCTech\EMCMenu\EMCMenu 1.0\EmcMenuDAO\obj\Debug\EmcMenuDAO.pdb
