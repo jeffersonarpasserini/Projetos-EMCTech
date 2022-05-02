@@ -1,0 +1,13 @@
+D:\fontes\jlmtech\EMCTech\EMCObras\EMCObras 1.0\EMCObrasModel\bin\Release\EMCObrasModel.dll
+D:\fontes\jlmtech\EMCTech\EMCObras\EMCObras 1.0\EMCObrasModel\bin\Release\EMCObrasModel.pdb
+D:\fontes\jlmtech\EMCTech\EMCObras\EMCObras 1.0\EMCObrasModel\bin\Release\EMCCadastroModel.dll
+D:\fontes\jlmtech\EMCTech\EMCObras\EMCObras 1.0\EMCObrasModel\bin\Release\EMCEstoqueModel.dll
+D:\fontes\jlmtech\EMCTech\EMCObras\EMCObras 1.0\EMCObrasModel\bin\Release\EMCSecurityModel.dll
+D:\fontes\jlmtech\EMCTech\EMCObras\EMCObras 1.0\EMCObrasModel\bin\Release\EMCFaturamentoModel.dll
+D:\fontes\jlmtech\EMCTech\EMCObras\EMCObras 1.0\EMCObrasModel\bin\Release\EMCCadastroModel.pdb
+D:\fontes\jlmtech\EMCTech\EMCObras\EMCObras 1.0\EMCObrasModel\bin\Release\EMCEstoqueModel.pdb
+D:\fontes\jlmtech\EMCTech\EMCObras\EMCObras 1.0\EMCObrasModel\bin\Release\EMCSecurityModel.pdb
+D:\fontes\jlmtech\EMCTech\EMCObras\EMCObras 1.0\EMCObrasModel\bin\Release\EMCFaturamentoModel.pdb
+D:\fontes\jlmtech\EMCTech\EMCObras\EMCObras 1.0\EMCObrasModel\obj\Release\EMCObrasModel.csprojResolveAssemblyReference.cache
+D:\fontes\jlmtech\EMCTech\EMCObras\EMCObras 1.0\EMCObrasModel\obj\Release\EMCObrasModel.dll
+D:\fontes\jlmtech\EMCTech\EMCObras\EMCObras 1.0\EMCObrasModel\obj\Release\EMCObrasModel.pdb

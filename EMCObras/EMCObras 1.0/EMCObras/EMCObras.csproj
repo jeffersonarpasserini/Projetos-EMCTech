@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5533FADA-7DD4-4CBC-BAE1-07EBEFBDF383}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EMCObras</RootNamespace>
+    <AssemblyName>EMCObras</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EMCCadastro">
+      <HintPath>..\..\..\DLLProducao\EMCCadastro.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCCadastroModel">
+      <HintPath>..\..\..\DLLProducao\EMCCadastroModel.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCCadastroRN">
+      <HintPath>..\..\..\DLLProducao\EMCCadastroRN.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCEstoque">
+      <HintPath>..\..\..\DLLProducao\EMCEstoque.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCEstoqueModel">
+      <HintPath>..\..\..\DLLProducao\EMCEstoqueModel.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCEstoqueRN">
+      <HintPath>..\..\..\DLLProducao\EMCEstoqueRN.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCLibrary">
+      <HintPath>..\..\..\DLLProducao\EMCLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCSecurity">
+      <HintPath>..\..\..\DLLProducao\EMCSecurity.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCSecurityModel">
+      <HintPath>..\..\..\DLLProducao\EMCSecurityModel.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCSecurityRN">
+      <HintPath>..\..\..\DLLProducao\EMCSecurityRN.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport, Version=2013.3.5.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\FastReports\FastReport.Net Demo\FastReport.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Bars, Version=2013.3.5.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\FastReports\FastReport.Net Demo\FastReport.Bars.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Editor, Version=2013.3.5.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\FastReports\FastReport.Net Demo\FastReport.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmCronograma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCronograma.Designer.cs">
+      <DependentUpon>frmCronograma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGerenciaTarefa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGerenciaTarefa.Designer.cs">
+      <DependentUpon>frmGerenciaTarefa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmObra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmObra.Designer.cs">
+      <DependentUpon>frmObra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmObra_Lancamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmObra_Lancamento.Designer.cs">
+      <DependentUpon>frmObra_Lancamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmObra_Modulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmObra_Modulo.Designer.cs">
+      <DependentUpon>frmObra_Modulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmObra_Etapa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmObra_Etapa.Designer.cs">
+      <DependentUpon>frmObra_Etapa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmObra_Tarefa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmObra_Tarefa.Designer.cs">
+      <DependentUpon>frmObra_Tarefa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmObra_TipoContrato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmObra_TipoContrato.Designer.cs">
+      <DependentUpon>frmObra_TipoContrato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOrcamentoObra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOrcamentoObra.Designer.cs">
+      <DependentUpon>frmOrcamentoObra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrevisaoDespesa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrevisaoDespesa.Designer.cs">
+      <DependentUpon>frmPrevisaoDespesa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global.cs" />
+    <Compile Include="Pesquisa\psqObra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqObra.Designer.cs">
+      <DependentUpon>psqObra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqObraEtapa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqObraEtapa.Designer.cs">
+      <DependentUpon>psqObraEtapa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqObraModulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqObraModulo.Designer.cs">
+      <DependentUpon>psqObraModulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqObraTarefa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqObraTarefa.Designer.cs">
+      <DependentUpon>psqObraTarefa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Relatorios\relObraCronograma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\relObraCronograma.Designer.cs">
+      <DependentUpon>relObraCronograma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\relObraEtapa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\relObraEtapa.Designer.cs">
+      <DependentUpon>relObraEtapa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\relObraModulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\relObraModulo.Designer.cs">
+      <DependentUpon>relObraModulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\relOrcamentoObra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\relOrcamentoObra.Designer.cs">
+      <DependentUpon>relOrcamentoObra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\relObraTarefas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\relObraTarefas.Designer.cs">
+      <DependentUpon>relObraTarefas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Version.cs" />
+    <EmbeddedResource Include="frmCronograma.resx">
+      <DependentUpon>frmCronograma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGerenciaTarefa.resx">
+      <DependentUpon>frmGerenciaTarefa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmObra.resx">
+      <DependentUpon>frmObra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmObra_Etapa.resx">
+      <DependentUpon>frmObra_Etapa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmObra_Lancamento.resx">
+      <DependentUpon>frmObra_Lancamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmObra_Modulo.resx">
+      <DependentUpon>frmObra_Modulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmObra_Tarefa.resx">
+      <DependentUpon>frmObra_Tarefa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmObra_TipoContrato.resx">
+      <DependentUpon>frmObra_TipoContrato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrcamentoObra.resx">
+      <DependentUpon>frmOrcamentoObra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrevisaoDespesa.resx">
+      <DependentUpon>frmPrevisaoDespesa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqObra.resx">
+      <DependentUpon>psqObra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqObraEtapa.resx">
+      <DependentUpon>psqObraEtapa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqObraModulo.resx">
+      <DependentUpon>psqObraModulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqObraTarefa.resx">
+      <DependentUpon>psqObraTarefa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Relatorios\relObraCronograma.resx">
+      <DependentUpon>relObraCronograma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\relObraEtapa.resx">
+      <DependentUpon>relObraEtapa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\relObraModulo.resx">
+      <DependentUpon>relObraModulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\relOrcamentoObra.resx">
+      <DependentUpon>relOrcamentoObra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\relObraTarefas.resx">
+      <DependentUpon>relObraTarefas.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EMCObrasDAO\EMCObrasDAO.csproj">
+      <Project>{BBAB5E1C-AA9B-47AE-ABEA-EA095D7EDB0D}</Project>
+      <Name>EMCObrasDAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EMCObrasModel\EMCObrasModel.csproj">
+      <Project>{81576F8B-3C87-4B77-A6C5-6D6F470483FE}</Project>
+      <Name>EMCObrasModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EMCObrasRN\EMCObrasRN.csproj">
+      <Project>{8AE8F7E9-B2D3-4A4A-AB34-D4CC7E3F9FEA}</Project>
+      <Name>EMCObrasRN</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\binoculo_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImgFechar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\binoculo_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImgCancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok 26_32x32.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

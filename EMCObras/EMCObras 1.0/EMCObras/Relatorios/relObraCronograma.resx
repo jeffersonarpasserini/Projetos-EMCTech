@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="dstObras.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="obras.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>118, 17</value>
+  </metadata>
+  <data name="obras.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="11/08/2013 13:52:37" ReportInfo.Modified="11/12/2013 09:17:08" ReportInfo.CreatorVersion="2013.3.5.0"&gt;
+  &lt;Dictionary&gt;
+    &lt;TableDataSource Name="MyTable" ReferenceName="dstObras.MyTable" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="idobra_cronograma" DataType="System.Int64"/&gt;
+      &lt;Column Name="empresa_idEmpresa" DataType="System.Int64"/&gt;
+      &lt;Column Name="abreviacao" DataType="System.String"/&gt;
+      &lt;Column Name="descricao" DataType="System.String"/&gt;
+      &lt;Column Name="dtainicio" DataType="System.DateTime"/&gt;
+      &lt;Column Name="dtafinal" DataType="System.DateTime"/&gt;
+      &lt;Column Name="responsavel_idUsuario" DataType="System.Int64"/&gt;
+      &lt;Column Name="dtacronograma" DataType="System.DateTime"/&gt;
+      &lt;Column Name="dtaaprovacao" DataType="System.DateTime"/&gt;
+      &lt;Column Name="aprovador_idUsuario" DataType="System.Int64"/&gt;
+      &lt;Column Name="pessoa_CodEmpresa" DataType="System.Int64"/&gt;
+      &lt;Column Name="pessoa_idPessoa" DataType="System.Int64"/&gt;
+      &lt;Column Name="idcontacusto" DataType="System.Int64"/&gt;
+      &lt;Column Name="situacao" DataType="System.String"/&gt;
+      &lt;Column Name="idaplicacao" DataType="System.String"/&gt;
+      &lt;Column Name="responsavel" DataType="System.String"/&gt;
+      &lt;Column Name="codigoconta" DataType="System.String"/&gt;
+      &lt;Column Name="contacusto" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;Parameter Name="Empresa" DataType="System.String"/&gt;
+    &lt;Parameter Name="Periodo" DataType="System.String"/&gt;
+    &lt;Total Name="Total" Expression="[MyTable.abreviacao]" Evaluator="Data1" PrintOn="ReportSummary1"/&gt;
+  &lt;/Dictionary&gt;
+  &lt;ReportPage Name="Page1" Landscape="true" PaperWidth="297" PaperHeight="210" RawPaperSize="9" FirstPageSource="15" OtherPagesSource="15"&gt;
+    &lt;ReportTitleBand Name="ReportTitle1" Width="1047.06" Height="83.16"&gt;
+      &lt;ShapeObject Name="Shape1" Width="1062.18" Height="83.16"/&gt;
+      &lt;TextObject Name="Text1" Left="160.65" Top="9.45" Width="697.41" Height="22.68" Text="Relação de Obras" HorzAlign="Center" Font="Arial, 14pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text2" Left="982.8" Top="28.35" Width="51.03" Height="11.34" Text="JlmTech" HorzAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text3" Top="66.15" Width="66.15" Height="17.01" Text="Empresa:" HorzAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text29" Left="56.7" Top="64.26" Width="576.45" Height="18.9" Text="[Empresa]"/&gt;
+      &lt;LineObject Name="Line1" Top="56.7" Width="1062.18"/&gt;
+    &lt;/ReportTitleBand&gt;
+    &lt;PageHeaderBand Name="PageHeader1" Top="87.16" Width="1047.06" Height="17.01"&gt;
+      &lt;TextObject Name="Text30" Width="85.05" Height="17.01" Text="Abreviação" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text31" Left="85.05" Width="198.45" Height="17.01" Text="Obra" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text32" Left="557.55" Width="66.15" Height="17.01" Text="Dta. Início" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text33" Left="623.7" Width="66.15" Height="17.01" Text="Dta. Final" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text34" Left="689.85" Width="103.95" Height="17.01" Text="Dta. Cronograma" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text35" Left="793.8" Width="94.5" Height="17.01" Text="Dta. Aprovação" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text36" Left="283.5" Width="94.5" Height="17.01" Text="Código Conta" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text37" Left="378" Width="179.55" Height="17.01" Text="Conta Custo" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text38" Left="888.3" Width="56.7" Height="17.01" Text="Situação" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text39" Left="945" Width="113.4" Height="17.01" Text="Responsável" Font="Arial, 8pt, style=Bold"/&gt;
+    &lt;/PageHeaderBand&gt;
+    &lt;DataBand Name="Data1" Top="108.17" Width="1047.06" Height="26.46" DataSource="MyTable"&gt;
+      &lt;LineObject Name="Line4" Width="1062.18"/&gt;
+      &lt;TextObject Name="Text5" Width="85.05" Height="17.01" Text="[MyTable.abreviacao]" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text6" Left="85.05" Width="198.45" Height="17.01" Text="[MyTable.descricao]" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text7" Left="283.5" Width="94.5" Height="17.01" Text="[MyTable.codigoconta]" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text10" Left="378" Width="179.55" Height="17.01" Text="[MyTable.contacusto]" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text11" Left="557.55" Width="66.15" Height="17.01" Text="[MyTable.dtainicio]" Format="Date" Format.Format="d" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text12" Left="623.7" Width="66.15" Height="17.01" Text="[MyTable.dtafinal]" Format="Date" Format.Format="d" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text13" Left="689.85" Width="103.95" Height="17.01" Text="[MyTable.dtacronograma]" Format="Date" Format.Format="d" HorzAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text14" Left="793.8" Width="94.5" Height="17.01" Text="[MyTable.dtaaprovacao]" Format="Date" Format.Format="d" HorzAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text15" Left="888.3" Width="56.7" Height="17.01" Text="[MyTable.situacao]" HorzAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text16" Left="945" Width="113.4" Height="17.01" Text="[MyTable.responsavel]" Font="Arial, 8pt"/&gt;
+    &lt;/DataBand&gt;
+    &lt;ReportSummaryBand Name="ReportSummary1" Top="138.63" Width="1047.06" Height="28.35"&gt;
+      &lt;TextObject Name="Text40" Left="831.6" Top="9.45" Width="151.2" Height="17.01" Text="Total de Registros:" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text4" Left="945" Top="9.45" Width="94.5" Height="18.9" Text="[MyTable.idobra_cronograma]" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;LineObject Name="Line3" Width="1062.18"/&gt;
+    &lt;/ReportSummaryBand&gt;
+    &lt;PageFooterBand Name="PageFooter1" Top="170.98" Width="1047.06" Height="18.9"&gt;
+      &lt;TextObject Name="Text9" Width="192.78" Height="17.01" Text="Data Emissão: [Date]" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text8" Left="963.9" Width="79.38" Height="17.01" Text="Pág: [Page#]" HorzAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;LineObject Name="Line2" Width="1062.18"/&gt;
+    &lt;/PageFooterBand&gt;
+  &lt;/ReportPage&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+</root>

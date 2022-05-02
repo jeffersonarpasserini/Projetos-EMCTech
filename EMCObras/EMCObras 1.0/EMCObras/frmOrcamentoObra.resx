@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="ttpOrcamentoObra.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>24, 19</value>
+  </metadata>
+  <metadata name="idobra_cronograma.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="idobra_etapa.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="abreviacao.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="obra.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="etapa.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="idobra_modulo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="modulo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="idobra_cronogramaitem.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="idobra_tarefas.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="tarefas.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dtainicioprevisto.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dtafinalprevisto.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="nrodiasprevisto.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="qtdeprevisto.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="valordespesa.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="codigoproduto.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="produto.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="unidade.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="custocomponente.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="grupocomponente.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="quantidade.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="vlrunitario.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="vlrdespesa.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ttpOrcamentoObra.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>24, 19</value>
+  </metadata>
+  <metadata name="dstOrcamentoObra.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>177, 16</value>
+  </metadata>
+  <metadata name="orcamentoObra.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>334, 14</value>
+  </metadata>
+  <data name="orcamentoObra.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="11/01/2013 15:56:20" ReportInfo.Modified="11/19/2013 11:52:00" ReportInfo.CreatorVersion="2013.3.2.0"&gt;
+  &lt;Dictionary&gt;
+    &lt;TableDataSource Name="MyTable" ReferenceName="dstOrcamentoObra.MyTable" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="idobra_cronograma" DataType="System.Int64"/&gt;
+      &lt;Column Name="abreviacao" DataType="System.String"/&gt;
+      &lt;Column Name="obra" DataType="System.String"/&gt;
+      &lt;Column Name="idobra_etapa" DataType="System.Int64"/&gt;
+      &lt;Column Name="etapa" DataType="System.String"/&gt;
+      &lt;Column Name="idobra_modulo" DataType="System.String"/&gt;
+      &lt;Column Name="modulo" DataType="System.String"/&gt;
+      &lt;Column Name="idobra_cronogramaitem" DataType="System.Int64"/&gt;
+      &lt;Column Name="idobra_tarefas" DataType="System.Int64"/&gt;
+      &lt;Column Name="tarefas" DataType="System.String"/&gt;
+      &lt;Column Name="dtainicioprevisto" DataType="System.DateTime"/&gt;
+      &lt;Column Name="dtafinalprevisto" DataType="System.DateTime"/&gt;
+      &lt;Column Name="nrodiasprevisto" DataType="System.String"/&gt;
+      &lt;Column Name="vlrdespesa" DataType="System.Decimal"/&gt;
+      &lt;Column Name="codigoproduto" DataType="System.String"/&gt;
+      &lt;Column Name="produto" DataType="System.String"/&gt;
+      &lt;Column Name="unidade" DataType="System.String"/&gt;
+      &lt;Column Name="custocomponente" DataType="System.String"/&gt;
+      &lt;Column Name="grupocomponente" DataType="System.String"/&gt;
+      &lt;Column Name="qtdeproduto" DataType="System.Int64"/&gt;
+      &lt;Column Name="vlrunitario" DataType="System.Decimal"/&gt;
+      &lt;Column Name="qtdeprevisto" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;Parameter Name="Periodo" DataType="System.String"/&gt;
+    &lt;Total Name="TotalModulo" Expression="[MyTable.vlrdespesa]" Evaluator="Data1" PrintOn="GroupFooter3" ResetOnReprint="true"/&gt;
+    &lt;Total Name="TotalEtapa" Expression="[MyTable.vlrdespesa]" Evaluator="Data1" PrintOn="GroupFooter4" ResetOnReprint="true"/&gt;
+    &lt;Total Name="TotalObra" Expression="[MyTable.vlrdespesa]" Evaluator="Data1" PrintOn="GroupFooter1" ResetOnReprint="true"/&gt;
+  &lt;/Dictionary&gt;
+  &lt;ReportPage Name="Page1" Landscape="true" PaperWidth="297" PaperHeight="210" RawPaperSize="9"&gt;
+    &lt;ReportTitleBand Name="ReportTitle1" Width="1047.06" Height="83.16"&gt;
+      &lt;ShapeObject Name="Shape1" Width="1062.18" Height="83.16"/&gt;
+      &lt;TextObject Name="Text1" Left="160.65" Top="9.45" Width="697.41" Height="22.68" Text="Previsão de Despesas " HorzAlign="Center" Font="Arial, 14pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text2" Left="982.8" Top="28.35" Width="51.03" Height="11.34" Text="JlmTech" HorzAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;LineObject Name="Line1" Top="56.7" Width="1062.18"/&gt;
+      &lt;TextObject Name="Text3" Top="66.15" Width="66.15" Height="17.01" Text="Empresa:" HorzAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text29" Left="56.7" Top="64.26" Width="576.45" Height="18.9" Text="[Empresa]"/&gt;
+    &lt;/ReportTitleBand&gt;
+    &lt;PageHeaderBand Name="PageHeader1" Top="87.16" Width="1047.06" Height="18.9"&gt;
+      &lt;TextObject Name="Text30" Width="207.9" Height="17.01" Text="Obra" VertAlign="Bottom" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text31" Left="122.85" Width="226.8" Height="17.01" Text="Etapa" VertAlign="Bottom" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text32" Left="207.9" Width="217.35" Height="17.01" Text="Modulo" VertAlign="Bottom" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text34" Left="954.45" Width="94.5" Height="17.01" Text="Valor Despesa" HorzAlign="Right" VertAlign="Bottom" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;LineObject Name="Line5" Top="16.9" Width="1062.18"/&gt;
+      &lt;TextObject Name="Text50" Left="623.7" Width="85.05" Height="17.01" Text="Dta. Início" VertAlign="Bottom" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text51" Left="708.75" Width="85.05" Height="17.01" Text="Dta. Final" VertAlign="Bottom" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text52" Left="793.8" Width="85.05" Height="17.01" Text="Dias Previstos" VertAlign="Bottom" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text53" Left="916.65" Width="37.8" Height="17.01" Text="Qtde." VertAlign="Bottom" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text54" Left="878.85" Width="37.8" Height="17.01" Text="UN." HorzAlign="Center" VertAlign="Bottom" Font="Arial, 8pt, style=Bold"/&gt;
+    &lt;/PageHeaderBand&gt;
+    &lt;GroupHeaderBand Name="GroupHeader1" Top="110.06" Width="1047.06" Height="21.01" Condition="[MyTable.idobra_cronograma]"&gt;
+      &lt;TextObject Name="Text5" Top="4" Width="207.9" Height="17.01" Text="[MyTable.obra]" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;GroupHeaderBand Name="GroupHeader4" Top="135.07" Width="1047.06" Height="28.35" Condition="[MyTable.idobra_etapa]"&gt;
+        &lt;TextObject Name="Text6" Left="122.85" Top="7.45" Width="226.8" Height="17.01" Text="[MyTable.etapa]" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;LineObject Name="Line7" Top="2.45" Width="1062.18"/&gt;
+        &lt;LineObject Name="Line11" Top="26.35" Width="1062.18"/&gt;
+        &lt;GroupHeaderBand Name="GroupHeader3" Top="167.42" Width="1047.06" Height="18.9" Condition="[MyTable.idobra_modulo]"&gt;
+          &lt;TextObject Name="Text7" Left="207.9" Width="217.35" Height="17.01" Text="[MyTable.modulo]" Font="Arial, 8pt, style=Bold"/&gt;
+          &lt;DataBand Name="Data1" Top="190.32" Width="1047.06" Height="20.9" DataSource="MyTable"&gt;
+            &lt;TextObject Name="Text10" Left="283.5" Width="338.31" Height="18.9" Text="[MyTable.tarefas]" Font="Arial, 8pt"/&gt;
+            &lt;TextObject Name="Text11" Left="954.45" Width="94.5" Height="17.01" Text="[MyTable.vlrdespesa]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+            &lt;TextObject Name="Text14" Left="234.35" Top="2" Width="56.7" Height="18.9" Text="Tarefa :" Font="Arial, 8pt"/&gt;
+            &lt;TextObject Name="Text19" Left="623.7" Width="85.05" Height="18.9" Text="[MyTable.dtainicioprevisto]" Format="Date" Format.Format="dd/MM/yyyy" Font="Arial, 8pt"/&gt;
+            &lt;TextObject Name="Text20" Left="708.75" Width="85.05" Height="18.9" Text="[MyTable.dtafinalprevisto]" Format="Date" Format.Format="dd/MM/yyyy" Font="Arial, 8pt"/&gt;
+            &lt;TextObject Name="Text21" Left="793.8" Width="94.5" Height="18.9" Text="[MyTable.nrodiasprevisto]" HorzAlign="Center" Font="Arial, 8pt"/&gt;
+            &lt;TextObject Name="Text4" Left="916.65" Width="37.8" Height="17.01" Text="[MyTable.qtdeprevisto]" HorzAlign="Right" Font="Arial, 8pt"/&gt;
+          &lt;/DataBand&gt;
+          &lt;GroupFooterBand Name="GroupFooter3" Top="215.22" Width="1047.06" Height="18.9"&gt;
+            &lt;TextObject Name="Text12" Left="954.45" Width="94.5" Height="17.01" Text="[TotalModulo]" Format="Currency" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="," Format.GroupSeparator="." Format.CurrencySymbol="R$" Format.PositivePattern="2" Format.NegativePattern="9" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+            &lt;LineObject Name="Line8" Top="18.9" Width="1062.18"/&gt;
+            &lt;TextObject Name="Text45" Left="262.35" Top="-0.11" Width="217.35" Height="17.01" Text="[MyTable.modulo]" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+            &lt;TextObject Name="Text16" Left="207.9" Width="94.5" Height="18.9" Text="TOTAL :" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+          &lt;/GroupFooterBand&gt;
+        &lt;/GroupHeaderBand&gt;
+        &lt;GroupFooterBand Name="GroupFooter4" Top="238.12" Width="1047.06" Height="20.9"&gt;
+          &lt;TextObject Name="Text48" Left="170.35" Top="1.89" Width="226.8" Height="17.01" Text="[MyTable.etapa]" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+          &lt;TextObject Name="Text13" Left="954.45" Width="94.5" Height="17.01" Text="[TotalEtapa]" Format="Currency" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="," Format.GroupSeparator="." Format.CurrencySymbol="R$" Format.PositivePattern="2" Format.NegativePattern="9" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+          &lt;TextObject Name="Text15" Left="122.85" Top="2" Width="56.7" Height="18.9" Text="TOTAL :" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;/GroupFooterBand&gt;
+      &lt;/GroupHeaderBand&gt;
+      &lt;GroupFooterBand Name="GroupFooter1" Top="263.02" Width="1047.06" Height="22.35"&gt;
+        &lt;LineObject Name="Line10" Width="1062.18"/&gt;
+        &lt;TextObject Name="Text17" Left="50.8" Top="3.45" Width="349.65" Height="18.9" Text="[MyTable.obra]" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text49" Top="3.45" Width="56.7" Height="18.9" Text="TOTAL :" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text18" Left="954.45" Top="2.45" Width="94.5" Height="18.9" Text="[TotalObra]" Format="Currency" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="," Format.GroupSeparator="." Format.CurrencySymbol="R$" Format.PositivePattern="2" Format.NegativePattern="9" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;/GroupFooterBand&gt;
+    &lt;/GroupHeaderBand&gt;
+    &lt;PageFooterBand Name="PageFooter1" Top="289.37" Width="1047.06" Height="18.9"&gt;
+      &lt;TextObject Name="Text9" Width="192.78" Height="17.01" Text="Data Emissão: [Date]" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text8" Left="963.9" Width="79.38" Height="17.01" Text="Pág: [Page#]" HorzAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;LineObject Name="Line4" Width="1062.18"/&gt;
+    &lt;/PageFooterBand&gt;
+  &lt;/ReportPage&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+  <metadata name="OrcamentoObraItens.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>472, 14</value>
+  </metadata>
+  <data name="OrcamentoObraItens.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="11/01/2013 15:56:20" ReportInfo.Modified="11/19/2013 11:33:25" ReportInfo.CreatorVersion="2013.3.2.0"&gt;
+  &lt;Dictionary&gt;
+    &lt;TableDataSource Name="MyTable" ReferenceName="dstOrcamentoObra.MyTable" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="idobra_cronograma" DataType="System.Int64"/&gt;
+      &lt;Column Name="abreviacao" DataType="System.String"/&gt;
+      &lt;Column Name="obra" DataType="System.String"/&gt;
+      &lt;Column Name="idobra_etapa" DataType="System.Int64"/&gt;
+      &lt;Column Name="etapa" DataType="System.String"/&gt;
+      &lt;Column Name="idobra_modulo" DataType="System.String"/&gt;
+      &lt;Column Name="modulo" DataType="System.String"/&gt;
+      &lt;Column Name="idobra_cronogramaitem" DataType="System.Int64"/&gt;
+      &lt;Column Name="idobra_tarefas" DataType="System.Int64"/&gt;
+      &lt;Column Name="tarefas" DataType="System.String"/&gt;
+      &lt;Column Name="dtainicioprevisto" DataType="System.DateTime"/&gt;
+      &lt;Column Name="dtafinalprevisto" DataType="System.DateTime"/&gt;
+      &lt;Column Name="nrodiasprevisto" DataType="System.String"/&gt;
+      &lt;Column Name="vlrdespesa" DataType="System.Decimal"/&gt;
+      &lt;Column Name="codigoproduto" DataType="System.String"/&gt;
+      &lt;Column Name="produto" DataType="System.String"/&gt;
+      &lt;Column Name="unidade" DataType="System.String"/&gt;
+      &lt;Column Name="custocomponente" DataType="System.String"/&gt;
+      &lt;Column Name="grupocomponente" DataType="System.String"/&gt;
+      &lt;Column Name="qtdeproduto" DataType="System.Int64"/&gt;
+      &lt;Column Name="vlrunitario" DataType="System.Decimal"/&gt;
+      &lt;Column Name="qtdeprevisto" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;Parameter Name="Periodo" DataType="System.String"/&gt;
+    &lt;Total Name="TotalModulo" Expression="[MyTable.vlrdespesa]" Evaluator="Data1" PrintOn="GroupFooter3" ResetOnReprint="true"/&gt;
+    &lt;Total Name="TotalEtapa" Expression="[MyTable.vlrdespesa]" Evaluator="Data1" PrintOn="GroupFooter4" ResetOnReprint="true"/&gt;
+    &lt;Total Name="TotalObra" Expression="[MyTable.vlrdespesa]" Evaluator="Data1" PrintOn="GroupFooter1" ResetOnReprint="true"/&gt;
+    &lt;Total Name="TotalTarefa" Expression="[MyTable.vlrdespesa]" Evaluator="Data1" PrintOn="GroupFooter2" ResetOnReprint="true"/&gt;
+    &lt;Total Name="Total" TotalType="Count" Expression="[MyTable.codigoproduto]" Evaluator="Data1"/&gt;
+  &lt;/Dictionary&gt;
+  &lt;ReportPage Name="Page1" Landscape="true" PaperWidth="297" PaperHeight="210" RawPaperSize="9"&gt;
+    &lt;ReportTitleBand Name="ReportTitle1" Width="1047.06" Height="83.16"&gt;
+      &lt;ShapeObject Name="Shape1" Width="1062.18" Height="83.16"/&gt;
+      &lt;TextObject Name="Text1" Left="160.65" Top="9.45" Width="697.41" Height="22.68" Text="Previsão de Despesas " HorzAlign="Center" Font="Arial, 14pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text2" Left="982.8" Top="28.35" Width="51.03" Height="11.34" Text="JlmTech" HorzAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;LineObject Name="Line1" Top="56.7" Width="1062.18"/&gt;
+      &lt;TextObject Name="Text3" Top="66.15" Width="66.15" Height="17.01" Text="Empresa:" HorzAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text29" Left="56.7" Top="64.26" Width="576.45" Height="18.9" Text="[Empresa]"/&gt;
+    &lt;/ReportTitleBand&gt;
+    &lt;PageHeaderBand Name="PageHeader1" Top="87.16" Width="1047.06" Height="18.9"&gt;
+      &lt;TextObject Name="Text30" Width="75.6" Height="17.01" Text="Obra" VertAlign="Bottom" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text31" Left="75.6" Width="66.15" Height="17.01" Text="Etapa" VertAlign="Bottom" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text32" Left="141.75" Width="85.05" Height="17.01" Text="Modulo" VertAlign="Bottom" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text50" Left="226.8" Width="103.95" Height="17.01" Text="Tarefa" VertAlign="Bottom" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text53" Left="330.75" Width="66.15" Height="17.01" Text="Código&amp;#13;&amp;#10;" VertAlign="Bottom" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text54" Left="396.9" Width="349.65" Height="17.01" Text="Produto&amp;#13;&amp;#10;" VertAlign="Bottom" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text55" Left="746.55" Width="37.8" Height="17.01" Text="UN&amp;#13;&amp;#10;" HorzAlign="Center" VertAlign="Bottom" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text56" Left="784.35" Width="56.7" Height="17.01" Text="Qtde&amp;#13;&amp;#10;" HorzAlign="Right" VertAlign="Bottom" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text57" Left="850.5" Width="94.5" Height="17.01" Text="Valor Produto&amp;#13;&amp;#10;" HorzAlign="Right" VertAlign="Bottom" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text58" Left="945" Width="103.95" Height="17.01" Text="Valor Despesa" HorzAlign="Right" VertAlign="Bottom" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;LineObject Name="Line5" Top="18.9" Width="1062.18"/&gt;
+    &lt;/PageHeaderBand&gt;
+    &lt;GroupHeaderBand Name="GroupHeader1" Top="110.06" Width="1047.06" Height="22.9" Condition="[MyTable.idobra_cronograma]"&gt;
+      &lt;TextObject Name="Text5" Top="4" Width="207.9" Height="18.9" Text="[MyTable.obra]" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;GroupHeaderBand Name="GroupHeader4" Top="136.96" Width="1047.06" Height="26.35" Condition="[MyTable.idobra_etapa]" SortOrder="None"&gt;
+        &lt;TextObject Name="Text6" Left="75.6" Top="7.45" Width="217.35" Height="18.9" Text="[MyTable.etapa]" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;LineObject Name="Line15" Width="1062.18"/&gt;
+        &lt;GroupHeaderBand Name="GroupHeader3" Top="167.31" Width="1047.06" Height="20.79" Condition="[MyTable.idobra_modulo]"&gt;
+          &lt;TextObject Name="Text7" Left="141.75" Top="1.89" Width="217.35" Height="18.9" Text="[MyTable.modulo]" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+          &lt;LineObject Name="Line16" Width="1062.18"/&gt;
+          &lt;GroupHeaderBand Name="GroupHeader2" Top="192.1" Width="1047.06" Height="18.9" Condition="[MyTable.idobra_tarefas]"&gt;
+            &lt;TextObject Name="Text10" Left="226.8" Width="359.1" Height="18.9" Text="[MyTable.tarefas]" Font="Arial, 8pt, style=Bold"/&gt;
+            &lt;LineObject Name="Line13" Width="1062.18"/&gt;
+            &lt;DataBand Name="Data1" Top="215" Width="1047.06" Height="18.9" DataSource="MyTable"&gt;
+              &lt;TextObject Name="Text14" Left="330.75" Width="66.15" Height="18.9" Text="[MyTable.codigoproduto]" Font="Arial, 8pt"/&gt;
+              &lt;TextObject Name="Text19" Left="396.9" Width="349.65" Height="18.9" Text="[MyTable.produto]" Font="Arial, 8pt"/&gt;
+              &lt;TextObject Name="Text20" Left="746.55" Width="37.8" Height="18.9" Text="[MyTable.unidade]" HorzAlign="Center" Font="Arial, 8pt"/&gt;
+              &lt;TextObject Name="Text21" Left="784.35" Width="56.7" Height="18.9" Text="[MyTable.qtdeproduto]" HorzAlign="Right" Font="Arial, 8pt"/&gt;
+              &lt;TextObject Name="Text22" Left="850.5" Width="94.5" Height="18.9" Text="[MyTable.vlrunitario]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+              &lt;TextObject Name="Text11" Left="945" Width="103.95" Height="18.9" Text="[MyTable.vlrdespesa]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+            &lt;/DataBand&gt;
+            &lt;GroupFooterBand Name="GroupFooter2" Top="237.9" Width="1047.06" Height="18.9"&gt;
+              &lt;TextObject Name="Text4" Left="945" Width="103.95" Height="17.01" Text="[TotalTarefa]" Format="Currency" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="," Format.GroupSeparator="." Format.CurrencySymbol="R$" Format.PositivePattern="2" Format.NegativePattern="9" HorzAlign="Right" VertAlign="Bottom" Font="Arial, 8pt, style=Bold"/&gt;
+              &lt;TextObject Name="Text51" Left="226.8" Width="56.7" Height="18.9" Text="TOTAL :" VertAlign="Bottom" Font="Arial, 8pt, style=Bold"/&gt;
+              &lt;TextObject Name="Text52" Left="274.05" Width="357.21" Height="18.9" Text="[MyTable.tarefas]" VertAlign="Bottom" Font="Arial, 8pt, style=Bold"/&gt;
+              &lt;LineObject Name="Line12" Top="18.9" Width="1062.18"/&gt;
+            &lt;/GroupFooterBand&gt;
+          &lt;/GroupHeaderBand&gt;
+          &lt;GroupFooterBand Name="GroupFooter3" Top="260.8" Width="1047.06" Height="18.9"&gt;
+            &lt;TextObject Name="Text12" Left="945" Width="103.95" Height="17.01" Text="[TotalModulo]" Format="Currency" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="," Format.GroupSeparator="." Format.CurrencySymbol="R$" Format.PositivePattern="2" Format.NegativePattern="9" HorzAlign="Right" VertAlign="Bottom" Font="Arial, 8pt, style=Bold"/&gt;
+            &lt;LineObject Name="Line8" Top="18.9" Width="1062.18"/&gt;
+            &lt;TextObject Name="Text45" Left="196.2" Top="-0.11" Width="255.15" Height="18.9" Text="[MyTable.modulo]" VertAlign="Bottom" Font="Arial, 8pt, style=Bold"/&gt;
+            &lt;TextObject Name="Text16" Left="141.75" Width="56.7" Height="18.9" Text="TOTAL :" VertAlign="Bottom" Font="Arial, 8pt, style=Bold"/&gt;
+          &lt;/GroupFooterBand&gt;
+        &lt;/GroupHeaderBand&gt;
+        &lt;GroupFooterBand Name="GroupFooter4" Top="283.7" Width="1047.06" Height="20.9"&gt;
+          &lt;TextObject Name="Text48" Left="123.1" Width="226.8" Height="18.9" Text="[MyTable.etapa]" VertAlign="Bottom" Font="Arial, 8pt, style=Bold"/&gt;
+          &lt;TextObject Name="Text13" Left="945" Width="103.95" Height="17.01" Text="[TotalEtapa]" Format="Currency" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="," Format.GroupSeparator="." Format.CurrencySymbol="R$" Format.PositivePattern="2" Format.NegativePattern="9" HorzAlign="Right" VertAlign="Bottom" Font="Arial, 8pt, style=Bold"/&gt;
+          &lt;TextObject Name="Text15" Left="75.6" Top="0.11" Width="56.7" Height="18.9" Text="TOTAL :" VertAlign="Bottom" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;/GroupFooterBand&gt;
+      &lt;/GroupHeaderBand&gt;
+      &lt;GroupFooterBand Name="GroupFooter1" Top="308.6" Width="1047.06" Height="22.35"&gt;
+        &lt;LineObject Name="Line10" Width="1062.18"/&gt;
+        &lt;TextObject Name="Text17" Left="50.8" Top="3.45" Width="349.65" Height="18.9" Text="[MyTable.obra]" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text18" Left="945" Top="2.45" Width="103.95" Height="17.01" Text="[TotalObra]" Format="Currency" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="," Format.GroupSeparator="." Format.CurrencySymbol="R$" Format.PositivePattern="2" Format.NegativePattern="9" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text49" Top="3.45" Width="56.7" Height="18.9" Text="TOTAL :" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;/GroupFooterBand&gt;
+    &lt;/GroupHeaderBand&gt;
+    &lt;PageFooterBand Name="PageFooter1" Top="334.95" Width="1047.06" Height="18.9"&gt;
+      &lt;TextObject Name="Text9" Width="192.78" Height="17.01" Text="Data Emissão: [Date]" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text8" Left="963.9" Width="79.38" Height="17.01" Text="Pág: [Page#]" HorzAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;LineObject Name="Line4" Width="1062.18"/&gt;
+    &lt;/PageFooterBand&gt;
+  &lt;/ReportPage&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>50</value>
+  </metadata>
+</root>
