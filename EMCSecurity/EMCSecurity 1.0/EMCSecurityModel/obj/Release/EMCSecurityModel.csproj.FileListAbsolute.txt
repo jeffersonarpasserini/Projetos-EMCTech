@@ -1,0 +1,4 @@
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurityModel\bin\Release\EMCSecurityModel.dll
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurityModel\bin\Release\EMCSecurityModel.pdb
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurityModel\obj\Release\EMCSecurityModel.dll
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurityModel\obj\Release\EMCSecurityModel.pdb

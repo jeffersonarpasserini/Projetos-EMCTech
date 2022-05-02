@@ -1,0 +1,12 @@
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurityRN\bin\Debug\EMCSecurityRN.dll
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurityRN\bin\Debug\EMCSecurityRN.pdb
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurityRN\bin\Debug\EMCLibrary.dll
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurityRN\bin\Debug\EMCSecurityDAO.dll
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurityRN\bin\Debug\EMCSecurityModel.dll
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurityRN\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurityRN\bin\Debug\EMCSecurityDAO.pdb
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurityRN\bin\Debug\EMCSecurityModel.pdb
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurityRN\bin\Debug\FirebirdSql.Data.FirebirdClient.pdb
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurityRN\obj\Debug\EMCSecurityRN.csprojResolveAssemblyReference.cache
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurityRN\obj\Debug\EMCSecurityRN.dll
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurityRN\obj\Debug\EMCSecurityRN.pdb

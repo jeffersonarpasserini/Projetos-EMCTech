@@ -1,0 +1,10 @@
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurityDAO\bin\Debug\EMCSecurityDAO.dll
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurityDAO\bin\Debug\EMCSecurityDAO.pdb
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurityDAO\bin\Debug\EMCLibrary.dll
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurityDAO\bin\Debug\EMCSecurityModel.dll
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurityDAO\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurityDAO\bin\Debug\EMCSecurityModel.pdb
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurityDAO\bin\Debug\FirebirdSql.Data.FirebirdClient.pdb
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurityDAO\obj\Debug\EMCSecurityDAO.csprojResolveAssemblyReference.cache
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurityDAO\obj\Debug\EMCSecurityDAO.dll
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurityDAO\obj\Debug\EMCSecurityDAO.pdb

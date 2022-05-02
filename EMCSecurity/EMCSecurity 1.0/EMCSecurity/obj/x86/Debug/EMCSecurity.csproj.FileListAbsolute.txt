@@ -1,0 +1,13 @@
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurity\obj\x86\Debug\EMCSecurity.csprojResolveAssemblyReference.cache
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurity\obj\x86\Debug\EMCSecurity.frmPrincipal.resources
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurity\obj\x86\Debug\EMCSecurity.frmAplicativo.resources
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurity\obj\x86\Debug\EMCSecurity.frmLogin.resources
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurity\obj\x86\Debug\EMCSecurity.frmMenuSistema.resources
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurity\obj\x86\Debug\EMCSecurity.frmMenuUsuario.resources
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurity\obj\x86\Debug\EMCSecurity.frmOcorrencia.resources
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurity\obj\x86\Debug\EMCSecurity.frmParametro.resources
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurity\obj\x86\Debug\EMCSecurity.frmTrocaSenha.resources
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurity\obj\x86\Debug\EMCSecurity.frmUsuario.resources
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurity\obj\x86\Debug\EMCSecurity.frmUsuarioEmpresa.resources
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurity\obj\x86\Debug\EMCSecurity.Properties.Resources.resources
+D:\fontes\jlmtech\EMCTech\EMCSecurity\EMCSecurity 1.0\EMCSecurity\obj\x86\Debug\EMCSecurity.csproj.GenerateResource.Cache
