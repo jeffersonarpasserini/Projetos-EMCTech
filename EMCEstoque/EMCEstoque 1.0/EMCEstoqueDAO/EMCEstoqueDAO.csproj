@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5F909E95-BA14-463C-84A4-800153604D98}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EMCEstoqueDAO</RootNamespace>
+    <AssemblyName>EMCEstoqueDAO</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EMCCadastroDAO">
+      <HintPath>..\..\..\DLLProducao\EMCCadastroDAO.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCCadastroModel">
+      <HintPath>..\..\..\DLLProducao\EMCCadastroModel.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCFaturamentoDAO">
+      <HintPath>..\..\..\DLLProducao\EMCFaturamentoDAO.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCFaturamentoModel">
+      <HintPath>..\..\..\DLLProducao\EMCFaturamentoModel.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCLibrary">
+      <HintPath>..\..\..\DLLProducao\EMCLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCSecurityDAO">
+      <HintPath>..\..\..\DLLProducao\EMCSecurityDAO.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCSecurityModel">
+      <HintPath>..\..\..\DLLProducao\EMCSecurityModel.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DLLProducao\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Estq_AlmoxarifadoDAO.cs" />
+    <Compile Include="Estq_DescricaoDAO.cs" />
+    <Compile Include="Estq_FamiliaDAO.cs" />
+    <Compile Include="Estq_ProdutoDAO.cs" />
+    <Compile Include="Estq_Produto_FornecedorDAO.cs" />
+    <Compile Include="Estq_Produto_LoteDAO.cs" />
+    <Compile Include="Estq_Produto_Lote_EstoqueDAO.cs" />
+    <Compile Include="Estq_Produto_UnidadeDAO.cs" />
+    <Compile Include="Estq_Produto_VolumeDAO.cs" />
+    <Compile Include="Estq_RequisicaoDAO.cs" />
+    <Compile Include="Estq_RequisicaoItemDAO.cs" />
+    <Compile Include="Estq_SubGrupoDAO.cs" />
+    <Compile Include="Estq_GrupoDAO.cs" />
+    <Compile Include="Estq_TipoProdutoDAO.cs" />
+    <Compile Include="Estq_EmbalagemDAO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EMCEstoqueModel\EMCEstoqueModel.csproj">
+      <Project>{731AB6BF-AB7A-43DB-894D-F948269150C6}</Project>
+      <Name>EMCEstoqueModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

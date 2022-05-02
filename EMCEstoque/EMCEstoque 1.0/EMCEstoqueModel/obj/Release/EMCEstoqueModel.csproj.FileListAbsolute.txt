@@ -1,0 +1,9 @@
+D:\fontes\jlmtech\EMCTech\EMCEstoque\EMCEstoque 1.0\EMCEstoqueModel\bin\Release\EMCEstoqueModel.dll
+D:\fontes\jlmtech\EMCTech\EMCEstoque\EMCEstoque 1.0\EMCEstoqueModel\bin\Release\EMCEstoqueModel.pdb
+D:\fontes\jlmtech\EMCTech\EMCEstoque\EMCEstoque 1.0\EMCEstoqueModel\bin\Release\EMCCadastroModel.dll
+D:\fontes\jlmtech\EMCTech\EMCEstoque\EMCEstoque 1.0\EMCEstoqueModel\bin\Release\EMCFaturamentoModel.dll
+D:\fontes\jlmtech\EMCTech\EMCEstoque\EMCEstoque 1.0\EMCEstoqueModel\bin\Release\EMCCadastroModel.pdb
+D:\fontes\jlmtech\EMCTech\EMCEstoque\EMCEstoque 1.0\EMCEstoqueModel\bin\Release\EMCFaturamentoModel.pdb
+D:\fontes\jlmtech\EMCTech\EMCEstoque\EMCEstoque 1.0\EMCEstoqueModel\obj\Release\EMCEstoqueModel.csprojResolveAssemblyReference.cache
+D:\fontes\jlmtech\EMCTech\EMCEstoque\EMCEstoque 1.0\EMCEstoqueModel\obj\Release\EMCEstoqueModel.dll
+D:\fontes\jlmtech\EMCTech\EMCEstoque\EMCEstoque 1.0\EMCEstoqueModel\obj\Release\EMCEstoqueModel.pdb

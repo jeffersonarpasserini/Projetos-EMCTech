@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1879051A-F1B4-489C-854A-598EC1AE77FF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EMCEstoqueRN</RootNamespace>
+    <AssemblyName>EMCEstoqueRN</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EMCCadastroDAO">
+      <HintPath>..\..\..\DLLProducao\EMCCadastroDAO.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCCadastroModel">
+      <HintPath>..\..\..\DLLProducao\EMCCadastroModel.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCFaturamentoModel">
+      <HintPath>..\..\..\DLLProducao\EMCFaturamentoModel.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCLibrary">
+      <HintPath>..\..\..\DLLProducao\EMCLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCSecurityModel">
+      <HintPath>..\..\..\DLLProducao\EMCSecurityModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Estq_AlmoxarifadoRN.cs" />
+    <Compile Include="Estq_DescricaoRN.cs" />
+    <Compile Include="Estq_EmbalagemRN.cs" />
+    <Compile Include="Estq_FamiliaRN.cs" />
+    <Compile Include="Estq_GrupoRN.cs" />
+    <Compile Include="Estq_ProdutoRN.cs" />
+    <Compile Include="Estq_Produto_FornecedorRN.cs" />
+    <Compile Include="Estq_Produto_LoteRN.cs" />
+    <Compile Include="Estq_Produto_Lote_EstoqueRN.cs" />
+    <Compile Include="Estq_Produto_UnidadeRN.cs" />
+    <Compile Include="Estq_Produto_VolumeRN.cs" />
+    <Compile Include="Estq_SubGrupoRN.cs" />
+    <Compile Include="Estq_TipoProdutoRN.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EMCEstoqueDAO\EMCEstoqueDAO.csproj">
+      <Project>{5F909E95-BA14-463C-84A4-800153604D98}</Project>
+      <Name>EMCEstoqueDAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EMCEstoqueModel\EMCEstoqueModel.csproj">
+      <Project>{731AB6BF-AB7A-43DB-894D-F948269150C6}</Project>
+      <Name>EMCEstoqueModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{168E9F94-608A-42FC-8219-560083A1712A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EMCEstoque</RootNamespace>
+    <AssemblyName>EMCEstoque</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EMCCadastro">
+      <HintPath>..\..\..\DLLProducao\EMCCadastro.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCCadastroModel">
+      <HintPath>..\..\..\DLLProducao\EMCCadastroModel.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCCadastroRN">
+      <HintPath>..\..\..\DLLProducao\EMCCadastroRN.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCFaturamentoModel">
+      <HintPath>..\..\..\DLLProducao\EMCFaturamentoModel.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCFaturamentoRN">
+      <HintPath>..\..\..\DLLProducao\EMCFaturamentoRN.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCLibrary">
+      <HintPath>..\..\..\DLLProducao\EMCLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCSecurity">
+      <HintPath>..\..\..\DLLProducao\EMCSecurity.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCSecurityModel">
+      <HintPath>..\..\..\DLLProducao\EMCSecurityModel.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCSecurityRN">
+      <HintPath>..\..\..\DLLProducao\EMCSecurityRN.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport, Version=2013.3.5.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\FastReports\FastReport.Net Demo\FastReport.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Bars, Version=2013.3.5.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\FastReports\FastReport.Net Demo\FastReport.Bars.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Editor, Version=2013.3.5.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\FastReports\FastReport.Net Demo\FastReport.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Global.cs" />
+    <Compile Include="Manutencao\frmFormacaoPreco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmFormacaoPreco.Designer.cs">
+      <DependentUpon>frmFormacaoPreco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmEstq_Embalagem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmEstq_Embalagem.Designer.cs">
+      <DependentUpon>frmEstq_Embalagem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmNotaCompraClassificacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmNotaCompraClassificacao.Designer.cs">
+      <DependentUpon>frmNotaCompraClassificacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmNotaCompraItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmNotaCompraItem.Designer.cs">
+      <DependentUpon>frmNotaCompraItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmEstq_Almoxarifado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmEstq_Almoxarifado.Designer.cs">
+      <DependentUpon>frmEstq_Almoxarifado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmEstq_Descricao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmEstq_Descricao.Designer.cs">
+      <DependentUpon>frmEstq_Descricao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmEstq_Familia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmEstq_Familia.Designer.cs">
+      <DependentUpon>frmEstq_Familia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmEstq_Grupo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmEstq_Grupo.Designer.cs">
+      <DependentUpon>frmEstq_Grupo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmEstq_Produto_Fornecedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmEstq_Produto_Fornecedor.Designer.cs">
+      <DependentUpon>frmEstq_Produto_Fornecedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmEstq_Produto_Lote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmEstq_Produto_Lote.Designer.cs">
+      <DependentUpon>frmEstq_Produto_Lote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmEstq_Produto_Unidade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmEstq_Produto_Unidade.Designer.cs">
+      <DependentUpon>frmEstq_Produto_Unidade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmEstq_Produto_Volume.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmEstq_Produto_Volume.Designer.cs">
+      <DependentUpon>frmEstq_Produto_Volume.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmEstq_SubGrupo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmEstq_SubGrupo.Designer.cs">
+      <DependentUpon>frmEstq_SubGrupo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmNotaCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmNotaCompra.Designer.cs">
+      <DependentUpon>frmNotaCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmProduto.Designer.cs">
+      <DependentUpon>frmProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmTipoProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmTipoProduto.Designer.cs">
+      <DependentUpon>frmTipoProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqAlmoxarifado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqAlmoxarifado.Designer.cs">
+      <DependentUpon>psqAlmoxarifado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqEmbalagem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqEmbalagem.Designer.cs">
+      <DependentUpon>psqEmbalagem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqFamilia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqFamilia.Designer.cs">
+      <DependentUpon>psqFamilia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqGrupoEstoque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqGrupoEstoque.Designer.cs">
+      <DependentUpon>psqGrupoEstoque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqProduto.Designer.cs">
+      <DependentUpon>psqProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqSubGrupo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqSubGrupo.Designer.cs">
+      <DependentUpon>psqSubGrupo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqUnidade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqUnidade.Designer.cs">
+      <DependentUpon>psqUnidade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqTipoProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqTipoProduto.Designer.cs">
+      <DependentUpon>psqTipoProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Relatorios\relAlmoxarifado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\relAlmoxarifado.Designer.cs">
+      <DependentUpon>relAlmoxarifado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\relEmbalagens.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\relEmbalagens.Designer.cs">
+      <DependentUpon>relEmbalagens.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\relFamilia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\relFamilia.Designer.cs">
+      <DependentUpon>relFamilia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\relGrupoEstoque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\relGrupoEstoque.Designer.cs">
+      <DependentUpon>relGrupoEstoque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\relProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\relProdutos.Designer.cs">
+      <DependentUpon>relProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\relSubGrupo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\relSubGrupo.Designer.cs">
+      <DependentUpon>relSubGrupo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\relTipoProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\relTipoProduto.Designer.cs">
+      <DependentUpon>relTipoProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\relUnidade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\relUnidade.Designer.cs">
+      <DependentUpon>relUnidade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Version.cs" />
+    <EmbeddedResource Include="Manutencao\frmFormacaoPreco.resx">
+      <DependentUpon>frmFormacaoPreco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmEstq_Embalagem.resx">
+      <DependentUpon>frmEstq_Embalagem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmNotaCompraClassificacao.resx">
+      <DependentUpon>frmNotaCompraClassificacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmNotaCompraItem.resx">
+      <DependentUpon>frmNotaCompraItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmEstq_Almoxarifado.resx">
+      <DependentUpon>frmEstq_Almoxarifado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmEstq_Descricao.resx">
+      <DependentUpon>frmEstq_Descricao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmEstq_Familia.resx">
+      <DependentUpon>frmEstq_Familia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmEstq_Grupo.resx">
+      <DependentUpon>frmEstq_Grupo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmEstq_Produto_Fornecedor.resx">
+      <DependentUpon>frmEstq_Produto_Fornecedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmEstq_Produto_Lote.resx">
+      <DependentUpon>frmEstq_Produto_Lote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmEstq_Produto_Unidade.resx">
+      <DependentUpon>frmEstq_Produto_Unidade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmEstq_Produto_Volume.resx">
+      <DependentUpon>frmEstq_Produto_Volume.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmEstq_SubGrupo.resx">
+      <DependentUpon>frmEstq_SubGrupo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmNotaCompra.resx">
+      <DependentUpon>frmNotaCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmProduto.resx">
+      <DependentUpon>frmProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmTipoProduto.resx">
+      <DependentUpon>frmTipoProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqAlmoxarifado.resx">
+      <DependentUpon>psqAlmoxarifado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqEmbalagem.resx">
+      <DependentUpon>psqEmbalagem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqFamilia.resx">
+      <DependentUpon>psqFamilia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqGrupoEstoque.resx">
+      <DependentUpon>psqGrupoEstoque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqProduto.resx">
+      <DependentUpon>psqProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqSubGrupo.resx">
+      <DependentUpon>psqSubGrupo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqUnidade.resx">
+      <DependentUpon>psqUnidade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqTipoProduto.resx">
+      <DependentUpon>psqTipoProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Relatorios\relAlmoxarifado.resx">
+      <DependentUpon>relAlmoxarifado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\relEmbalagens.resx">
+      <DependentUpon>relEmbalagens.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\relFamilia.resx">
+      <DependentUpon>relFamilia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\relGrupoEstoque.resx">
+      <DependentUpon>relGrupoEstoque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\relProdutos.resx">
+      <DependentUpon>relProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\relSubGrupo.resx">
+      <DependentUpon>relSubGrupo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\relTipoProduto.resx">
+      <DependentUpon>relTipoProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\relUnidade.resx">
+      <DependentUpon>relUnidade.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EMCEstoqueModel\EMCEstoqueModel.csproj">
+      <Project>{731AB6BF-AB7A-43DB-894D-F948269150C6}</Project>
+      <Name>EMCEstoqueModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EMCEstoqueRN\EMCEstoqueRN.csproj">
+      <Project>{1879051A-F1B4-489C-854A-598EC1AE77FF}</Project>
+      <Name>EMCEstoqueRN</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\codigo_de_barra.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\binoculo_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImgFechar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\binoculo_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImgCancel.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

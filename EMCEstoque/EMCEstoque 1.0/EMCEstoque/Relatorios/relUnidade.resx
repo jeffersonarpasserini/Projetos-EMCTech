@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="dstUnidade.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="unidades.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>118, 14</value>
+  </metadata>
+  <data name="unidades.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="10/29/2013 10:31:13" ReportInfo.Modified="11/13/2013 10:42:29" ReportInfo.CreatorVersion="2013.3.5.0"&gt;
+  &lt;Dictionary&gt;
+    &lt;TableDataSource Name="MyTable" ReferenceName="dstUnidade.MyTable" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="idestq_produto_unidade" DataType="System.Int64"/&gt;
+      &lt;Column Name="unidade_descricao" DataType="System.String"/&gt;
+      &lt;Column Name="unidade_abreviatura" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;Parameter Name="Empresa" DataType="System.String"/&gt;
+    &lt;Parameter Name="Periodo" DataType="System.String"/&gt;
+    &lt;Total Name="Total" TotalType="Count" Evaluator="Data1"/&gt;
+  &lt;/Dictionary&gt;
+  &lt;ReportPage Name="Page1" RawPaperSize="9"&gt;
+    &lt;ReportTitleBand Name="ReportTitle1" Width="718.2" Height="83.16"&gt;
+      &lt;ShapeObject Name="Shape1" Width="721.98" Height="83.16"/&gt;
+      &lt;TextObject Name="Text1" Left="113.4" Top="9.45" Width="489.51" Height="22.68" Text="Relação Unidades de Produtos" HorzAlign="Center" Font="Arial, 14pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text2" Left="661.5" Top="18.9" Width="51.03" Height="11.34" Text="JlmTech" HorzAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text4" Left="66.15" Top="37.8" Width="544.32" Height="17.01" Text="[Periodo]" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text3" Top="66.15" Width="66.15" Height="17.01" Text="Empresa:" HorzAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;LineObject Name="Line1" Top="56.7" Width="721.98"/&gt;
+      &lt;TextObject Name="Text29" Left="56.7" Top="64.26" Width="576.45" Height="18.9" Text="[Empresa]"/&gt;
+    &lt;/ReportTitleBand&gt;
+    &lt;PageHeaderBand Name="PageHeader1" Top="87.16" Width="718.2" Height="18.9"&gt;
+      &lt;TextObject Name="Text30" Left="113.4" Width="226.8" Height="18.9" Text="Descrição" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text31" Left="56.7" Width="47.25" Height="18.9" Text="Código " Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;LineObject Name="Line5" Top="18.9" Width="721.98"/&gt;
+      &lt;TextObject Name="Text32" Left="340.2" Width="85.05" Height="18.9" Text="Abreviatura" Font="Arial, 8pt, style=Bold"/&gt;
+    &lt;/PageHeaderBand&gt;
+    &lt;DataBand Name="Data1" Top="110.06" Width="718.2" Height="25.45" DataSource="MyTable"&gt;
+      &lt;TextObject Name="Text6" Width="103.95" Height="18.9" Text="[MyTable.idestq_produto_unidade]" HorzAlign="Right" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text7" Left="113.4" Width="226.8" Height="18.9" Text="[MyTable.unidade_descricao]" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text10" Left="340.2" Width="85.05" Height="18.9" Text="[MyTable.unidade_abreviatura]" Font="Arial, 8pt"/&gt;
+    &lt;/DataBand&gt;
+    &lt;ReportSummaryBand Name="ReportSummary1" Top="139.51" Width="718.2" Height="23.56"&gt;
+      &lt;TextObject Name="Text27" Left="415.8" Top="6.55" Width="107.73" Height="17.01" Text="Total de Registros: " WordWrap="false" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text5" Left="519.75" Top="6.55" Width="107.73" Height="17.01" Text="[Total]" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;LineObject Name="Line6" Width="721.98"/&gt;
+    &lt;/ReportSummaryBand&gt;
+    &lt;PageFooterBand Name="PageFooter1" Top="167.07" Width="718.2" Height="18.11"&gt;
+      &lt;TextObject Name="Text9" Top="1.1" Width="192.78" Height="17.01" Text="Data Emissão: [Date]" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text8" Left="623.7" Top="1.1" Width="79.38" Height="17.01" Text="Pág: [Page#]" HorzAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;LineObject Name="Line4" Top="1.1" Width="721.98"/&gt;
+    &lt;/PageFooterBand&gt;
+  &lt;/ReportPage&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+</root>
