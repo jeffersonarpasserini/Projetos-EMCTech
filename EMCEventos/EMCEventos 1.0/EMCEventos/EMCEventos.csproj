@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{88B9F576-614E-4F99-AC16-581AF79BE2B3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EMCEventos</RootNamespace>
+    <AssemblyName>EMCEventos</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EMCCadastro">
+      <HintPath>..\..\..\DLLProducao\EMCCadastro.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCCadastroModel, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DLLProducao\EMCCadastroModel.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCCadastroRN, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DLLProducao\EMCCadastroRN.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCImob">
+      <HintPath>..\..\..\DLLProducao\EMCImob.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCImobModel, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DLLProducao\EMCImobModel.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCImobRN">
+      <HintPath>..\..\..\DLLProducao\EMCImobRN.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCLibrary">
+      <HintPath>..\..\..\DLLProducao\EMCLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCSecurity">
+      <HintPath>..\..\..\DLLProducao\EMCSecurity.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCSecurityModel">
+      <HintPath>..\..\..\DLLProducao\EMCSecurityModel.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCSecurityRN, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DLLProducao\EMCSecurityRN.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport, Version=2013.3.2.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c, processorArchitecture=MSIL" />
+    <Reference Include="FastReport.Bars, Version=2013.3.2.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c" />
+    <Reference Include="FastReport.Editor, Version=2013.3.2.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c" />
+    <Reference Include="MaskedDateEntryControl">
+      <HintPath>..\..\..\DLLProducao\MaskedDateEntryControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Manutencao\frmContrato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmContrato.Designer.cs">
+      <DependentUpon>frmContrato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmSubLocacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmSubLocacao.Designer.cs">
+      <DependentUpon>frmSubLocacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmEvento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmEvento.Designer.cs">
+      <DependentUpon>frmEvento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global.cs" />
+    <Compile Include="mdiPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mdiPrincipal.Designer.cs">
+      <DependentUpon>mdiPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Pesquisa\psqEvento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqEvento.Designer.cs">
+      <DependentUpon>psqEvento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqSubLocacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqSubLocacao.Designer.cs">
+      <DependentUpon>psqSubLocacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqContrato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqContrato.Designer.cs">
+      <DependentUpon>psqContrato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\relAgenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\relAgenda.Designer.cs">
+      <DependentUpon>relAgenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\relSubLocacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\relSubLocacao.Designer.cs">
+      <DependentUpon>relSubLocacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\relContrato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\relContrato.Designer.cs">
+      <DependentUpon>relContrato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Version.cs" />
+    <EmbeddedResource Include="Manutencao\frmContrato.resx">
+      <DependentUpon>frmContrato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmEvento.resx">
+      <DependentUpon>frmEvento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmSubLocacao.resx">
+      <DependentUpon>frmSubLocacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mdiPrincipal.resx">
+      <DependentUpon>mdiPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqContrato.resx">
+      <DependentUpon>psqContrato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Pesquisa\psqEvento.resx">
+      <DependentUpon>psqEvento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqSubLocacao.resx">
+      <DependentUpon>psqSubLocacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\relAgenda.resx">
+      <DependentUpon>relAgenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\relSubLocacao.resx">
+      <DependentUpon>relSubLocacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\relContrato.resx">
+      <DependentUpon>relContrato.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EMCEventosModel\EMCEventosModel.csproj">
+      <Project>{2a88b385-8593-40d5-acc4-a5b31ecc3c4f}</Project>
+      <Name>EMCEventosModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EMCEventosRN\EMCEventosRN.csproj">
+      <Project>{a69c8bef-6636-47ec-bb4f-4265f21bb1fb}</Project>
+      <Name>EMCEventosRN</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Deletar_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Incluir_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alteracao_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\novo_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\binoculo_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\binoculo_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

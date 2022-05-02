@@ -1,0 +1,14 @@
+D:\fontes\jlmtech\EMCTech\EMCEventos\EMCEventos 1.0\EMCEventosModel\bin\Debug\EMCEventosModel.dll
+D:\fontes\jlmtech\EMCTech\EMCEventos\EMCEventos 1.0\EMCEventosModel\bin\Debug\EMCEventosModel.pdb
+D:\fontes\jlmtech\EMCTech\EMCEventos\EMCEventos 1.0\EMCEventosModel\bin\Debug\EMCCadastroModel.dll
+D:\fontes\jlmtech\EMCTech\EMCEventos\EMCEventos 1.0\EMCEventosModel\bin\Debug\EMCImobModel.dll
+D:\fontes\jlmtech\EMCTech\EMCEventos\EMCEventos 1.0\EMCEventosModel\bin\Debug\EMCLibrary.dll
+D:\fontes\jlmtech\EMCTech\EMCEventos\EMCEventos 1.0\EMCEventosModel\bin\Debug\EMCSecurityModel.dll
+D:\fontes\jlmtech\EMCTech\EMCEventos\EMCEventos 1.0\EMCEventosModel\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+D:\fontes\jlmtech\EMCTech\EMCEventos\EMCEventos 1.0\EMCEventosModel\bin\Debug\EMCCadastroModel.pdb
+D:\fontes\jlmtech\EMCTech\EMCEventos\EMCEventos 1.0\EMCEventosModel\bin\Debug\EMCImobModel.pdb
+D:\fontes\jlmtech\EMCTech\EMCEventos\EMCEventos 1.0\EMCEventosModel\bin\Debug\EMCSecurityModel.pdb
+D:\fontes\jlmtech\EMCTech\EMCEventos\EMCEventos 1.0\EMCEventosModel\bin\Debug\FirebirdSql.Data.FirebirdClient.pdb
+D:\fontes\jlmtech\EMCTech\EMCEventos\EMCEventos 1.0\EMCEventosModel\obj\Debug\EMCEventosModel.csprojResolveAssemblyReference.cache
+D:\fontes\jlmtech\EMCTech\EMCEventos\EMCEventos 1.0\EMCEventosModel\obj\Debug\EMCEventosModel.dll
+D:\fontes\jlmtech\EMCTech\EMCEventos\EMCEventos 1.0\EMCEventosModel\obj\Debug\EMCEventosModel.pdb

@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMCEventos", "EMCEventos\EMCEventos.csproj", "{88B9F576-614E-4F99-AC16-581AF79BE2B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMCEventosModel", "EMCEventosModel\EMCEventosModel.csproj", "{2A88B385-8593-40D5-ACC4-A5B31ECC3C4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMCEventosDAO", "EMCEventosDAO\EMCEventosDAO.csproj", "{ADCCEE8F-4A30-4FD7-B2AE-43808E231070}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMCEventosRN", "EMCEventosRN\EMCEventosRN.csproj", "{A69C8BEF-6636-47EC-BB4F-4265F21BB1FB}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://bismarck:8080/tfs/emc
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = EMCEventos\\EMCEventos.csproj
+		SccProjectName1 = EMCEventos
+		SccLocalPath1 = EMCEventos
+		SccProjectUniqueName2 = EMCEventosModel\\EMCEventosModel.csproj
+		SccProjectName2 = EMCEventosModel
+		SccLocalPath2 = EMCEventosModel
+		SccProjectUniqueName3 = EMCEventosDAO\\EMCEventosDAO.csproj
+		SccProjectName3 = EMCEventosDAO
+		SccLocalPath3 = EMCEventosDAO
+		SccProjectUniqueName4 = EMCEventosRN\\EMCEventosRN.csproj
+		SccProjectName4 = EMCEventosRN
+		SccLocalPath4 = EMCEventosRN
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88B9F576-614E-4F99-AC16-581AF79BE2B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88B9F576-614E-4F99-AC16-581AF79BE2B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88B9F576-614E-4F99-AC16-581AF79BE2B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88B9F576-614E-4F99-AC16-581AF79BE2B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A88B385-8593-40D5-ACC4-A5B31ECC3C4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A88B385-8593-40D5-ACC4-A5B31ECC3C4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A88B385-8593-40D5-ACC4-A5B31ECC3C4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A88B385-8593-40D5-ACC4-A5B31ECC3C4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADCCEE8F-4A30-4FD7-B2AE-43808E231070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADCCEE8F-4A30-4FD7-B2AE-43808E231070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADCCEE8F-4A30-4FD7-B2AE-43808E231070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADCCEE8F-4A30-4FD7-B2AE-43808E231070}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A69C8BEF-6636-47EC-BB4F-4265F21BB1FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A69C8BEF-6636-47EC-BB4F-4265F21BB1FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A69C8BEF-6636-47EC-BB4F-4265F21BB1FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A69C8BEF-6636-47EC-BB4F-4265F21BB1FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

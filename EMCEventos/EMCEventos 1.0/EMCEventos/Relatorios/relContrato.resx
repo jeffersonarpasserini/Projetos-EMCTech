@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnSubLocacao.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAn9JREFUOE+1
+        kMtPE1EUxrtoiGHJgpULlizZaQQLHUpLh870MTPtPNuZdlpq29TyHCAFLMQWNyooNihRG43GsDAhUeMf
+        gBvCwrBw0RCWujHGsCAuyOelzMpoxIW/5OSee8/9vnvOdfx37tYfdWw2nl+wt+cjVSh1RlVDXKqulGrV
+        WrNUyO9svXzRZpdbvHq9bWe/ENXTPQwvNUuTFh4/aeDe6ipmJscxqsebqsDVMrrWNb9080qxkP+UThoV
+        W3aGVV6kVD357frYBDY2HuJWtYp8xoTMhRH2+8AMDSLgoY55NvB1hOSKJB3Y0jPGJqd3s2kiiArIZDLI
+        kkgoMkJEPOJxgx4kQQ2AJnlS16EbyVxLOFVedN6oLBezZuqIJs6MfxhhloWrrxeaqkLkIhBCLAJeDwKn
+        dd9Qy5h0+85B5umasaw3cTEKlQQXDqH38iVIYgyD7oGTXL7w3UylwAVZ8KEgWRmwtB8RlkFYEHccuVJx
+        S45ySBkGDNKW3+eFh6I+hyLc+4SuT49PWVv57CiCw174SPt+0oV/yIMgw/wICqLLIeWVcuqtBdlUwUXC
+        oPpdJzFREm/frzsXFivLZkI74cmrksCBISbDROx29UFR1Tt7H/fJ/ONjbYl6tiFtXwNF9UPguMaH3T2H
+        NTvXMGSJfCgPPa4hxnPwugcgSvJxLBrbmSsvtLc+8JT1tVVntjiqBwW+oupGx8Rs+aKSj0OWBaRNkxjE
+        QZPRQgxzpCSM7uXqitOW/p7Np412fl5tFg5rkC0dfCQCynUVmqat21f+TjBA98Sf5Q7NLwvwpWgEaP+x
+        mcl22+XzYWhKJyeH1tWJ5D4nxJL28b+z9qD+h5kdjp+sFilVGbU/qAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <metadata name="dstContrato.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="rptCliente.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>133, 17</value>
+  </metadata>
+  <data name="rptCliente.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="08/13/2014 11:35:05" ReportInfo.Modified="08/15/2014 12:08:53" ReportInfo.CreatorVersion="2013.3.2.0"&gt;
+  &lt;Dictionary&gt;
+    &lt;TableDataSource Name="Contrato" ReferenceName="dstContrato.Contrato" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="idevt_contrato" DataType="System.Int16"/&gt;
+      &lt;Column Name="datacontrato" DataType="System.DateTime"/&gt;
+      &lt;Column Name="valorcontrato" DataType="System.Decimal"/&gt;
+      &lt;Column Name="nroparcelas" DataType="System.Int32"/&gt;
+      &lt;Column Name="idev_sublocacao" DataType="System.Int16"/&gt;
+      &lt;Column Name="cliente_codempresa" DataType="System.Int16"/&gt;
+      &lt;Column Name="cliente_idpessoa" DataType="System.Int16"/&gt;
+      &lt;Column Name="fornecedor_codempresa" DataType="System.Int16"/&gt;
+      &lt;Column Name="fornecedor_idpessoa" DataType="System.Int16"/&gt;
+      &lt;Column Name="geracontaspagar" DataType="System.String"/&gt;
+      &lt;Column Name="gerataxaadministracao" DataType="System.String"/&gt;
+      &lt;Column Name="percenturaladministracao" DataType="System.Decimal"/&gt;
+      &lt;Column Name="valoradministracao" DataType="System.Decimal"/&gt;
+      &lt;Column Name="dataaprovacao" DataType="System.DateTime"/&gt;
+      &lt;Column Name="situacao" DataType="System.String"/&gt;
+      &lt;Column Name="nome_cliente" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;TableDataSource Name="SubLocacao" ReferenceName="dstContrato.SubLocacao" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="idevt_sublocacao" DataType="System.Int16"/&gt;
+      &lt;Column Name="descricao" DataType="System.String"/&gt;
+      &lt;Column Name="idevt_evento" DataType="System.Int16"/&gt;
+      &lt;Column Name="idbox" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;TableDataSource Name="Cliente" ReferenceName="dstContrato.Cliente" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="codempresa" DataType="System.Int16"/&gt;
+      &lt;Column Name="idpessoa" DataType="System.Int16"/&gt;
+      &lt;Column Name="nome" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;TableDataSource Name="Fornecedor" ReferenceName="dstContrato.Fornecedor" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="codempresa" DataType="System.Int16"/&gt;
+      &lt;Column Name="idpessoa" DataType="System.Int16"/&gt;
+      &lt;Column Name="nome" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;Relation Name="SubLocacao_Contrato" ParentDataSource="SubLocacao" ChildDataSource="Contrato" ParentColumns="idevt_sublocacao" ChildColumns="idev_sublocacao" Enabled="true"/&gt;
+    &lt;Relation Name="Cliente_Contrato" ParentDataSource="Cliente" ChildDataSource="Contrato" ParentColumns="idpessoa" ChildColumns="cliente_idpessoa" Enabled="true"/&gt;
+    &lt;Relation Name="Fornecedor_Contrato" ParentDataSource="Fornecedor" ChildDataSource="Contrato" ParentColumns="idpessoa" ChildColumns="fornecedor_idpessoa" Enabled="true"/&gt;
+    &lt;Relation Name="Relation1" ReferenceName="dstContrato.Relation1" ParentDataSource="SubLocacao" ChildDataSource="Contrato" ParentColumns="idevt_sublocacao" ChildColumns="idev_sublocacao" Enabled="true"/&gt;
+    &lt;Relation Name="Relation2" ReferenceName="dstContrato.Relation2" ParentDataSource="Cliente" ChildDataSource="Contrato" ParentColumns="idpessoa" ChildColumns="cliente_idpessoa" Enabled="true"/&gt;
+    &lt;Relation Name="Relation3" ReferenceName="dstContrato.Relation3" ParentDataSource="Fornecedor" ChildDataSource="Contrato" ParentColumns="idpessoa" ChildColumns="fornecedor_idpessoa" Enabled="true"/&gt;
+    &lt;Relation Name="Contrato_Cliente" ParentDataSource="Contrato" ChildDataSource="Cliente" ParentColumns="cliente_idpessoa" ChildColumns="idpessoa" Enabled="true"/&gt;
+    &lt;Relation Name="Cliente_Contrato1" ParentDataSource="Cliente" ChildDataSource="Contrato" ParentColumns="idpessoa" ChildColumns="cliente_idpessoa" Enabled="true"/&gt;
+    &lt;Relation Name="Fornecedor_Contrato1" ParentDataSource="Fornecedor" ChildDataSource="Contrato" ParentColumns="idpessoa" ChildColumns="fornecedor_idpessoa" Enabled="true"/&gt;
+    &lt;Relation Name="SubLocacao_Contrato1" ParentDataSource="SubLocacao" ChildDataSource="Contrato" ParentColumns="idevt_sublocacao" ChildColumns="idev_sublocacao" Enabled="true"/&gt;
+    &lt;Relation Name="Cliente_Contrato2" ParentDataSource="Cliente" ChildDataSource="Contrato" ParentColumns="idpessoa" ChildColumns="cliente_idpessoa" Enabled="true"/&gt;
+    &lt;Relation Name="Fornecedor_Contrato2" ParentDataSource="Fornecedor" ChildDataSource="Contrato" ParentColumns="idpessoa" ChildColumns="fornecedor_idpessoa" Enabled="true"/&gt;
+    &lt;Relation Name="SubLocacao_Contrato2" ParentDataSource="SubLocacao" ChildDataSource="Contrato" ParentColumns="idevt_sublocacao" ChildColumns="idev_sublocacao" Enabled="true"/&gt;
+    &lt;Parameter Name="Empresa" DataType="System.String"/&gt;
+    &lt;Parameter Name="Periodo" DataType="System.String"/&gt;
+    &lt;Total Name="Total" TotalType="Count" Evaluator="Data3"/&gt;
+  &lt;/Dictionary&gt;
+  &lt;ReportPage Name="Page1"&gt;
+    &lt;ReportTitleBand Name="ReportTitle1" Width="718.2" Height="44.99"&gt;
+      &lt;ShapeObject Name="Shape1" Left="-0.04" Top="-0.13" Width="718.28" Height="45.12"/&gt;
+      &lt;TextObject Name="Text1" Left="1.75" Top="1.96" Width="714.65" Height="18.9" Text="Relatório de Contrato por Cliente" HorzAlign="Center" VertAlign="Center" Font="Arial, 14pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text2" Left="660.93" Top="3.45" Width="53.55" Height="15.26" Text="JLMTech" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;LineObject Name="Line1" Left="0.8" Top="23.46" Width="715.45" Diagonal="true"/&gt;
+      &lt;TextObject Name="Text3" Left="1.43" Top="26.12" Width="58.03" Height="15.26" Text="Empresa:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text4" Left="61.81" Top="25.99" Width="446.21" Height="15.26" Text="[Empresa]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text8" Left="509.39" Top="25.97" Width="70.87" Height="15.26" Text="Período de:" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text20" Left="581.79" Top="26.12" Width="133.51" Height="15.26" Text="[Periodo]" Font="Arial, 8pt"/&gt;
+    &lt;/ReportTitleBand&gt;
+    &lt;GroupHeaderBand Name="GroupHeader1" Top="48.62" Width="718.2" Height="18.95" Condition="[Contrato.cliente_idpessoa]"&gt;
+      &lt;TextObject Name="Text44" Left="0.78" Top="1.57" Width="49.03" Height="15.26" Text="Cliente:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text45" Left="51.62" Top="1.58" Width="26.43" Height="15.26" Text="[Contrato.cliente_idpessoa]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text46" Left="78.23" Top="1.58" Width="635.78" Height="15.26" Text="[Contrato.Cliente.nome]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;LineObject Name="Line8" Left="0.79" Top="17.67" Width="715.45" Border.Style="Double" Diagonal="true"/&gt;
+      &lt;DataBand Name="Data3" Top="71.19" Width="718.2" Height="33.38" DataSource="Contrato"&gt;
+        &lt;TextObject Name="Text9" Left="0.81" Top="-0.52" Width="82.7" Height="15.26" Text="Cód. Contrato" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text10" Left="85.18" Top="-0.52" Width="80.88" Height="15.26" Text="Data Contrato" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text11" Left="167.61" Top="-0.52" Width="83.59" Height="15.26" Text="Valor Contrato" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text12" Left="252.78" Top="-0.52" Width="53.61" Height="15.26" Text="Parcelas" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text14" Left="307.75" Top="-0.52" Width="79.97" Height="15.26" Text="Contas Pagar" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text15" Left="389.35" Top="-0.52" Width="64.5" Height="15.26" Text="Taxa Adm." VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text16" Left="522.61" Top="-0.52" Width="67.23" Height="15.26" Text="Valor Adm." VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text17" Left="455.53" Top="-0.52" Width="65.48" Height="15.26" Text="Perc. Adm." VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text18" Left="591.83" Top="-0.52" Width="68.15" Height="15.26" Text="Data Aprov" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text19" Left="661.75" Top="-0.52" Width="53.61" Height="15.26" Text="Situação" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text36" Left="0.81" Top="17" Width="82.68" Height="15.26" Text="[Contrato.idevt_contrato]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text25" Left="252.78" Top="17" Width="53.62" Height="15.26" Text="[Contrato.nroparcelas]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text13" Left="307.75" Top="17" Width="79.96" Height="15.26" Text="[Contrato.geracontaspagar]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text26" Left="389.35" Top="17" Width="64.51" Height="15.26" Text="[Contrato.gerataxaadministracao]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text27" Left="455.53" Top="17" Width="65.41" Height="15.26" Text="[Contrato.percenturaladministracao]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" VertAlign="Center" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;TextObject Name="Text28" Left="522.61" Top="17" Width="67.21" Height="15.26" Text="[Contrato.valoradministracao]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" VertAlign="Center" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;TextObject Name="Text29" Left="591.83" Top="17" Width="68.11" Height="15.26" Text="[Contrato.dataaprovacao]" Format="Date" Format.Format="d" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text30" Left="661.7" Top="17" Width="53.66" Height="15.26" Text="[Contrato.situacao]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text38" Left="85.18" Top="17" Width="80.88" Height="15.26" Text="[Contrato.datacontrato]" Format="Date" Format.Format="d" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text39" Left="167.61" Top="17.91" Width="83.58" Height="15.26" Text="[Contrato.valorcontrato]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" VertAlign="Center" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;ChildBand Name="Child1" Top="108.2" Width="718.2" Height="47.06"&gt;
+          &lt;TextObject Name="Text54" Left="0.77" Top="-0.08" Width="75.35" Height="15.26" Text="Fornecedor:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+          &lt;TextObject Name="Text55" Left="76.85" Top="-0.08" Width="24.61" Height="15.26" Text="[Contrato.cliente_idpessoa]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+          &lt;TextObject Name="Text56" Left="103.78" Top="-0.08" Width="609.54" Height="15.26" Text="[Contrato.Fornecedor.nome]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+          &lt;TextObject Name="Text52" Left="0.74" Top="15.82" Width="75.42" Height="15.26" Text="Cód. SubLoc" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+          &lt;TextObject Name="Text50" Left="77.8" Top="15.82" Width="560.69" Height="15.26" Text="Descrição" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+          &lt;TextObject Name="Text51" Left="638.96" Top="15.82" Width="75.42" Height="15.26" Text="Box" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+          &lt;TextObject Name="Text47" Left="0.76" Top="30.91" Width="75.39" Height="15.26" Text="[Contrato.idev_sublocacao]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+          &lt;TextObject Name="Text48" Left="77.91" Top="30.91" Width="560.57" Height="15.26" Text="[Contrato.SubLocacao.descricao]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+          &lt;TextObject Name="Text49" Left="638.98" Top="30.91" Width="75.39" Height="15.26" Text="[Contrato.SubLocacao.idbox]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+          &lt;LineObject Name="Line10" Left="0.85" Top="46.12" Width="715.45" Border.Color="Gray" Border.Style="Dot" Border.Width="0.25" Diagonal="true"/&gt;
+        &lt;/ChildBand&gt;
+      &lt;/DataBand&gt;
+      &lt;GroupFooterBand Name="GroupFooter1" Top="158.89" Width="718.2" Height="3.2"&gt;
+        &lt;LineObject Name="Line7" Left="0.69" Top="0.41" Width="715.45" Border.Style="Double" Diagonal="true"/&gt;
+        &lt;LineObject Name="Line9" Left="0.87" Top="2.52" Width="715.45" Border.Style="Double" Diagonal="true"/&gt;
+      &lt;/GroupFooterBand&gt;
+    &lt;/GroupHeaderBand&gt;
+    &lt;ReportSummaryBand Name="ReportSummary1" Top="165.71" Width="718.2" Height="20.29"&gt;
+      &lt;ShapeObject Name="Shape2" Left="-0.04" Top="-0.59" Width="718.28" Height="20.88"/&gt;
+      &lt;TextObject Name="Text7" Left="594.99" Top="1.81" Width="92.53" Height="15.26" Text="Total Registros:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text40" Left="685.7" Top="2.1" Width="28.23" Height="15.26" Text="[Total]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+    &lt;/ReportSummaryBand&gt;
+    &lt;PageFooterBand Name="PageFooter1" Top="189.63" Width="718.2" Height="18.28"&gt;
+      &lt;TextObject Name="Text5" Left="1.13" Top="1.21" Width="391" Height="15.26" Text="Data Emissão: [Date]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text6" Left="635.61" Top="1.21" Width="79.95" Height="15.26" Text="Página: [Page]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+    &lt;/PageFooterBand&gt;
+  &lt;/ReportPage&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+  <metadata name="rptContrato.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>238, 17</value>
+  </metadata>
+  <data name="rptContrato.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="08/15/2014 08:29:22" ReportInfo.Modified="08/15/2014 12:10:22" ReportInfo.CreatorVersion="2013.3.2.0"&gt;
+  &lt;Dictionary&gt;
+    &lt;TableDataSource Name="Contrato" ReferenceName="dstContrato.Contrato" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="idevt_contrato" DataType="System.Int16"/&gt;
+      &lt;Column Name="datacontrato" DataType="System.DateTime"/&gt;
+      &lt;Column Name="valorcontrato" DataType="System.Decimal"/&gt;
+      &lt;Column Name="nroparcelas" DataType="System.Int32"/&gt;
+      &lt;Column Name="idev_sublocacao" DataType="System.Int16"/&gt;
+      &lt;Column Name="cliente_codempresa" DataType="System.Int16"/&gt;
+      &lt;Column Name="cliente_idpessoa" DataType="System.Int16"/&gt;
+      &lt;Column Name="fornecedor_codempresa" DataType="System.Int16"/&gt;
+      &lt;Column Name="fornecedor_idpessoa" DataType="System.Int16"/&gt;
+      &lt;Column Name="geracontaspagar" DataType="System.String"/&gt;
+      &lt;Column Name="gerataxaadministracao" DataType="System.String"/&gt;
+      &lt;Column Name="percenturaladministracao" DataType="System.Decimal"/&gt;
+      &lt;Column Name="valoradministracao" DataType="System.Decimal"/&gt;
+      &lt;Column Name="dataaprovacao" DataType="System.DateTime"/&gt;
+      &lt;Column Name="situacao" DataType="System.String"/&gt;
+      &lt;Column Name="nome_cliente" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;TableDataSource Name="SubLocacao" ReferenceName="dstContrato.SubLocacao" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="idevt_sublocacao" DataType="System.Int16"/&gt;
+      &lt;Column Name="descricao" DataType="System.String"/&gt;
+      &lt;Column Name="idevt_evento" DataType="System.Int16"/&gt;
+      &lt;Column Name="idbox" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;TableDataSource Name="Cliente" ReferenceName="dstContrato.Cliente" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="codempresa" DataType="System.Int16"/&gt;
+      &lt;Column Name="idpessoa" DataType="System.Int16"/&gt;
+      &lt;Column Name="nome" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;TableDataSource Name="Fornecedor" ReferenceName="dstContrato.Fornecedor" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="codempresa" DataType="System.Int16"/&gt;
+      &lt;Column Name="idpessoa" DataType="System.Int16"/&gt;
+      &lt;Column Name="nome" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;Relation Name="Relation1" ReferenceName="dstContrato.Relation1" ParentDataSource="SubLocacao" ChildDataSource="Contrato" ParentColumns="idevt_sublocacao" ChildColumns="idev_sublocacao" Enabled="true"/&gt;
+    &lt;Relation Name="Relation2" ReferenceName="dstContrato.Relation2" ParentDataSource="Cliente" ChildDataSource="Contrato" ParentColumns="idpessoa" ChildColumns="cliente_idpessoa" Enabled="true"/&gt;
+    &lt;Relation Name="Relation3" ReferenceName="dstContrato.Relation3" ParentDataSource="Fornecedor" ChildDataSource="Contrato" ParentColumns="idpessoa" ChildColumns="fornecedor_idpessoa" Enabled="true"/&gt;
+    &lt;Parameter Name="Empresa" DataType="System.String"/&gt;
+    &lt;Parameter Name="Periodo" DataType="System.String"/&gt;
+    &lt;Total Name="Total" TotalType="Count" Evaluator="Data1"/&gt;
+  &lt;/Dictionary&gt;
+  &lt;ReportPage Name="Page1"&gt;
+    &lt;ReportTitleBand Name="ReportTitle1" Width="718.2" Height="45.08"&gt;
+      &lt;ShapeObject Name="Shape1" Left="0.86" Top="-0.52" Width="718.28" Height="45.12"/&gt;
+      &lt;TextObject Name="Text1" Left="2.65" Top="1.57" Width="714.65" Height="18.9" Text="Relatório de Contrato" HorzAlign="Center" VertAlign="Center" Font="Arial, 14pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text2" Left="661.83" Top="3.06" Width="53.55" Height="15.26" Text="JLMTech" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;LineObject Name="Line1" Left="1.7" Top="23.07" Width="715.45" Diagonal="true"/&gt;
+      &lt;TextObject Name="Text3" Left="2.33" Top="25.73" Width="58.03" Height="15.26" Text="Empresa:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text4" Left="61.74" Top="25.51" Width="447.2" Height="15.26" Text="[Empresa]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text54" Left="510.17" Top="25.32" Width="70.87" Height="15.26" Text="Período de:" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text21" Left="583.17" Top="24.98" Width="131.76" Height="15.26" Text="[Periodo]" Font="Arial, 8pt"/&gt;
+    &lt;/ReportTitleBand&gt;
+    &lt;GroupHeaderBand Name="GroupHeader1" Top="48.71" Width="718.2" Height="35.85" Condition="[Contrato.idevt_contrato]"&gt;
+      &lt;TextObject Name="Text9" Left="1.71" Top="1.59" Width="82.7" Height="15.26" Text="Cód. Contrato" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text10" Left="86.08" Top="1.59" Width="80.88" Height="15.26" Text="Data Contrato" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text11" Left="168.51" Top="1.59" Width="84.5" Height="15.26" Text="Valor Contrato" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text12" Left="253.68" Top="1.59" Width="53.61" Height="15.26" Text="Parcelas" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text14" Left="308.65" Top="1.59" Width="79.97" Height="15.26" Text="Contas Pagar" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text15" Left="390.25" Top="1.59" Width="64.5" Height="15.26" Text="Taxa Adm." VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text16" Left="523.51" Top="1.59" Width="67.23" Height="15.26" Text="Valor Adm." VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text17" Left="456.43" Top="1.59" Width="65.48" Height="15.26" Text="Perc. Adm." VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text18" Left="592.73" Top="1.59" Width="68.15" Height="15.26" Text="Data Aprov" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text19" Left="662.65" Top="1.59" Width="53.61" Height="15.26" Text="Situação" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text25" Left="253.68" Top="17.87" Width="53.62" Height="15.26" Text="[Contrato.nroparcelas]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text13" Left="308.65" Top="17.87" Width="79.96" Height="15.26" Text="[Contrato.geracontaspagar]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text26" Left="390.25" Top="17.87" Width="64.51" Height="15.26" Text="[Contrato.gerataxaadministracao]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text27" Left="456.43" Top="17.87" Width="65.41" Height="15.26" Text="[Contrato.percenturaladministracao]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" VertAlign="Center" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+      &lt;TextObject Name="Text28" Left="523.51" Top="17.87" Width="67.21" Height="15.26" Text="[Contrato.valoradministracao]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" VertAlign="Center" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+      &lt;TextObject Name="Text29" Left="592.73" Top="17.87" Width="68.11" Height="15.26" Text="[Contrato.dataaprovacao]" Format="Date" Format.Format="d" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text30" Left="662.6" Top="17.87" Width="53.66" Height="15.26" Text="[Contrato.situacao]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text39" Left="168.51" Top="18.78" Width="83.58" Height="15.26" Text="[Contrato.valorcontrato]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" VertAlign="Center" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+      &lt;TextObject Name="Text36" Left="1.71" Top="18.78" Width="82.68" Height="15.26" Text="[Contrato.idevt_contrato]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text38" Left="86.08" Top="18.78" Width="80.88" Height="15.26" Text="[Contrato.datacontrato]" Format="Date" Format.Format="d" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;LineObject Name="Line4" Left="1.67" Top="17.85" Width="715.45" Border.Style="Dot" Border.Width="0.25" Diagonal="true"/&gt;
+      &lt;DataBand Name="Data1" Top="88.18" Width="718.2" Height="66.06" DataSource="Contrato"&gt;
+        &lt;TextObject Name="Text44" Left="1.73" Top="1.12" Width="49.03" Height="15.26" Text="Cliente:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text45" Left="52.57" Top="1.13" Width="26.43" Height="15.26" Text="[Contrato.cliente_idpessoa]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text46" Left="79.18" Top="1.13" Width="635.78" Height="15.26" Text="[Contrato.Cliente.nome]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text50" Left="78.76" Top="33.42" Width="560.69" Height="15.26" Text="Descrição" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text51" Left="639.92" Top="33.42" Width="75.42" Height="15.26" Text="Box" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text52" Left="1.7" Top="33.42" Width="75.42" Height="15.26" Text="Cód. SubLoc" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text47" Left="1.73" Top="50.24" Width="75.39" Height="15.26" Text="[Contrato.idev_sublocacao]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text48" Left="78.88" Top="50.24" Width="560.57" Height="15.26" Text="[Contrato.SubLocacao.descricao]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text49" Left="639.95" Top="50.24" Width="75.39" Height="15.26" Text="[Contrato.SubLocacao.idbox]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text53" Left="1.65" Top="17" Width="75.35" Height="15.26" Text="Fornecedor:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text8" Left="77.73" Top="17.2" Width="24.61" Height="15.26" Text="[Contrato.Fornecedor.idpessoa]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text20" Left="104.66" Top="17.2" Width="609.54" Height="15.26" Text="[Contrato.Fornecedor.nome]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;/DataBand&gt;
+      &lt;GroupFooterBand Name="GroupFooter1" Top="157.87" Width="718.2" Height="4.14"&gt;
+        &lt;LineObject Name="Line7" Left="1.64" Top="1.29" Width="715.45" Diagonal="true"/&gt;
+        &lt;LineObject Name="Line8" Left="1.61" Top="3.71" Width="715.45" Diagonal="true"/&gt;
+      &lt;/GroupFooterBand&gt;
+    &lt;/GroupHeaderBand&gt;
+    &lt;ReportSummaryBand Name="ReportSummary1" Top="165.64" Width="718.2" Height="21.43"&gt;
+      &lt;TextObject Name="Text7" Left="595.89" Top="2.95" Width="92.53" Height="15.26" Text="Total Registros:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text40" Left="686.6" Top="3.24" Width="28.23" Height="15.26" Text="[Total]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;ShapeObject Name="Shape2" Left="0.86" Top="0.55" Width="718.28" Height="20.88"/&gt;
+    &lt;/ReportSummaryBand&gt;
+    &lt;PageFooterBand Name="PageFooter1" Top="190.69" Width="718.2" Height="18.26"&gt;
+      &lt;TextObject Name="Text5" Left="2.03" Top="2.13" Width="391" Height="15.26" Text="Data Emissão: [Date]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text6" Left="636.51" Top="2.13" Width="79.95" Height="15.26" Text="Página: [Page]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+    &lt;/PageFooterBand&gt;
+  &lt;/ReportPage&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+  <metadata name="rptFornecedor.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>353, 17</value>
+  </metadata>
+  <data name="rptFornecedor.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="08/15/2014 10:53:42" ReportInfo.Modified="08/15/2014 12:10:22" ReportInfo.CreatorVersion="2013.3.2.0"&gt;
+  &lt;Dictionary&gt;
+    &lt;TableDataSource Name="Contrato" ReferenceName="dstContrato.Contrato" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="idevt_contrato" DataType="System.Int16"/&gt;
+      &lt;Column Name="datacontrato" DataType="System.DateTime"/&gt;
+      &lt;Column Name="valorcontrato" DataType="System.Decimal"/&gt;
+      &lt;Column Name="nroparcelas" DataType="System.Int32"/&gt;
+      &lt;Column Name="idev_sublocacao" DataType="System.Int16"/&gt;
+      &lt;Column Name="cliente_codempresa" DataType="System.Int16"/&gt;
+      &lt;Column Name="cliente_idpessoa" DataType="System.Int16"/&gt;
+      &lt;Column Name="fornecedor_codempresa" DataType="System.Int16"/&gt;
+      &lt;Column Name="fornecedor_idpessoa" DataType="System.Int16"/&gt;
+      &lt;Column Name="geracontaspagar" DataType="System.String"/&gt;
+      &lt;Column Name="gerataxaadministracao" DataType="System.String"/&gt;
+      &lt;Column Name="percenturaladministracao" DataType="System.Decimal"/&gt;
+      &lt;Column Name="valoradministracao" DataType="System.Decimal"/&gt;
+      &lt;Column Name="dataaprovacao" DataType="System.DateTime"/&gt;
+      &lt;Column Name="situacao" DataType="System.String"/&gt;
+      &lt;Column Name="nome_cliente" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;TableDataSource Name="SubLocacao" ReferenceName="dstContrato.SubLocacao" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="idevt_sublocacao" DataType="System.Int16"/&gt;
+      &lt;Column Name="descricao" DataType="System.String"/&gt;
+      &lt;Column Name="idevt_evento" DataType="System.Int16"/&gt;
+      &lt;Column Name="idbox" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;TableDataSource Name="Cliente" ReferenceName="dstContrato.Cliente" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="codempresa" DataType="System.Int16"/&gt;
+      &lt;Column Name="idpessoa" DataType="System.Int16"/&gt;
+      &lt;Column Name="nome" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;TableDataSource Name="Fornecedor" ReferenceName="dstContrato.Fornecedor" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="codempresa" DataType="System.Int16"/&gt;
+      &lt;Column Name="idpessoa" DataType="System.Int16"/&gt;
+      &lt;Column Name="nome" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;Relation Name="Relation1" ReferenceName="dstContrato.Relation1" ParentDataSource="SubLocacao" ChildDataSource="Contrato" ParentColumns="idevt_sublocacao" ChildColumns="idev_sublocacao" Enabled="true"/&gt;
+    &lt;Relation Name="Relation2" ReferenceName="dstContrato.Relation2" ParentDataSource="Cliente" ChildDataSource="Contrato" ParentColumns="idpessoa" ChildColumns="cliente_idpessoa" Enabled="true"/&gt;
+    &lt;Relation Name="Relation3" ReferenceName="dstContrato.Relation3" ParentDataSource="Fornecedor" ChildDataSource="Contrato" ParentColumns="idpessoa" ChildColumns="fornecedor_idpessoa" Enabled="true"/&gt;
+    &lt;Parameter Name="Empresa" DataType="System.String"/&gt;
+    &lt;Parameter Name="Periodo" DataType="System.String"/&gt;
+    &lt;Total Name="Total" TotalType="Count" Evaluator="Data1"/&gt;
+  &lt;/Dictionary&gt;
+  &lt;ReportPage Name="Page1"&gt;
+    &lt;ReportTitleBand Name="ReportTitle1" Width="718.2" Height="44.35"&gt;
+      &lt;TextObject Name="Text1" Left="1.67" Top="1.32" Width="714.65" Height="18.9" Text="Relatório de Contrato por Cliente" HorzAlign="Center" VertAlign="Center" Font="Arial, 14pt, style=Bold"/&gt;
+      &lt;ShapeObject Name="Shape1" Left="-0.12" Top="-0.77" Width="718.28" Height="45.12"/&gt;
+      &lt;TextObject Name="Text2" Left="660.85" Top="2.81" Width="53.55" Height="15.26" Text="JLMTech" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;LineObject Name="Line1" Left="0.72" Top="22.82" Width="715.45" Diagonal="true"/&gt;
+      &lt;TextObject Name="Text3" Left="1.35" Top="25.48" Width="58.03" Height="15.26" Text="Empresa:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text4" Left="61.73" Top="25.35" Width="446.21" Height="15.26" Text="[Empresa]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text57" Left="510.59" Top="25.63" Width="70.87" Height="15.26" Text="Período de:" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text21" Left="583.59" Top="25.29" Width="131.17" Height="15.26" Text="[Periodo]" Font="Arial, 8pt"/&gt;
+    &lt;/ReportTitleBand&gt;
+    &lt;GroupHeaderBand Name="GroupHeader1" Top="47.98" Width="718.2" Height="17.82" Condition="[Contrato.fornecedor_idpessoa]"&gt;
+      &lt;LineObject Name="Line8" Left="1.58" Top="16.06" Width="715.45" Border.Style="Double" Diagonal="true"/&gt;
+      &lt;TextObject Name="Text54" Left="0.69" Top="0.77" Width="75.35" Height="15.26" Text="Fornecedor:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text55" Left="76.77" Top="0.77" Width="24.61" Height="15.26" Text="[Contrato.cliente_idpessoa]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text56" Left="103.7" Top="0.77" Width="609.54" Height="15.26" Text="[Contrato.Fornecedor.nome]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;DataBand Name="Data1" Top="69.42" Width="718.2" Height="35.53" DataSource="Contrato"&gt;
+        &lt;TextObject Name="Text9" Left="0.71" Top="1.28" Width="82.7" Height="15.26" Text="Cód. Contrato" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text10" Left="85.08" Top="1.28" Width="80.88" Height="15.26" Text="Data Contrato" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text11" Left="167.51" Top="1.28" Width="83.59" Height="15.26" Text="Valor Contrato" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text12" Left="252.68" Top="1.28" Width="53.61" Height="15.26" Text="Parcelas" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text14" Left="307.65" Top="1.28" Width="79.97" Height="15.26" Text="Contas Pagar" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text15" Left="389.25" Top="1.28" Width="64.5" Height="15.26" Text="Taxa Adm." VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text16" Left="522.51" Top="1.28" Width="67.23" Height="15.26" Text="Valor Adm." VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text17" Left="455.43" Top="1.28" Width="65.48" Height="15.26" Text="Perc. Adm." VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text18" Left="591.73" Top="1.28" Width="68.15" Height="15.26" Text="Data Aprov" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text19" Left="661.65" Top="1.28" Width="53.61" Height="15.26" Text="Situação" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text36" Left="0.71" Top="18.17" Width="82.68" Height="15.26" Text="[Contrato.idevt_contrato]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text25" Left="252.68" Top="18.17" Width="53.62" Height="15.26" Text="[Contrato.nroparcelas]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text13" Left="307.65" Top="18.17" Width="79.96" Height="15.26" Text="[Contrato.geracontaspagar]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text26" Left="389.25" Top="18.17" Width="64.51" Height="15.26" Text="[Contrato.gerataxaadministracao]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text27" Left="455.43" Top="18.17" Width="65.41" Height="15.26" Text="[Contrato.percenturaladministracao]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" VertAlign="Center" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;TextObject Name="Text28" Left="522.51" Top="18.17" Width="67.21" Height="15.26" Text="[Contrato.valoradministracao]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" VertAlign="Center" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;TextObject Name="Text29" Left="591.73" Top="18.17" Width="68.11" Height="15.26" Text="[Contrato.dataaprovacao]" Format="Date" Format.Format="d" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text30" Left="661.6" Top="18.17" Width="53.66" Height="15.26" Text="[Contrato.situacao]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text38" Left="85.08" Top="18.17" Width="80.88" Height="15.26" Text="[Contrato.datacontrato]" Format="Date" Format.Format="d" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text39" Left="167.51" Top="19.08" Width="83.58" Height="15.26" Text="[Contrato.valorcontrato]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" VertAlign="Center" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;ChildBand Name="Child1" Top="108.58" Width="718.2" Height="47.55"&gt;
+          &lt;LineObject Name="Line10" Left="1.64" Top="45.68" Width="715.45" Border.Color="Gray" Border.Style="Dot" Border.Width="0.25" Diagonal="true"/&gt;
+          &lt;TextObject Name="Text47" Left="1.55" Top="30.47" Width="75.39" Height="15.26" Text="[Contrato.idev_sublocacao]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+          &lt;TextObject Name="Text48" Left="78.7" Top="30.47" Width="560.57" Height="15.26" Text="[Contrato.SubLocacao.descricao]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+          &lt;TextObject Name="Text49" Left="639.77" Top="30.47" Width="75.39" Height="15.26" Text="[Contrato.SubLocacao.idbox]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+          &lt;TextObject Name="Text52" Left="1.53" Top="15.38" Width="75.42" Height="15.26" Text="Cód. SubLoc" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+          &lt;TextObject Name="Text50" Left="78.59" Top="15.38" Width="560.69" Height="15.26" Text="Descrição" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+          &lt;TextObject Name="Text51" Left="639.75" Top="15.38" Width="75.42" Height="15.26" Text="Box" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+          &lt;TextObject Name="Text44" Left="1.54" Top="1.01" Width="49.03" Height="15.26" Text="Cliente:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+          &lt;TextObject Name="Text46" Left="79.9" Top="1.02" Width="635.78" Height="15.26" Text="[Contrato.Cliente.nome]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+          &lt;TextObject Name="Text45" Left="52.38" Top="1.02" Width="26.43" Height="15.26" Text="[Contrato.cliente_idpessoa]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;/ChildBand&gt;
+      &lt;/DataBand&gt;
+      &lt;GroupFooterBand Name="GroupFooter1" Top="159.76" Width="718.2" Height="3.34"&gt;
+        &lt;LineObject Name="Line9" Left="1.68" Top="2.1" Width="715.45" Border.Style="Double" Diagonal="true"/&gt;
+        &lt;LineObject Name="Line7" Left="1.48" Top="0.2" Width="715.45" Border.Style="Double" Diagonal="true"/&gt;
+      &lt;/GroupFooterBand&gt;
+    &lt;/GroupHeaderBand&gt;
+    &lt;ColumnFooterBand Name="ColumnFooter1" Top="166.72" Width="718.2" Height="21.42"&gt;
+      &lt;TextObject Name="Text40" Left="686.51" Top="3.15" Width="28.23" Height="15.26" Text="[Total]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text7" Left="595.8" Top="2.86" Width="92.53" Height="15.26" Text="Total Registros:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;ShapeObject Name="Shape2" Left="0.77" Top="0.46" Width="718.28" Height="20.88"/&gt;
+    &lt;/ColumnFooterBand&gt;
+    &lt;PageFooterBand Name="PageFooter1" Top="191.77" Width="718.2" Height="18.9"&gt;
+      &lt;TextObject Name="Text5" Left="0.95" Top="0.77" Width="391" Height="15.26" Text="Data Emissão: [Date]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text6" Left="635.43" Top="0.77" Width="79.95" Height="15.26" Text="Página: [Page]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+    &lt;/PageFooterBand&gt;
+  &lt;/ReportPage&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+</root>

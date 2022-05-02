@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnEvento.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAn9JREFUOE+1
+        kMtPE1EUxrtoiGHJgpULlizZaQQLHUpLh870MTPtPNuZdlpq29TyHCAFLMQWNyooNihRG43GsDAhUeMf
+        gBvCwrBw0RCWujHGsCAuyOelzMpoxIW/5OSee8/9vnvOdfx37tYfdWw2nl+wt+cjVSh1RlVDXKqulGrV
+        WrNUyO9svXzRZpdbvHq9bWe/ENXTPQwvNUuTFh4/aeDe6ipmJscxqsebqsDVMrrWNb9080qxkP+UThoV
+        W3aGVV6kVD357frYBDY2HuJWtYp8xoTMhRH2+8AMDSLgoY55NvB1hOSKJB3Y0jPGJqd3s2kiiArIZDLI
+        kkgoMkJEPOJxgx4kQQ2AJnlS16EbyVxLOFVedN6oLBezZuqIJs6MfxhhloWrrxeaqkLkIhBCLAJeDwKn
+        dd9Qy5h0+85B5umasaw3cTEKlQQXDqH38iVIYgyD7oGTXL7w3UylwAVZ8KEgWRmwtB8RlkFYEHccuVJx
+        S45ySBkGDNKW3+eFh6I+hyLc+4SuT49PWVv57CiCw174SPt+0oV/yIMgw/wICqLLIeWVcuqtBdlUwUXC
+        oPpdJzFREm/frzsXFivLZkI74cmrksCBISbDROx29UFR1Tt7H/fJ/ONjbYl6tiFtXwNF9UPguMaH3T2H
+        NTvXMGSJfCgPPa4hxnPwugcgSvJxLBrbmSsvtLc+8JT1tVVntjiqBwW+oupGx8Rs+aKSj0OWBaRNkxjE
+        QZPRQgxzpCSM7uXqitOW/p7Np412fl5tFg5rkC0dfCQCynUVmqat21f+TjBA98Sf5Q7NLwvwpWgEaP+x
+        mcl22+XzYWhKJyeH1tWJ5D4nxJL28b+z9qD+h5kdjp+sFilVGbU/qAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnImovel.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAn9JREFUOE+1
+        kMtPE1EUxrtoiGHJgpULlizZaQQLHUpLh870MTPtPNuZdlpq29TyHCAFLMQWNyooNihRG43GsDAhUeMf
+        gBvCwrBw0RCWujHGsCAuyOelzMpoxIW/5OSee8/9vnvOdfx37tYfdWw2nl+wt+cjVSh1RlVDXKqulGrV
+        WrNUyO9svXzRZpdbvHq9bWe/ENXTPQwvNUuTFh4/aeDe6ipmJscxqsebqsDVMrrWNb9080qxkP+UThoV
+        W3aGVV6kVD357frYBDY2HuJWtYp8xoTMhRH2+8AMDSLgoY55NvB1hOSKJB3Y0jPGJqd3s2kiiArIZDLI
+        kkgoMkJEPOJxgx4kQQ2AJnlS16EbyVxLOFVedN6oLBezZuqIJs6MfxhhloWrrxeaqkLkIhBCLAJeDwKn
+        dd9Qy5h0+85B5umasaw3cTEKlQQXDqH38iVIYgyD7oGTXL7w3UylwAVZ8KEgWRmwtB8RlkFYEHccuVJx
+        S45ySBkGDNKW3+eFh6I+hyLc+4SuT49PWVv57CiCw174SPt+0oV/yIMgw/wICqLLIeWVcuqtBdlUwUXC
+        oPpdJzFREm/frzsXFivLZkI74cmrksCBISbDROx29UFR1Tt7H/fJ/ONjbYl6tiFtXwNF9UPguMaH3T2H
+        NTvXMGSJfCgPPa4hxnPwugcgSvJxLBrbmSsvtLc+8JT1tVVntjiqBwW+oupGx8Rs+aKSj0OWBaRNkxjE
+        QZPRQgxzpCSM7uXqitOW/p7Np412fl5tFg5rkC0dfCQCynUVmqat21f+TjBA98Sf5Q7NLwvwpWgEaP+x
+        mcl22+XzYWhKJyeH1tWJ5D4nxJL28b+z9qD+h5kdjp+sFilVGbU/qAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <metadata name="dstSublocacao.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="rptImovel.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>228, 18</value>
+  </metadata>
+  <data name="rptImovel.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="07/29/2014 09:28:58" ReportInfo.Modified="08/13/2014 11:00:18" ReportInfo.CreatorVersion="2013.3.2.0"&gt;
+  &lt;Dictionary&gt;
+    &lt;TableDataSource Name="SubLocacao" ReferenceName="dstSublocacao.SubLocacao" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="idevt_sublocacao" DataType="System.Int16"/&gt;
+      &lt;Column Name="descricao" DataType="System.String"/&gt;
+      &lt;Column Name="idevt_evento" DataType="System.Int16"/&gt;
+      &lt;Column Name="idbox" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;TableDataSource Name="Evento" ReferenceName="dstSublocacao.Evento" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="idevt_evento" DataType="System.Int16"/&gt;
+      &lt;Column Name="desc_evento" DataType="System.String"/&gt;
+      &lt;Column Name="datainicio" DataType="System.DateTime"/&gt;
+      &lt;Column Name="datafinal" DataType="System.DateTime"/&gt;
+      &lt;Column Name="idimovel" DataType="System.Int16"/&gt;
+      &lt;Column Name="statusevento" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;TableDataSource Name="Imovel" ReferenceName="dstSublocacao.Imovel" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="idImovel" DataType="System.Int16"/&gt;
+      &lt;Column Name="tipoimovel" DataType="System.String"/&gt;
+      &lt;Column Name="codigoimovel" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;Relation Name="Relation1" ReferenceName="dstSublocacao.Relation1" ParentDataSource="Evento" ChildDataSource="SubLocacao" ParentColumns="idevt_evento" ChildColumns="idevt_evento" Enabled="true"/&gt;
+    &lt;Relation Name="Relation2" ReferenceName="dstSublocacao.Relation2" ParentDataSource="Imovel" ChildDataSource="Evento" ParentColumns="idImovel" ChildColumns="idimovel" Enabled="true"/&gt;
+    &lt;Parameter Name="Empresa" DataType="System.String"/&gt;
+    &lt;Parameter Name="Periodo" DataType="System.String"/&gt;
+    &lt;Total Name="Total" TotalType="Count" Evaluator="Data1"/&gt;
+  &lt;/Dictionary&gt;
+  &lt;ReportPage Name="Page1"&gt;
+    &lt;ReportTitleBand Name="ReportTitle1" Width="718.2" Height="45.01"&gt;
+      &lt;TextObject Name="Text2" Left="658.21" Top="4.41" Width="54.46" Height="15.26" Text="JLMTech" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;ShapeObject Name="Shape1" Left="0.79" Top="-0.16" Width="717.53" Height="45.17"/&gt;
+      &lt;TextObject Name="Text1" Left="1.74" Top="1.68" Width="714.7" Height="20.72" Text="Relatório por Imóveis" HorzAlign="Center" VertAlign="Center" Font="Arial, 14pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text3" Left="1.57" Top="25.22" Width="59.01" Height="15.26" Text="Empresa:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text21" Left="486.91" Top="25.36" Width="68.11" Height="15.26" Text="Período de:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;LineObject Name="Line1" Left="0.88" Top="23.98" Width="716.43"/&gt;
+      &lt;TextObject Name="Text4" Left="60.67" Top="25.39" Width="424.6" Height="15.26" Text="[Empresa]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text5" Left="555.71" Top="25.42" Width="159.84" Height="15.26" Text="[Periodo]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+    &lt;/ReportTitleBand&gt;
+    &lt;GroupHeaderBand Name="GroupHeader1" Top="48.64" Width="718.2" Height="20.52" Condition="[SubLocacao.idevt_evento]"&gt;
+      &lt;TextObject Name="Text19" Left="90.42" Top="1.23" Width="71.75" Height="15.26" Text="Box" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text8" Left="0.72" Top="1.23" Width="88.13" Height="15.26" Text="Imóvel" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text10" Left="163.25" Top="1.23" Width="510.18" Height="15.26" Text="Descrição" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text9" Left="675.73" Top="1.23" Width="41.72" Height="15.26" Text="Status" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;LineObject Name="Line2" Left="0.82" Top="18.22" Width="716.43" Border.Style="Dot" Border.Width="0.25"/&gt;
+      &lt;DataBand Name="Data1" Top="72.78" Width="718.2" Height="17.23" DataSource="SubLocacao"&gt;
+        &lt;TextObject Name="Text14" Left="90.42" Top="-0.02" Width="70.9" Height="15.26" Text="[SubLocacao.idbox]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text15" Left="676.53" Top="-0.02" Width="40.92" Height="15.26" Text="[SubLocacao.Evento.statusevento]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text13" Left="162.7" Top="-0.02" Width="510.73" Height="15.26" Text="[SubLocacao.descricao]" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text16" Left="0.98" Top="-0.02" Width="88.14" Height="15.26" Text="[SubLocacao.Evento.Imovel.codigoimovel]" Font="Arial, 8pt"/&gt;
+      &lt;/DataBand&gt;
+      &lt;GroupFooterBand Name="GroupFooter1" Top="93.64" Width="718.2" Height="4.22"&gt;
+        &lt;LineObject Name="Line3" Left="0.76" Top="2.37" Width="716.43"/&gt;
+      &lt;/GroupFooterBand&gt;
+    &lt;/GroupHeaderBand&gt;
+    &lt;ReportSummaryBand Name="ReportSummary1" Top="101.49" Width="718.2" Height="21.57"&gt;
+      &lt;ShapeObject Name="Shape2" Left="0.73" Top="1.25" Width="717.53" Height="19.71"/&gt;
+      &lt;TextObject Name="Text20" Left="594.41" Top="3.14" Width="85.4" Height="15.26" Text="Total Registro:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text6" Left="681.88" Top="3.34" Width="34.61" Height="15.26" Text="[Total]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+    &lt;/ReportSummaryBand&gt;
+    &lt;PageFooterBand Name="PageFooter1" Top="126.68" Width="718.2" Height="16.68"&gt;
+      &lt;TextObject Name="Text7" Left="0.8" Top="0.64" Width="262.25" Height="15.26" Text="Data Emissão: [Date]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text11" Left="634.1" Top="0.64" Width="79.94" Height="15.26" Text="Página: [Page]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+    &lt;/PageFooterBand&gt;
+  &lt;/ReportPage&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+  <metadata name="rptEvento.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>332, 18</value>
+  </metadata>
+  <data name="rptEvento.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="07/29/2014 10:05:42" ReportInfo.Modified="08/13/2014 11:00:18" ReportInfo.CreatorVersion="2013.3.2.0"&gt;
+  &lt;Dictionary&gt;
+    &lt;TableDataSource Name="SubLocacao" ReferenceName="dstSublocacao.SubLocacao" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="idevt_sublocacao" DataType="System.Int16"/&gt;
+      &lt;Column Name="descricao" DataType="System.String"/&gt;
+      &lt;Column Name="idevt_evento" DataType="System.Int16"/&gt;
+      &lt;Column Name="idbox" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;TableDataSource Name="Evento" ReferenceName="dstSublocacao.Evento" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="idevt_evento" DataType="System.Int16"/&gt;
+      &lt;Column Name="desc_evento" DataType="System.String"/&gt;
+      &lt;Column Name="datainicio" DataType="System.DateTime"/&gt;
+      &lt;Column Name="datafinal" DataType="System.DateTime"/&gt;
+      &lt;Column Name="idimovel" DataType="System.Int16"/&gt;
+      &lt;Column Name="statusevento" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;TableDataSource Name="Imovel" ReferenceName="dstSublocacao.Imovel" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="idImovel" DataType="System.Int16"/&gt;
+      &lt;Column Name="tipoimovel" DataType="System.String"/&gt;
+      &lt;Column Name="codigoimovel" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;Relation Name="Relation1" ReferenceName="dstSublocacao.Relation1" ParentDataSource="Evento" ChildDataSource="SubLocacao" ParentColumns="idevt_evento" ChildColumns="idevt_evento" Enabled="true"/&gt;
+    &lt;Relation Name="Relation2" ReferenceName="dstSublocacao.Relation2" ParentDataSource="Imovel" ChildDataSource="Evento" ParentColumns="idImovel" ChildColumns="idimovel" Enabled="true"/&gt;
+    &lt;Parameter Name="Empresa" DataType="System.String"/&gt;
+    &lt;Parameter Name="Periodo" DataType="System.String"/&gt;
+    &lt;Total Name="Total" TotalType="Count" Evaluator="Data1"/&gt;
+  &lt;/Dictionary&gt;
+  &lt;ReportPage Name="Page1"&gt;
+    &lt;ReportTitleBand Name="ReportTitle1" Width="718.2" Height="46.9"&gt;
+      &lt;TextObject Name="Text2" Left="657.42" Top="5.73" Width="54.46" Height="15.26" Text="JLMTech" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;ShapeObject Name="Shape1" Top="1.17" Width="717.53" Height="45.17"/&gt;
+      &lt;TextObject Name="Text1" Left="0.95" Top="3" Width="714.7" Height="20.72" Text="Relatório por Eventos" HorzAlign="Center" VertAlign="Center" Font="Arial, 14pt, style=Bold"/&gt;
+      &lt;LineObject Name="Line1" Left="0.09" Top="25.31" Width="716.43"/&gt;
+      &lt;TextObject Name="Text3" Left="0.78" Top="27.73" Width="59.01" Height="15.26" Text="Empresa:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text21" Left="486.12" Top="27.88" Width="68.11" Height="15.26" Text="Período de:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text4" Left="61.48" Top="27.73" Width="422.79" Height="15.26" Text="[Empresa]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text5" Left="556.14" Top="27.88" Width="157.13" Height="15.26" Text="[Periodo]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+    &lt;/ReportTitleBand&gt;
+    &lt;DataBand Name="Data1" Top="50.53" Width="718.2" Height="37.99" DataSource="Evento"&gt;
+      &lt;TextObject Name="Text13" Left="70.55" Top="20.53" Width="65.4" Height="15.26" Text="[Evento.datainicio]" Format="Date" Format.Format="d" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text14" Left="137.77" Top="20.53" Width="65.43" Height="15.26" Text="[Evento.datafinal]" Format="Date" Format.Format="d" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text15" Left="204.53" Top="20.53" Width="468.11" Height="15.26" Text="[Evento.desc_evento]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text16" Left="674.85" Top="20.53" Width="41.81" Height="15.26" Text="[Evento.statusevento]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text12" Left="0.21" Top="20.53" Width="70.94" Height="15.26" Text="[Evento.idevt_evento]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;LineObject Name="Line4" Left="0.74" Top="17.54" Width="716.43" Border.Style="Dot" Border.Width="0.25"/&gt;
+      &lt;TextObject Name="Text8" Left="-0.07" Top="2.19" Width="71.75" Height="15.26" Text="Cód. Evento" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text10" Left="205.18" Top="2.19" Width="467.18" Height="15.26" Text="Descrição" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text9" Left="674.94" Top="2.19" Width="41.72" Height="15.26" Text="Status" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text22" Left="70.55" Top="2.19" Width="65.38" Height="15.26" Text="Data Início" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text23" Left="137.77" Top="2.19" Width="65.38" Height="15.26" Text="Data Final" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;LineObject Name="Line2" Left="0.94" Top="37.59" Width="716.43" Border.Style="Dot" Border.Width="0.25"/&gt;
+      &lt;GroupHeaderBand Name="GroupHeader2" Top="92.14" Width="718.2" Height="15.52" Condition="[SubLocacao.idevt_evento]"&gt;
+        &lt;TextObject Name="Text19" Left="90.26" Top="0.26" Width="71.75" Height="15.26" Text="Box" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text24" Left="0.81" Top="0.26" Width="88.13" Height="15.26" Text="Imóvel" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text25" Left="163.92" Top="0.26" Width="551.74" Height="15.26" Text="Descrição" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;DataBand Name="Data2" Top="111.29" Width="718.2" Height="16.83" DataSource="SubLocacao"&gt;
+          &lt;TextObject Name="Text6" Left="0.81" Top="0.97" Width="88.13" Height="15.26" Text="[SubLocacao.Evento.Imovel.codigoimovel]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+          &lt;TextObject Name="Text18" Left="90.26" Top="0.97" Width="71.78" Height="15.26" Text="[SubLocacao.idbox]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+          &lt;TextObject Name="Text26" Left="163.92" Top="0.97" Width="551.5" Height="15.26" Text="[SubLocacao.descricao]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;/DataBand&gt;
+        &lt;GroupFooterBand Name="GroupFooter2" Top="131.75" Width="718.2" Height="2.33"&gt;
+          &lt;LineObject Name="Line3" Left="-0.94" Top="0.78" Width="716.43"/&gt;
+        &lt;/GroupFooterBand&gt;
+      &lt;/GroupHeaderBand&gt;
+    &lt;/DataBand&gt;
+    &lt;ReportSummaryBand Name="ReportSummary1" Top="137.7" Width="718.2" Height="20.94"&gt;
+      &lt;TextObject Name="Text20" Left="594.53" Top="3.13" Width="85.4" Height="15.26" Text="Total Registro:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;ShapeObject Name="Shape2" Left="0.85" Top="1.23" Width="717.53" Height="19.71"/&gt;
+      &lt;TextObject Name="Text17" Left="682.05" Top="3.13" Width="34.57" Height="15.26" Text="[Total]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+    &lt;/ReportSummaryBand&gt;
+    &lt;PageFooterBand Name="PageFooter1" Top="162.27" Width="718.2" Height="17.99"&gt;
+      &lt;TextObject Name="Text7" Left="0.92" Top="1.32" Width="262.25" Height="15.26" Text="Data Emissão: [Date]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text11" Left="634.22" Top="1.32" Width="79.94" Height="15.26" Text="Página: [Page]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+    &lt;/PageFooterBand&gt;
+  &lt;/ReportPage&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+</root>
