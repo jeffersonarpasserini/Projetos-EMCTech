@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4B867FBA-493A-47B4-9E4F-136C396DF567}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EMCBoletos</RootNamespace>
+    <AssemblyName>EMCBoletos</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Boleto.Net">
+      <HintPath>C:\Users\Luciano\Source\Workspaces\Workspace2\EMCTech\DLLProducao\Boleto.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCLibrary">
+      <HintPath>C:\Users\Luciano\Source\Workspaces\Workspace2\EMCTech\DLLProducao\EMCLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>C:\Users\Luciano\Source\Workspaces\Workspace2\EMCTech\DLLProducao\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EnviarEmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnviarEmail.designer.cs">
+      <DependentUpon>EnviarEmail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVisualizarImagem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVisualizarImagem.designer.cs">
+      <DependentUpon>FormVisualizarImagem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBoleto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBoleto.Designer.cs">
+      <DependentUpon>frmBoleto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImpressaoBoleto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImpressaoBoleto.designer.cs">
+      <DependentUpon>ImpressaoBoleto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NBoleto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NBoleto.designer.cs">
+      <DependentUpon>NBoleto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Progresso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Progresso.designer.cs">
+      <DependentUpon>Progresso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WensiteThumbnailImageGenerator.cs" />
+    <EmbeddedResource Include="EnviarEmail.resx">
+      <DependentUpon>EnviarEmail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVisualizarImagem.resx">
+      <DependentUpon>FormVisualizarImagem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBoleto.resx">
+      <DependentUpon>frmBoleto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImpressaoBoleto.resx">
+      <DependentUpon>ImpressaoBoleto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NBoleto.resx">
+      <DependentUpon>NBoleto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Progresso.resx">
+      <DependentUpon>Progresso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EMCBoletosDAO\EMCBoletosDAO.csproj">
+      <Project>{F9DD37FC-0872-4D80-A33E-06A13A3E5295}</Project>
+      <Name>EMCBoletosDAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EMCBoletosModel\EMCBoletosModel.csproj">
+      <Project>{968595B5-37C0-4FED-AFAD-AD98258E91AA}</Project>
+      <Name>EMCBoletosModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Incluir_16x16.png" />
+    <Content Include="Resources\Loading.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
