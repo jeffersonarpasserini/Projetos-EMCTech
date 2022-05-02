@@ -1,0 +1,4 @@
+D:\fontes\jlmtech\EMCTech\EMCFaturamento\EMCFaturamento 1.0\EMCFaturamentoModel\bin\Release\EMCFaturamentoModel.dll
+D:\fontes\jlmtech\EMCTech\EMCFaturamento\EMCFaturamento 1.0\EMCFaturamentoModel\bin\Release\EMCFaturamentoModel.pdb
+D:\fontes\jlmtech\EMCTech\EMCFaturamento\EMCFaturamento 1.0\EMCFaturamentoModel\obj\Release\EMCFaturamentoModel.dll
+D:\fontes\jlmtech\EMCTech\EMCFaturamento\EMCFaturamento 1.0\EMCFaturamentoModel\obj\Release\EMCFaturamentoModel.pdb

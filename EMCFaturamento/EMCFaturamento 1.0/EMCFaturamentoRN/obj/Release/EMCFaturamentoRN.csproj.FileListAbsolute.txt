@@ -1,0 +1,16 @@
+D:\fontes\jlmtech\EMCTech\EMCFaturamento\EMCFaturamento 1.0\EMCFaturamentoRN\obj\Release\EMCFaturamentoRN.csprojResolveAssemblyReference.cache
+D:\fontes\jlmtech\EMCTech\EMCFaturamento\EMCFaturamento 1.0\EMCFaturamentoRN\bin\Release\EMCFaturamentoRN.dll
+D:\fontes\jlmtech\EMCTech\EMCFaturamento\EMCFaturamento 1.0\EMCFaturamentoRN\bin\Release\EMCFaturamentoRN.pdb
+D:\fontes\jlmtech\EMCTech\EMCFaturamento\EMCFaturamento 1.0\EMCFaturamentoRN\bin\Release\EMCFaturamentoDAO.dll
+D:\fontes\jlmtech\EMCTech\EMCFaturamento\EMCFaturamento 1.0\EMCFaturamentoRN\bin\Release\EMCFaturamentoModel.dll
+D:\fontes\jlmtech\EMCTech\EMCFaturamento\EMCFaturamento 1.0\EMCFaturamentoRN\bin\Release\EMCLibrary.dll
+D:\fontes\jlmtech\EMCTech\EMCFaturamento\EMCFaturamento 1.0\EMCFaturamentoRN\bin\Release\EMCSecurityModel.dll
+D:\fontes\jlmtech\EMCTech\EMCFaturamento\EMCFaturamento 1.0\EMCFaturamentoRN\bin\Release\EMCSecurityDAO.dll
+D:\fontes\jlmtech\EMCTech\EMCFaturamento\EMCFaturamento 1.0\EMCFaturamentoRN\bin\Release\FirebirdSql.Data.FirebirdClient.dll
+D:\fontes\jlmtech\EMCTech\EMCFaturamento\EMCFaturamento 1.0\EMCFaturamentoRN\bin\Release\EMCFaturamentoDAO.pdb
+D:\fontes\jlmtech\EMCTech\EMCFaturamento\EMCFaturamento 1.0\EMCFaturamentoRN\bin\Release\EMCFaturamentoModel.pdb
+D:\fontes\jlmtech\EMCTech\EMCFaturamento\EMCFaturamento 1.0\EMCFaturamentoRN\bin\Release\EMCSecurityModel.pdb
+D:\fontes\jlmtech\EMCTech\EMCFaturamento\EMCFaturamento 1.0\EMCFaturamentoRN\bin\Release\EMCSecurityDAO.pdb
+D:\fontes\jlmtech\EMCTech\EMCFaturamento\EMCFaturamento 1.0\EMCFaturamentoRN\bin\Release\FirebirdSql.Data.FirebirdClient.pdb
+D:\fontes\jlmtech\EMCTech\EMCFaturamento\EMCFaturamento 1.0\EMCFaturamentoRN\obj\Release\EMCFaturamentoRN.dll
+D:\fontes\jlmtech\EMCTech\EMCFaturamento\EMCFaturamento 1.0\EMCFaturamentoRN\obj\Release\EMCFaturamentoRN.pdb

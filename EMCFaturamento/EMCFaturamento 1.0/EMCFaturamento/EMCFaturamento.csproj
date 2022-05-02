@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{54126BBA-0705-414E-A4F6-54D82B303BE4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EMCFaturamento</RootNamespace>
+    <AssemblyName>EMCFaturamento</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EMCCadastro">
+      <HintPath>..\..\..\DLLProducao\EMCCadastro.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCCadastroModel">
+      <HintPath>..\..\..\DLLProducao\EMCCadastroModel.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCCadastroRN">
+      <HintPath>..\..\..\DLLProducao\EMCCadastroRN.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCLibrary">
+      <HintPath>..\..\..\DLLProducao\EMCLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCSecurity">
+      <HintPath>..\..\..\DLLProducao\EMCSecurity.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCSecurityModel">
+      <HintPath>..\..\..\DLLProducao\EMCSecurityModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Manutencao\frmFatu_TributacaoUf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmFatu_TributacaoUf.Designer.cs">
+      <DependentUpon>frmFatu_TributacaoUf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmFatu_MotivoIcms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmFatu_MotivoIcms.Designer.cs">
+      <DependentUpon>frmFatu_MotivoIcms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmFatu_SituacaoPis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmFatu_SituacaoPis.Designer.cs">
+      <DependentUpon>frmFatu_SituacaoPis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmFatu_SituacaoCofins.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmFatu_SituacaoCofins.Designer.cs">
+      <DependentUpon>frmFatu_SituacaoCofins.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmFatu_TributacaoIPI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmFatu_TributacaoIPI.Designer.cs">
+      <DependentUpon>frmFatu_TributacaoIPI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmFatu_CFOP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmFatu_CFOP.Designer.cs">
+      <DependentUpon>frmFatu_CFOP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmFatu_NaturezaOperacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmFatu_NaturezaOperacao.Designer.cs">
+      <DependentUpon>frmFatu_NaturezaOperacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmFatu_NCM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmFatu_NCM.Designer.cs">
+      <DependentUpon>frmFatu_NCM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmFatu_OrigemMercadoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmFatu_OrigemMercadoria.Designer.cs">
+      <DependentUpon>frmFatu_OrigemMercadoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmFatu_SituacaoFicalIPI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmFatu_SituacaoFicalIPI.Designer.cs">
+      <DependentUpon>frmFatu_SituacaoFicalIPI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmFatu_Tributacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmFatu_Tributacao.Designer.cs">
+      <DependentUpon>frmFatu_Tributacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Version.cs" />
+    <EmbeddedResource Include="Manutencao\frmFatu_TributacaoUf.resx">
+      <DependentUpon>frmFatu_TributacaoUf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmFatu_MotivoIcms.resx">
+      <DependentUpon>frmFatu_MotivoIcms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmFatu_SituacaoCofins.resx">
+      <DependentUpon>frmFatu_SituacaoCofins.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmFatu_SituacaoPis.resx">
+      <DependentUpon>frmFatu_SituacaoPis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmFatu_TributacaoIPI.resx">
+      <DependentUpon>frmFatu_TributacaoIPI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmFatu_CFOP.resx">
+      <DependentUpon>frmFatu_CFOP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmFatu_NaturezaOperacao.resx">
+      <DependentUpon>frmFatu_NaturezaOperacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmFatu_NCM.resx">
+      <DependentUpon>frmFatu_NCM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmFatu_OrigemMercadoria.resx">
+      <DependentUpon>frmFatu_OrigemMercadoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmFatu_SituacaoFicalIPI.resx">
+      <DependentUpon>frmFatu_SituacaoFicalIPI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmFatu_Tributacao.resx">
+      <DependentUpon>frmFatu_Tributacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Pesquisa\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EMCFaturamentoModel\EMCFaturamentoModel.csproj">
+      <Project>{623F0E1E-6921-4C02-AC49-3D37DB1D6ECB}</Project>
+      <Name>EMCFaturamentoModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EMCFaturamentoRN\EMCFaturamentoRN.csproj">
+      <Project>{BD7CDFB2-8F4F-480A-AD52-3C070B3BC5B4}</Project>
+      <Name>EMCFaturamentoRN</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\binoculo_16x16.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
