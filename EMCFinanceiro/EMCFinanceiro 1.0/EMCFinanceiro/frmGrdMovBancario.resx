@@ -1,0 +1,487 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="status.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="historicooculto.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="vdataconciliacao.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="datamovimento.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataconciliacao.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="vlrcredito.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="vlrdebito.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="saldo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="saldoconciliado.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="documento.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cheque.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="favorecido.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="historico.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="idmovimentobancario.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="codigoempresa.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="codempresa_pessoa.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="idpessoa.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ctabancaria_idempresa.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ctabancaria_idctabancaria.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="situacao.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dtMovBancario.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="rptExtrato.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>151, 17</value>
+  </metadata>
+  <data name="rptExtrato.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="03/12/2014 12:13:30" ReportInfo.Modified="04/14/2014 16:55:04" ReportInfo.CreatorVersion="2013.3.2.0"&gt;
+  &lt;ScriptText&gt;using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Windows.Forms;
+using System.Drawing;
+using System.Data;
+using FastReport;
+using FastReport.Data;
+using FastReport.Dialog;
+using FastReport.Barcode;
+using FastReport.Table;
+using FastReport.Utils;
+
+namespace FastReport
+{
+  public class ReportScript
+  {
+    decimal saldo=0;
+    
+    /* Inicializa o Saldo o Extrato */
+    private void GroupHeader1_BeforePrint(object sender, EventArgs e)
+    {
+      saldo=0;  
+    }
+    private void GroupHeader1_AfterPrint(object sender, EventArgs e)
+    {
+      saldo=Convert.ToDecimal(Text10.Text);
+    }
+    
+    private void Text25_AfterPrint(object sender, EventArgs e)
+    {
+     
+    }
+    
+    /* atualiza linha a linha */
+    private void Text26_BeforePrint(object sender, EventArgs e)
+    {                 
+      decimal vlrCredito = ((Decimal)Report.GetColumnValue(&amp;quot;Extrato.valorcredito&amp;quot;));
+      decimal vlrDebito = ((Decimal)Report.GetColumnValue(&amp;quot;Extrato.valordebito&amp;quot;));
+      saldo = (saldo+vlrCredito)-vlrDebito;
+      Text26.Text = string.Format(&amp;quot;{0:C}&amp;quot;, saldo);
+      
+    }
+
+    /*Imprime o saldo final */
+    private void Text36_BeforePrint(object sender, EventArgs e)
+    {
+      Text36.Text = string.Format(&amp;quot;{0:C}&amp;quot;,saldo); 
+    }
+
+    /* verifica se o movimento foi conciliado ou não */
+    private void Text13_BeforePrint(object sender, EventArgs e)
+    {
+      
+      if(((String)Report.GetColumnValue(&amp;quot;Extrato.situacao&amp;quot;)) == &amp;quot;C&amp;quot;)
+      {
+        Text13.Text = ((DateTime)Report.GetColumnValue(&amp;quot;Extrato.dataconciliacao&amp;quot;)).ToShortDateString();
+      }
+      else
+        Text13.Text =&amp;quot;&amp;quot;;
+        
+    }
+
+   
+                                                                  
+  }
+}
+&lt;/ScriptText&gt;
+  &lt;Dictionary&gt;
+    &lt;TableDataSource Name="Extrato" ReferenceName="dtMovBancario.Extrato" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="codempresa" DataType="System.Int32"/&gt;
+      &lt;Column Name="idmovimentobancario" DataType="System.Int32"/&gt;
+      &lt;Column Name="datamovimento" DataType="System.DateTime"/&gt;
+      &lt;Column Name="dataconciliacao" DataType="System.DateTime"/&gt;
+      &lt;Column Name="valordebito" DataType="System.Decimal"/&gt;
+      &lt;Column Name="valorcredito" DataType="System.Decimal"/&gt;
+      &lt;Column Name="documento" DataType="System.String"/&gt;
+      &lt;Column Name="historico" DataType="System.String"/&gt;
+      &lt;Column Name="codempresa_pessoa" DataType="System.Int32"/&gt;
+      &lt;Column Name="idpessoa" DataType="System.Int32"/&gt;
+      &lt;Column Name="nominal" DataType="System.String"/&gt;
+      &lt;Column Name="situacao" DataType="System.String"/&gt;
+      &lt;Column Name="ctabancaria_idempresa" DataType="System.String"/&gt;
+      &lt;Column Name="ctabancaria_idctabancaria" DataType="System.String"/&gt;
+      &lt;Column Name="chequeemitido" DataType="System.String"/&gt;
+      &lt;Column Name="historicoagrupado" DataType="System.String"/&gt;
+      &lt;Column Name="nomepessoa" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;Parameter Name="Empresa" DataType="System.String"/&gt;
+    &lt;Parameter Name="Periodo" DataType="System.String"/&gt;
+    &lt;Parameter Name="contaBancaria" DataType="System.String"/&gt;
+    &lt;Parameter Name="saldoinicial" DataType="System.Decimal"/&gt;
+    &lt;Total Name="totalCredito" Expression="[Extrato.valorcredito]" Evaluator="Data1" PrintOn="PageFooter1"/&gt;
+    &lt;Total Name="totalDebito" Expression="[Extrato.valordebito]" Evaluator="Data1" PrintOn="PageFooter1"/&gt;
+    &lt;Total Name="saldoconta" Expression="[Extrato.valorcredito]-[Extrato.valordebito]" Evaluator="Data1" ResetAfterPrint="false" ResetOnReprint="true"/&gt;
+  &lt;/Dictionary&gt;
+  &lt;ReportPage Name="Page1" Landscape="true" PaperWidth="297" PaperHeight="210" RawPaperSize="9" ExtraDesignWidth="true"&gt;
+    &lt;ReportTitleBand Name="ReportTitle1" Width="1047.06" Height="94.5"&gt;
+      &lt;ShapeObject Name="Shape1" Width="1047.06" Height="88.83"/&gt;
+      &lt;TextObject Name="Text30" Left="5.67" Top="11.34" Width="1037.61" Height="22.68" Text="Movimento Bancário" HorzAlign="Center" Font="Arial, 14pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text31" Left="3.78" Top="1.89" Width="51.03" Height="11.34" Text="JlmTech" HorzAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;LineObject Name="Line3" Top="62.37" Width="1045.17"/&gt;
+      &lt;TextObject Name="Text29" Left="1.89" Top="66.15" Width="576.45" Height="18.9" Text="[Empresa]"/&gt;
+      &lt;TextObject Name="Text15" Left="98.28" Top="41.58" Width="850.5" Height="18.9" Text="[Periodo]" HorzAlign="Center"/&gt;
+      &lt;TextObject Name="Text35" Left="-3780" Top="-3780" Width="109.62" Height="15.12" Text="[saldoconta]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+    &lt;/ReportTitleBand&gt;
+    &lt;PageHeaderBand Name="PageHeader1" Top="97.28" Width="1047.06" Height="7.56"/&gt;
+    &lt;GroupHeaderBand Name="GroupHeader1" Top="107.62" Width="1047.06" Height="45.36" BeforePrintEvent="GroupHeader1_BeforePrint" AfterPrintEvent="GroupHeader1_AfterPrint" Condition="[Extrato.ctabancaria_idctabancaria]" SortOrder="None"&gt;
+      &lt;TextObject Name="Text2" Left="3.78" Top="22.68" Width="79.38" Height="15.12" Text="Dt.Movimento" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text3" Left="86.94" Top="22.68" Width="94.5" Height="15.12" Text="Documento" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text4" Left="412.02" Top="22.68" Width="189" Height="15.12" Text="Histórico" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text5" Left="185.22" Top="22.68" Width="52.92" Height="15.12" Text="Cheque" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text6" Left="945" Top="22.68" Width="75.6" Height="15.12" Text="Conciliação" HorzAlign="Center" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text7" Left="831.6" Top="22.68" Width="109.62" Height="15.12" Text="Saldo" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text8" Left="718.2" Top="22.68" Width="109.62" Height="15.12" Text="Débito" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text9" Left="604.8" Top="22.68" Width="109.62" Height="15.12" Text="Crédito" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text21" Left="1024.38" Top="22.68" Width="22.68" Height="15.12" Text="St"/&gt;
+      &lt;TextObject Name="Text33" Left="3.78" Width="94.5" Height="15.12" Text="Conta Bancária :" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text17" Left="332.64" Width="453.6" Height="15.12" Text="[Periodo]" HorzAlign="Center" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text34" Left="718.2" Width="109.62" Height="15.12" Text="Saldo:" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text19" Left="102.06" Width="226.8" Height="15.12" Text="[contaBancaria]" Font="Arial, 8.25pt"/&gt;
+      &lt;LineObject Name="Line4" Top="18.9" Width="1043.28" Diagonal="true"/&gt;
+      &lt;LineObject Name="Line1" Top="41.58" Width="1043.28" Diagonal="true"/&gt;
+      &lt;TextObject Name="Text25" Left="831.6" Width="109.62" Height="15.12" AfterPrintEvent="Text25_AfterPrint" Text="[saldoinicial]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text10" Left="948.78" Top="3.78" Width="94.5" Height="11.34" Visible="false" Text="[saldoinicial]"/&gt;
+      &lt;TextObject Name="Text37" Left="241.92" Top="22.68" Width="166.32" Height="15.12" Text="Favorecido" Font="Arial, 8.25pt"/&gt;
+      &lt;DataBand Name="Data1" Top="155.75" Width="1047.06" Height="22.68" DataSource="Extrato"&gt;
+        &lt;TextObject Name="Text11" Left="3.78" Top="3.78" Width="79.38" Height="15.12" Text="[Extrato.datamovimento]" Format="Date" Format.Format="d" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text12" Left="86.94" Top="3.78" Width="94.5" Height="15.12" Text="[Extrato.documento]" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text16" Left="604.8" Top="3.78" Width="109.62" Height="15.12" Text="[Extrato.valorcredito]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8.25pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;TextObject Name="Text18" Left="718.2" Top="3.78" Width="109.62" Height="15.12" Text="[Extrato.valordebito]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8.25pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;TextObject Name="Text20" Left="185.22" Top="3.78" Width="52.92" Height="15.12" Text="[Extrato.chequeemitido]" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text1" Left="1024.38" Top="3.78" Width="22.68" Height="15.12" Text="[Extrato.situacao]" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text14" Left="412.02" Top="3.78" Width="189" Height="15.12" Text="[Extrato.historicoagrupado]" WordWrap="false" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text13" Left="945" Top="3.78" Width="75.6" Height="15.12" BeforePrintEvent="Text13_BeforePrint" Format="Date" Format.Format="d" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text26" Left="831.6" Top="3.78" Width="109.62" Height="15.12" BeforePrintEvent="Text26_BeforePrint" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text27" Left="241.92" Top="3.78" Width="166.32" Height="15.12" Text="[Extrato.nomepessoa]" Font="Arial, 8.25pt"/&gt;
+      &lt;/DataBand&gt;
+      &lt;GroupFooterBand Name="GroupFooter1" Top="181.21" Width="1047.06" Height="22.68"&gt;
+        &lt;LineObject Name="Line2" Width="1043.28" Diagonal="true"/&gt;
+        &lt;TextObject Name="Text23" Left="604.8" Top="3.78" Width="109.62" Height="15.12" Text="[totalCredito]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text24" Left="718.2" Top="3.78" Width="109.62" Height="15.12" Text="[totalDebito]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text36" Left="831.6" Top="3.78" Width="109.62" Height="15.12" BeforePrintEvent="Text36_BeforePrint" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8.25pt"/&gt;
+      &lt;/GroupFooterBand&gt;
+    &lt;/GroupHeaderBand&gt;
+    &lt;PageFooterBand Name="PageFooter1" Top="206.67" Width="1047.06" Height="18.9"&gt;
+      &lt;TextObject Name="Text22" Left="948.78" Top="3.78" Width="94.5" Height="15.12" Text="[PageN]" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+    &lt;/PageFooterBand&gt;
+  &lt;/ReportPage&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+  <metadata name="rptExtratoConciliado.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>256, 17</value>
+  </metadata>
+  <data name="rptExtratoConciliado.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="03/13/2014 21:38:01" ReportInfo.Modified="04/14/2014 16:55:04" ReportInfo.CreatorVersion="2013.3.2.0"&gt;
+  &lt;ScriptText&gt;using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Windows.Forms;
+using System.Drawing;
+using System.Data;
+using FastReport;
+using FastReport.Data;
+using FastReport.Dialog;
+using FastReport.Barcode;
+using FastReport.Table;
+using FastReport.Utils;
+
+namespace FastReport
+{
+  public class ReportScript
+  {
+    
+    decimal saldo=0;
+    
+    /* Inicializa o Saldo o Extrato */
+    private void GroupHeader1_BeforePrint(object sender, EventArgs e)
+    {
+      saldo=Convert.ToDecimal(((String)Report.GetParameterValue(&amp;quot;saldoInicial&amp;quot;)));
+    }
+
+    
+    private void GroupHeader1_AfterPrint(object sender, EventArgs e)
+    {
+      
+    }
+
+    /* atualiza linha a linha */
+    private void Text22_BeforePrint(object sender, EventArgs e)
+    {                 
+      decimal vlrCredito = ((Decimal)Report.GetColumnValue(&amp;quot;Extrato.valorcredito&amp;quot;));
+      decimal vlrDebito = ((Decimal)Report.GetColumnValue(&amp;quot;Extrato.valordebito&amp;quot;));
+      saldo = (saldo+vlrCredito)-vlrDebito;
+      Text22.Text = string.Format(&amp;quot;{0:C}&amp;quot;, saldo);
+      
+    }
+
+    /*Imprime o saldo final */
+    private void Text27_BeforePrint(object sender, EventArgs e)
+    {
+      Text27.Text = string.Format(&amp;quot;{0:C}&amp;quot;,saldo); 
+    }
+
+
+    
+
+   
+  }
+}
+&lt;/ScriptText&gt;
+  &lt;Dictionary&gt;
+    &lt;TableDataSource Name="Extrato" ReferenceName="dtMovBancario.Extrato" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="codempresa" DataType="System.Int32"/&gt;
+      &lt;Column Name="idmovimentobancario" DataType="System.Int32"/&gt;
+      &lt;Column Name="datamovimento" DataType="System.DateTime"/&gt;
+      &lt;Column Name="dataconciliacao" DataType="System.DateTime"/&gt;
+      &lt;Column Name="valordebito" DataType="System.Decimal"/&gt;
+      &lt;Column Name="valorcredito" DataType="System.Decimal"/&gt;
+      &lt;Column Name="documento" DataType="System.String"/&gt;
+      &lt;Column Name="historicoagrupado" DataType="System.String"/&gt;
+      &lt;Column Name="historico" DataType="System.String"/&gt;
+      &lt;Column Name="codempresa_pessoa" DataType="System.Int32"/&gt;
+      &lt;Column Name="idpessoa" DataType="System.Int32"/&gt;
+      &lt;Column Name="nominal" DataType="System.String"/&gt;
+      &lt;Column Name="situacao" DataType="System.String"/&gt;
+      &lt;Column Name="ctabancaria_idempresa" DataType="System.String"/&gt;
+      &lt;Column Name="ctabancaria_idctabancaria" DataType="System.String"/&gt;
+      &lt;Column Name="chequeemitido" DataType="System.String"/&gt;
+      &lt;Column Name="nomepessoa" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;Parameter Name="Empresa" DataType="System.String"/&gt;
+    &lt;Parameter Name="Periodo" DataType="System.String"/&gt;
+    &lt;Parameter Name="saldoInicial" DataType="System.String"/&gt;
+    &lt;Parameter Name="contaBancaria" DataType="System.String"/&gt;
+    &lt;Parameter Name="saldo" DataType="System.Decimal"/&gt;
+    &lt;Total Name="totalCredito" Expression="[Extrato.valorcredito]" Evaluator="Data1" PrintOn="GroupFooter1" ResetOnReprint="true"/&gt;
+    &lt;Total Name="totalDebito" Expression="[Extrato.valordebito]" Evaluator="Data1" PrintOn="GroupFooter1" ResetOnReprint="true"/&gt;
+  &lt;/Dictionary&gt;
+  &lt;ReportPage Name="Page1" Landscape="true" PaperWidth="297" PaperHeight="210" RawPaperSize="9"&gt;
+    &lt;ReportTitleBand Name="ReportTitle1" Width="1047.06" Height="90.72"&gt;
+      &lt;ShapeObject Name="Shape1" Width="1047.06" Height="88.83"/&gt;
+      &lt;TextObject Name="Text30" Left="5.67" Top="11.34" Width="1037.61" Height="22.68" Text="Movimento Bancário - Conciliado" HorzAlign="Center" Font="Arial, 14pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text31" Left="3.78" Top="1.89" Width="51.03" Height="11.34" Text="JlmTech" HorzAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;LineObject Name="Line3" Top="58.59" Width="1045.17"/&gt;
+      &lt;TextObject Name="Text1" Left="3.78" Top="64.26" Width="737.1" Height="18.9" Text="[Empresa]"/&gt;
+      &lt;TextObject Name="Text10" Left="3.78" Top="34.02" Width="1039.5" Height="18.9" Text="[Periodo]" HorzAlign="Center"/&gt;
+    &lt;/ReportTitleBand&gt;
+    &lt;PageHeaderBand Name="PageHeader1" Top="93.5" Width="1047.06" Height="18.9"&gt;
+      &lt;TextObject Name="Text33" Left="3.78" Width="94.5" Height="15.12" Text="Conta Bancária :" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text34" Left="714.42" Width="109.62" Height="15.12" Text="Saldo:" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text11" Left="102.06" Width="272.16" Height="15.12" Text="[contaBancaria]" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text12" Left="347.76" Width="434.7" Height="15.12" Text="[Periodo]" HorzAlign="Center" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text13" Left="827.82" Width="109.62" Height="15.12" Text="[saldo]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+    &lt;/PageHeaderBand&gt;
+    &lt;GroupHeaderBand Name="GroupHeader1" Top="115.18" Width="1047.06" Height="30.24" BeforePrintEvent="GroupHeader1_BeforePrint" AfterPrintEvent="GroupHeader1_AfterPrint" Condition="[Extrato.ctabancaria_idctabancaria]"&gt;
+      &lt;TextObject Name="Text3" Left="79.38" Top="7.56" Width="98.28" Height="15.12" Text="Documento" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text4" Left="415.8" Top="7.56" Width="215.46" Height="15.12" Text="Histórico" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text5" Left="181.44" Top="7.56" Width="64.26" Height="15.12" Text="Cheque" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text7" Left="839.16" Top="7.56" Width="98.28" Height="15.12" Text="Saldo" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text8" Left="737.1" Top="7.56" Width="98.28" Height="15.12" Text="Débito" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text9" Left="635.04" Top="7.56" Width="98.28" Height="15.12" Text="Crédito" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text21" Left="1020.6" Top="7.56" Width="22.68" Height="15.12" Text="St"/&gt;
+      &lt;LineObject Name="Line1" Width="1043.28" Diagonal="true"/&gt;
+      &lt;LineObject Name="Line4" Top="26.46" Width="1043.28" Diagonal="true"/&gt;
+      &lt;TextObject Name="Text2" Left="941.22" Top="7.56" Width="75.6" Height="15.12" Text="Dt.Movimento" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text6" Left="3.78" Top="7.56" Width="71.82" Height="15.12" Text="Conciliação" HorzAlign="Center" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text37" Left="249.48" Top="7.56" Width="162.54" Height="15.12" Text="Favorecido" Font="Arial, 8.25pt"/&gt;
+      &lt;DataBand Name="Data1" Top="148.19" Width="1047.06" Height="22.68" DataSource="Extrato"&gt;
+        &lt;TextObject Name="Text15" Left="3.78" Width="71.82" Height="15.12" Text="[Extrato.dataconciliacao]" Format="Date" Format.Format="d" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text16" Left="79.38" Width="98.28" Height="15.12" Text="[Extrato.documento]" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text17" Left="181.44" Width="64.26" Height="15.12" Text="[Extrato.chequeemitido]" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text18" Left="415.8" Width="215.46" Height="15.12" Text="[Extrato.historicoagrupado]" WordWrap="false" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text19" Left="635.04" Width="98.28" Height="15.12" Text="[Extrato.valorcredito]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8.25pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;TextObject Name="Text20" Left="737.1" Width="98.28" Height="15.12" Text="[Extrato.valordebito]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8.25pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;TextObject Name="Text22" Left="839.16" Width="98.28" Height="15.12" BeforePrintEvent="Text22_BeforePrint" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text23" Left="941.22" Width="75.6" Height="15.12" Text="[Extrato.datamovimento]" Format="Date" Format.Format="d" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text24" Left="1020.6" Width="22.68" Height="15.12" Text="[Extrato.situacao]" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text14" Left="249.48" Width="162.54" Height="15.12" Text="[Extrato.nomepessoa]" WordWrap="false" Font="Arial, 8.25pt"/&gt;
+      &lt;/DataBand&gt;
+      &lt;GroupFooterBand Name="GroupFooter1" Top="173.65" Width="1047.06" Height="22.68"&gt;
+        &lt;TextObject Name="Text25" Left="601.02" Top="3.78" Width="109.62" Height="15.12" Text="[totalCredito]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text26" Left="714.42" Top="3.78" Width="109.62" Height="15.12" Text="[totalDebito]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text27" Left="827.82" Top="3.78" Width="109.62" Height="15.12" BeforePrintEvent="Text27_BeforePrint" Format="Currency" Format.UseLocale="true" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+        &lt;LineObject Name="Line5" Width="1043.28" Diagonal="true"/&gt;
+      &lt;/GroupFooterBand&gt;
+    &lt;/GroupHeaderBand&gt;
+    &lt;PageFooterBand Name="PageFooter1" Top="199.11" Width="1047.06" Height="18.9"&gt;
+      &lt;TextObject Name="Text28" Left="948.78" Width="94.5" Height="18.9" Text="[PageN]"/&gt;
+    &lt;/PageFooterBand&gt;
+  &lt;/ReportPage&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+</root>

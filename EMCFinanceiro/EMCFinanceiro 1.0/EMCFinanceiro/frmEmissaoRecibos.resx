@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="emite.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="idrecibo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="datamovimento.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="valormovimento.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="contadescricao.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="nrocheque.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="nomepessoa.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="idmovimentobancario.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="idpessoa.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dstRecibo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>9, 10</value>
+  </metadata>
+  <metadata name="reciboPGSimples.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>114, 10</value>
+  </metadata>
+  <data name="reciboPGSimples.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="03/03/2014 19:14:19" ReportInfo.Modified="03/14/2014 12:20:35" ReportInfo.CreatorVersion="2013.3.2.0"&gt;
+  &lt;Dictionary&gt;
+    &lt;TableDataSource Name="recibo" ReferenceName="dstRecibo.recibo" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="idmovimentobancario" DataType="System.Int32"/&gt;
+      &lt;Column Name="idrecibo" DataType="System.Int32"/&gt;
+      &lt;Column Name="historico" DataType="System.String"/&gt;
+      &lt;Column Name="valormovimento" DataType="System.Decimal"/&gt;
+      &lt;Column Name="datarecibo" DataType="System.DateTime"/&gt;
+      &lt;Column Name="nomepessoa" DataType="System.String"/&gt;
+      &lt;Column Name="cpfpessoa" DataType="System.String"/&gt;
+      &lt;Column Name="nomebanco" DataType="System.String"/&gt;
+      &lt;Column Name="nroconta" DataType="System.String"/&gt;
+      &lt;Column Name="nroagencia" DataType="System.String"/&gt;
+      &lt;Column Name="extenso" DataType="System.String"/&gt;
+      &lt;Column Name="nrocheque" DataType="System.String"/&gt;
+      &lt;Column Name="descricaoconta" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;Parameter Name="Empresa" DataType="System.String"/&gt;
+    &lt;Parameter Name="TipoRecibo" DataType="System.String"/&gt;
+  &lt;/Dictionary&gt;
+  &lt;ReportPage Name="Page1"&gt;
+    &lt;ReportTitleBand Name="ReportTitle1" Width="718.2" Height="7.56"/&gt;
+    &lt;PageHeaderBand Name="PageHeader1" Top="11.56" Width="718.2" Height="18.9"&gt;
+      &lt;TextObject Name="Text19" Left="102.06" Width="94.5" Height="18.9" Text="datarecibo"/&gt;
+    &lt;/PageHeaderBand&gt;
+    &lt;DataBand Name="Data1" Top="34.46" Width="718.2" Height="491.4" DataSource="recibo"&gt;
+      &lt;TextObject Name="Text1" Left="3.78" Top="438.48" Width="710.64" Height="18.9" Text="[recibo.nomepessoa]" HorzAlign="Center"/&gt;
+      &lt;TextObject Name="Text5" Left="3.78" Top="457.38" Width="710.64" Height="18.9" Text="[recibo.cpfpessoa]" HorzAlign="Center"/&gt;
+      &lt;TextObject Name="Text2" Left="3.78" Top="26.46" Width="294.84" Height="34.02" Text="Recibo - Pagamento" Font="Arial, 14.25pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text4" Left="551.88" Top="26.46" Width="94.5" Height="18.9" Text="Número" HorzAlign="Right" Font="Arial, 9.75pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text3" Left="650.16" Top="26.46" Width="64.26" Height="18.9" CanGrow="true" CanShrink="true" Text="[recibo.idrecibo]" HorzAlign="Right" WordWrap="false" Font="Arial, 12pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text6" Left="370.44" Top="64.26" Width="94.5" Height="18.9" Text="Valor :" Font="Arial, 14.25pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text7" Left="468.72" Top="64.26" Width="245.7" Height="18.9" Text="[recibo.valormovimento]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 14.25pt, style=Bold" Trimming="EllipsisCharacter"/&gt;
+      &lt;LineObject Name="Line2" Left="109.62" Top="438.48" Width="510.3"/&gt;
+      &lt;TextObject Name="Text8" Left="15.12" Top="124.74" Width="132.3" Height="18.9" Text="Recebemos de :" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text9" Left="151.2" Top="124.74" Width="563.22" Height="18.9" Text="[Empresa]" WordWrap="false" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text10" Left="15.12" Top="154.98" Width="132.3" Height="18.9" Text="A Quantia de :" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text11" Left="151.2" Top="154.98" Width="563.22" Height="75.6" GrowToBottom="true" Text="[recibo.extenso]" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text13" Left="15.12" Top="238.14" Width="132.3" Height="18.9" Text="Referente a" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text14" Left="151.2" Top="238.14" Width="563.22" Height="86.94" Text="[recibo.historico]" Font="Arial, 12pt"/&gt;
+      &lt;LineObject Name="Line1" Top="487.62" Width="721.98"/&gt;
+      &lt;TextObject Name="Text15" Left="15.12" Top="332.64" Width="109.62" Height="18.9" Text="Pagto - Bco :" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text16" Left="128.52" Top="332.64" Width="68.04" Height="18.9" Text="[recibo.nomebanco]" WordWrap="false"/&gt;
+      &lt;TextObject Name="Text17" Left="200.34" Top="332.64" Width="75.6" Height="18.9" Text="Agência:" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text18" Left="279.72" Top="332.64" Width="94.5" Height="18.9" Text="[recibo.nroagencia]" WordWrap="false"/&gt;
+      &lt;TextObject Name="Text20" Left="378" Top="332.64" Width="60.48" Height="18.9" Text="Conta:" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text21" Left="442.26" Top="332.64" Width="94.5" Height="18.9" Text="[recibo.nroconta]" WordWrap="false"/&gt;
+      &lt;TextObject Name="Text23" Left="540.54" Top="332.64" Width="71.82" Height="18.9" Text="Cheque:" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text24" Left="616.14" Top="332.64" Width="102.06" Height="18.9" Text="[recibo.nrocheque]" WordWrap="false"/&gt;
+      &lt;TextObject Name="Text26" Left="128.52" Top="355.32" Width="570.78" Height="18.9" Text="[recibo.descricaoconta]" WordWrap="false"/&gt;
+      &lt;TextObject Name="Text27" Left="3.78" Top="64.26" Width="94.5" Height="18.9" Text="Data:" Font="Arial, 14.25pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text12" Left="102.06" Top="64.26" Width="196.56" Height="18.9" Text="[recibo.datarecibo]" Format="Date" Format.Format="d" WordWrap="false" Font="Arial, 12pt, style=Bold"/&gt;
+    &lt;/DataBand&gt;
+    &lt;PageFooterBand Name="PageFooter1" Top="529.86" Width="718.2" Height="37.8"/&gt;
+  &lt;/ReportPage&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+  <metadata name="reciboPGCompleto.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>257, 10</value>
+  </metadata>
+  <data name="reciboPGCompleto.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="03/04/2014 09:44:51" ReportInfo.Modified="03/14/2014 12:20:35" ReportInfo.CreatorVersion="2013.3.2.0"&gt;
+  &lt;Dictionary&gt;
+    &lt;TableDataSource Name="recibo" ReferenceName="dstRecibo.recibo" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="idmovimentobancario" DataType="System.Int32"/&gt;
+      &lt;Column Name="idrecibo" DataType="System.Int32"/&gt;
+      &lt;Column Name="historico" DataType="System.String"/&gt;
+      &lt;Column Name="valormovimento" DataType="System.Decimal"/&gt;
+      &lt;Column Name="datarecibo" DataType="System.DateTime"/&gt;
+      &lt;Column Name="nomepessoa" DataType="System.String"/&gt;
+      &lt;Column Name="cpfpessoa" DataType="System.String"/&gt;
+      &lt;Column Name="nomebanco" DataType="System.String"/&gt;
+      &lt;Column Name="nroconta" DataType="System.String"/&gt;
+      &lt;Column Name="nroagencia" DataType="System.String"/&gt;
+      &lt;Column Name="extenso" DataType="System.String"/&gt;
+      &lt;Column Name="nrocheque" DataType="System.String"/&gt;
+      &lt;Column Name="descricaoconta" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;TableDataSource Name="movimento" ReferenceName="dstRecibo.movimento" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="nrodocumento" DataType="System.String"/&gt;
+      &lt;Column Name="nroparcela" DataType="System.Int32"/&gt;
+      &lt;Column Name="documentobaixa" DataType="System.String"/&gt;
+      &lt;Column Name="nomeforncli" DataType="System.String"/&gt;
+      &lt;Column Name="datapagamento" DataType="System.String"/&gt;
+      &lt;Column Name="valorparcela" DataType="System.Decimal"/&gt;
+      &lt;Column Name="jurosbaixa" DataType="System.Decimal"/&gt;
+      &lt;Column Name="descontobaixa" DataType="System.Decimal"/&gt;
+      &lt;Column Name="valorbaixa" DataType="System.Decimal"/&gt;
+      &lt;Column Name="idmovimentobancario" DataType="System.Int32"/&gt;
+      &lt;Column Name="idbaixa" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;Relation Name="Relation1" ReferenceName="dstRecibo.Relation1" ParentDataSource="recibo" ChildDataSource="movimento" ParentColumns="idmovimentobancario" ChildColumns="idmovimentobancario" Enabled="true"/&gt;
+    &lt;Parameter Name="Empresa" DataType="System.String"/&gt;
+    &lt;Parameter Name="Endereco" DataType="System.String"/&gt;
+    &lt;Parameter Name="Cnpj" DataType="System.String"/&gt;
+    &lt;Parameter Name="RG" DataType="System.String"/&gt;
+  &lt;/Dictionary&gt;
+  &lt;ReportPage Name="Page1"&gt;
+    &lt;ReportTitleBand Name="ReportTitle1" Width="718.2" Height="3.78"/&gt;
+    &lt;PageHeaderBand Name="PageHeader1" Top="7.78" Width="718.2" Height="3.78"/&gt;
+    &lt;DataBand Name="Data1" Top="15.56" Width="718.2" Height="343.98" DataSource="recibo"&gt;
+      &lt;TextObject Name="Text2" Left="3.78" Top="3.78" Width="264.6" Height="26.46" Text="Recibo - Pagamento" Font="Arial, 12pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text4" Left="525.42" Top="3.78" Width="94.5" Height="18.9" Text="Número" HorzAlign="Right" Font="Arial, 12pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text6" Left="3.78" Top="45.36" Width="52.92" Height="18.9" Text="Valor :" Font="Arial, 9.75pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text8" Left="3.78" Top="86.94" Width="113.4" Height="15.12" Text="Recebemos de :" Font="Arial, 9.75pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text13" Left="3.78" Top="154.98" Width="710.64" Height="15.12" Text="A IMPORTÂNCIA ACIMA, REFERENTE AO(S) DOCUMENTO(S) ABAIXO RELACIONADO(S)." Font="Arial, 9.75pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text15" Left="3.78" Top="185.22" Width="64.26" Height="15.12" Text="Banco :" Font="Arial, 9.75pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text23" Left="3.78" Top="204.12" Width="64.26" Height="15.12" Text="Cheque:" Font="Arial, 9.75pt, style=Bold"/&gt;
+      &lt;LineObject Name="Line2" Left="7.56" Top="275.94" Width="510.3"/&gt;
+      &lt;LineObject Name="Line1" Top="317.52" Width="721.98"/&gt;
+      &lt;TextObject Name="Text40" Top="321.3" Width="117.18" Height="15.12" Text="Documento" Font="Arial, 10pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text41" Left="120.96" Top="321.3" Width="41.58" Height="15.12" Text="Parc" HorzAlign="Right" Font="Arial, 10pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text42" Left="166.32" Top="321.3" Width="94.5" Height="15.12" Text="Data Pagto" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text43" Left="264.6" Top="321.3" Width="124.74" Height="15.12" Text="Valor Parcela" HorzAlign="Right" Font="Arial, 10pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text44" Left="589.68" Top="321.3" Width="128.52" Height="15.12" Text="Valor Baixa" HorzAlign="Right" Font="Arial, 10pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text45" Left="393.12" Top="321.3" Width="94.5" Height="15.12" Text="Juros" HorzAlign="Right" Font="Arial, 10pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text46" Left="491.4" Top="321.3" Width="94.5" Height="15.12" Text="Desconto" HorzAlign="Right" Font="Arial, 10pt, style=Bold"/&gt;
+      &lt;LineObject Name="Line3" Top="340.2" Width="721.98"/&gt;
+      &lt;TextObject Name="Text1" Left="120.96" Top="86.94" Width="593.46" Height="15.12" Text="[Empresa]" WordWrap="false" Font="Arial, 9.75pt"/&gt;
+      &lt;TextObject Name="Text3" Left="623.7" Top="3.78" Width="94.5" Height="18.9" Text="[recibo.idrecibo]" HorzAlign="Right" Font="Arial, 12pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text5" Left="60.48" Top="45.36" Width="132.3" Height="18.9" Text="[recibo.valormovimento]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 9.75pt, style=Bold" Trimming="EllipsisCharacter"/&gt;
+      &lt;TextObject Name="Text7" Left="196.56" Top="45.36" Width="517.86" Height="41.58" Text="[recibo.extenso]" Font="Arial, 9.75pt"/&gt;
+      &lt;TextObject Name="Text21" Left="71.82" Top="204.12" Width="102.06" Height="15.12" Text="[recibo.nrocheque]" WordWrap="false" Font="Arial, 9.75pt"/&gt;
+      &lt;TextObject Name="Text24" Left="71.82" Top="185.22" Width="642.6" Height="15.12" Text="[recibo.descricaoconta]" WordWrap="false" Font="Arial, 9.75pt"/&gt;
+      &lt;TextObject Name="Text25" Left="3.78" Top="279.72" Width="510.3" Height="18.9" Text="[recibo.nomepessoa]" HorzAlign="Center" WordWrap="false" Font="Arial, 9.75pt"/&gt;
+      &lt;TextObject Name="Text47" Left="442.26" Top="204.12" Width="52.92" Height="15.12" Text="Data:" Font="Microsoft Sans Serif, 9.75pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text16" Left="498.96" Top="204.12" Width="215.46" Height="15.12" Text="[recibo.datarecibo]" Format="Date" Format.Format="dd/MM/yyyy" WordWrap="false" Font="Microsoft Sans Serif, 9.75pt"/&gt;
+      &lt;TextObject Name="Text48" Left="3.78" Top="105.84" Width="113.4" Height="15.12" Text="Estabelecido a :" Font="Arial, 9.75pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text10" Left="120.96" Top="105.84" Width="589.68" Height="15.12" Text="[Endereco]"/&gt;
+      &lt;TextObject Name="Text49" Left="3.78" Top="124.74" Width="113.4" Height="15.12" Text="CNPJ/CPF :" Font="Arial, 9.75pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text50" Left="279.72" Top="124.74" Width="136.08" Height="15.12" Text="Inscr.Estadual /RG :" Font="Arial, 9.75pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text31" Left="117.18" Top="124.74" Width="154.98" Height="15.12" Text="[Cnpj]"/&gt;
+      &lt;TextObject Name="Text33" Left="419.58" Top="124.74" Width="162.54" Height="15.12" Text="[RG]"/&gt;
+      &lt;TextObject Name="Text51" Left="540.54" Top="279.72" Width="177.66" Height="18.9" Text="Data" HorzAlign="Center" Font="Microsoft Sans Serif, 9.75pt"/&gt;
+      &lt;LineObject Name="Line4" Left="540.54" Top="275.94" Width="177.66"/&gt;
+      &lt;TextObject Name="Text52" Left="540.54" Top="253.26" Width="177.66" Height="18.9" Text="/           /" HorzAlign="Center" Font="Microsoft Sans Serif, 9.75pt"/&gt;
+      &lt;DataBand Name="Data2" Top="363.54" Width="718.2" Height="22.68" DataSource="movimento"&gt;
+        &lt;TextObject Name="Text27" Left="589.68" Width="128.52" Height="15.12" Text="[movimento.valorbaixa]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;TextObject Name="Text28" Width="117.18" Height="15.12" Text="[movimento.nrodocumento]" HorzAlign="Right" WordWrap="false" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text9" Left="120.96" Width="41.58" Height="15.12" Text="[movimento.nroparcela]" HorzAlign="Right" WordWrap="false" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text19" Left="166.32" Width="94.5" Height="15.12" Text="[movimento.datapagamento]" Format="Date" Format.Format="dd/MM/yyyy" HorzAlign="Center" WordWrap="false" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text22" Left="264.6" Width="124.74" Height="15.12" Text="[movimento.valorparcela]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;TextObject Name="Text30" Left="393.12" Width="94.5" Height="15.12" Text="[movimento.jurosbaixa]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;TextObject Name="Text32" Left="491.4" Width="94.5" Height="15.12" Text="[movimento.descontobaixa]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;LineObject Name="Line5" Top="18.9" Width="718.2" Border.Style="Dot" Diagonal="true"/&gt;
+      &lt;/DataBand&gt;
+    &lt;/DataBand&gt;
+    &lt;PageFooterBand Name="PageFooter1" Top="390.22" Width="718.2" Height="3.78"/&gt;
+  &lt;/ReportPage&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+  <metadata name="reciboRCSimples.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>412, 10</value>
+  </metadata>
+  <data name="reciboRCSimples.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="03/04/2014 10:04:44" ReportInfo.Modified="03/14/2014 12:11:30" ReportInfo.CreatorVersion="2013.3.2.0"&gt;
+  &lt;Dictionary&gt;
+    &lt;TableDataSource Name="recibo" ReferenceName="dstRecibo.recibo" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="idmovimentobancario" DataType="System.Int32"/&gt;
+      &lt;Column Name="idrecibo" DataType="System.Int32"/&gt;
+      &lt;Column Name="historico" DataType="System.String"/&gt;
+      &lt;Column Name="valormovimento" DataType="System.Decimal"/&gt;
+      &lt;Column Name="datarecibo" DataType="System.DateTime"/&gt;
+      &lt;Column Name="nomepessoa" DataType="System.String"/&gt;
+      &lt;Column Name="cpfpessoa" DataType="System.String"/&gt;
+      &lt;Column Name="nomebanco" DataType="System.String"/&gt;
+      &lt;Column Name="nroconta" DataType="System.String"/&gt;
+      &lt;Column Name="nroagencia" DataType="System.String"/&gt;
+      &lt;Column Name="extenso" DataType="System.String"/&gt;
+      &lt;Column Name="nrocheque" DataType="System.String"/&gt;
+      &lt;Column Name="descricaoconta" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;Parameter Name="Empresa" DataType="System.String"/&gt;
+  &lt;/Dictionary&gt;
+  &lt;ReportPage Name="Page1"&gt;
+    &lt;ReportTitleBand Name="ReportTitle1" Width="718.2" Height="11.34"/&gt;
+    &lt;PageHeaderBand Name="PageHeader1" Top="15.34" Width="718.2" Height="18.9"/&gt;
+    &lt;DataBand Name="Data1" Top="38.24" Width="718.2" Height="468.72" DataSource="recibo"&gt;
+      &lt;TextObject Name="Text2" Left="3.78" Top="3.78" Width="294.84" Height="34.02" Text="Recibo - Recebimento" Font="Arial, 14.25pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text4" Left="544.32" Top="3.78" Width="94.5" Height="18.9" Text="Número" HorzAlign="Right" Font="Arial, 9.75pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text6" Left="370.44" Top="41.58" Width="94.5" Height="18.9" Text="Valor :" Font="Arial, 14.25pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text8" Left="15.12" Top="102.06" Width="132.3" Height="18.9" Text="Recebemos de :" HorzAlign="Right" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text10" Left="15.12" Top="151.2" Width="132.3" Height="18.9" Text="A Quantia de :" HorzAlign="Right" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text13" Left="15.12" Top="234.36" Width="132.3" Height="18.9" Text="Referente a" HorzAlign="Right" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text15" Left="15.12" Top="328.86" Width="109.62" Height="18.9" Text="Pagto - Bco :" HorzAlign="Right" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text17" Left="200.34" Top="328.86" Width="75.6" Height="18.9" Text="Agência:" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text20" Left="378" Top="328.86" Width="60.48" Height="18.9" Text="Conta:" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text23" Left="540.54" Top="328.86" Width="71.82" Height="18.9" Text="Cheque:" Font="Arial, 12pt"/&gt;
+      &lt;LineObject Name="Line2" Left="109.62" Top="423.36" Width="510.3"/&gt;
+      &lt;LineObject Name="Line1" Top="464.94" Width="721.98"/&gt;
+      &lt;TextObject Name="Text1" Left="642.6" Top="3.78" Width="71.82" Height="18.9" Text="[recibo.idrecibo]" HorzAlign="Right" WordWrap="false" Font="Arial, 12pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text3" Left="468.72" Top="41.58" Width="245.7" Height="18.9" Text="[recibo.valormovimento]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 12pt, style=Bold" Trimming="EllipsisCharacter"/&gt;
+      &lt;TextObject Name="Text5" Left="3.78" Top="427.14" Width="710.64" Height="18.9" Text="[Empresa]" HorzAlign="Center" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text9" Left="151.2" Top="151.2" Width="563.22" Height="75.6" Text="[recibo.extenso]" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text24" Left="15.12" Top="124.74" Width="132.3" Height="18.9" Text="CPF :" HorzAlign="Right" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text11" Left="151.2" Top="102.06" Width="563.22" Height="18.9" Text="[recibo.nomepessoa]" WordWrap="false" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text12" Left="151.2" Top="124.74" Width="563.22" Height="18.9" Text="[recibo.cpfpessoa]" WordWrap="false" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text14" Left="151.2" Top="234.36" Width="563.22" Height="86.94" Text="[recibo.historico]" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text16" Left="128.52" Top="328.86" Width="68.04" Height="18.9" Text="[recibo.nomebanco]" WordWrap="false" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text18" Left="279.72" Top="328.86" Width="94.5" Height="18.9" Text="[recibo.nroagencia]" WordWrap="false" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text21" Left="442.26" Top="328.86" Width="94.5" Height="18.9" Text="[recibo.nroconta]" WordWrap="false" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text25" Left="616.14" Top="328.86" Width="98.28" Height="18.9" Text="[recibo.nrocheque]" WordWrap="false" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text27" Left="128.52" Top="351.54" Width="585.9" Height="18.9" Text="[recibo.descricaoconta]" WordWrap="false" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text28" Left="3.78" Top="41.58" Width="94.5" Height="18.9" Text="Data:" Font="Arial, 14.25pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text7" Left="102.06" Top="41.58" Width="200.34" Height="18.9" Text="[recibo.datarecibo]" Format="Date" Format.Format="d" WordWrap="false" Font="Arial, 12pt, style=Bold"/&gt;
+    &lt;/DataBand&gt;
+    &lt;PageFooterBand Name="PageFooter1" Top="510.96" Width="718.2" Height="18.9"/&gt;
+  &lt;/ReportPage&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+  <metadata name="reciboRCCompleto.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>555, 10</value>
+  </metadata>
+  <data name="reciboRCCompleto.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="03/04/2014 11:02:04" ReportInfo.Modified="03/14/2014 12:11:30" ReportInfo.CreatorVersion="2013.3.2.0"&gt;
+  &lt;Dictionary&gt;
+    &lt;TableDataSource Name="recibo" ReferenceName="dstRecibo.recibo" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="idmovimentobancario" DataType="System.Int32"/&gt;
+      &lt;Column Name="idrecibo" DataType="System.Int32"/&gt;
+      &lt;Column Name="historico" DataType="System.String"/&gt;
+      &lt;Column Name="valormovimento" DataType="System.Decimal"/&gt;
+      &lt;Column Name="datarecibo" DataType="System.DateTime"/&gt;
+      &lt;Column Name="nomepessoa" DataType="System.String"/&gt;
+      &lt;Column Name="cpfpessoa" DataType="System.String"/&gt;
+      &lt;Column Name="nomebanco" DataType="System.String"/&gt;
+      &lt;Column Name="nroconta" DataType="System.String"/&gt;
+      &lt;Column Name="nroagencia" DataType="System.String"/&gt;
+      &lt;Column Name="extenso" DataType="System.String"/&gt;
+      &lt;Column Name="nrocheque" DataType="System.String"/&gt;
+      &lt;Column Name="descricaoconta" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;TableDataSource Name="movimento" ReferenceName="dstRecibo.movimento" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="nrodocumento" DataType="System.String"/&gt;
+      &lt;Column Name="nroparcela" DataType="System.Int32"/&gt;
+      &lt;Column Name="documentobaixa" DataType="System.String"/&gt;
+      &lt;Column Name="nomeforncli" DataType="System.String"/&gt;
+      &lt;Column Name="datapagamento" DataType="System.String"/&gt;
+      &lt;Column Name="valorparcela" DataType="System.Decimal"/&gt;
+      &lt;Column Name="jurosbaixa" DataType="System.Decimal"/&gt;
+      &lt;Column Name="descontobaixa" DataType="System.Decimal"/&gt;
+      &lt;Column Name="valorbaixa" DataType="System.Decimal"/&gt;
+      &lt;Column Name="idmovimentobancario" DataType="System.Int32"/&gt;
+      &lt;Column Name="idbaixa" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;Relation Name="Relation1" ReferenceName="dstRecibo.Relation1" ParentDataSource="recibo" ChildDataSource="movimento" ParentColumns="idmovimentobancario" ChildColumns="idmovimentobancario" Enabled="true"/&gt;
+    &lt;Parameter Name="Empresa" DataType="System.String"/&gt;
+  &lt;/Dictionary&gt;
+  &lt;ReportPage Name="Page1"&gt;
+    &lt;ReportTitleBand Name="ReportTitle1" Width="718.2" Height="18.9"/&gt;
+    &lt;PageHeaderBand Name="PageHeader1" Top="22.9" Width="718.2" Height="18.9"/&gt;
+    &lt;DataBand Name="Data1" Top="45.8" Width="718.2" Height="495.18" DataSource="recibo"&gt;
+      &lt;TextObject Name="Text2" Left="3.78" Top="3.78" Width="264.6" Height="26.46" Text="Recibo - Pagamento" Font="Arial, 14.25pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text4" Left="525.42" Top="3.78" Width="94.5" Height="18.9" Text="Número" HorzAlign="Right" Font="Arial, 9.75pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text6" Left="370.44" Top="41.58" Width="94.5" Height="18.9" Text="Valor :" Font="Arial, 14.25pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text8" Left="15.12" Top="102.06" Width="132.3" Height="18.9" Text="Recebemos de :" HorzAlign="Right" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text10" Left="15.12" Top="162.54" Width="132.3" Height="18.9" Text="A Quantia de :" HorzAlign="Right" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text13" Left="15.12" Top="245.7" Width="132.3" Height="18.9" Text="Referente a" HorzAlign="Right" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text15" Left="15.12" Top="340.2" Width="109.62" Height="18.9" Text="Pagto - Bco :" HorzAlign="Right" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text17" Left="200.34" Top="340.2" Width="75.6" Height="18.9" Text="Agência:" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text20" Left="378" Top="340.2" Width="60.48" Height="18.9" Text="Conta:" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text23" Left="540.54" Top="340.2" Width="71.82" Height="18.9" Text="Cheque:" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text47" Left="3.78" Top="45.36" Width="64.26" Height="18.9" Text="Data:" Font="Arial, 14.25pt, style=Bold"/&gt;
+      &lt;LineObject Name="Line2" Left="109.62" Top="427.14" Width="510.3"/&gt;
+      &lt;LineObject Name="Line1" Top="464.94" Width="721.98"/&gt;
+      &lt;TextObject Name="Text40" Left="3.78" Top="468.72" Width="113.4" Height="18.9" Text="Documento" Font="Arial, 10pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text41" Left="120.96" Top="468.72" Width="41.58" Height="18.9" Text="Parc" HorzAlign="Right" Font="Arial, 10pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text42" Left="166.32" Top="468.72" Width="94.5" Height="18.9" Text="Data Pagto" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text43" Left="264.6" Top="468.72" Width="124.74" Height="18.9" Text="Valor Parcela" HorzAlign="Right" Font="Arial, 10pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text44" Left="589.68" Top="468.72" Width="128.52" Height="18.9" Text="Valor Baixa" HorzAlign="Right" Font="Arial, 10pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text45" Left="393.12" Top="468.72" Width="94.5" Height="18.9" Text="Juros" HorzAlign="Right" Font="Arial, 10pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text46" Left="491.4" Top="468.72" Width="94.5" Height="18.9" Text="Desconto" HorzAlign="Right" Font="Arial, 10pt, style=Bold"/&gt;
+      &lt;LineObject Name="Line3" Top="491.4" Width="721.98"/&gt;
+      &lt;TextObject Name="Text1" Left="3.78" Top="430.92" Width="710.64" Height="18.9" Text="[Empresa]" HorzAlign="Center"/&gt;
+      &lt;TextObject Name="Text48" Left="15.12" Top="124.74" Width="132.3" Height="18.9" Text="CPF :" HorzAlign="Right" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text5" Left="623.7" Top="3.78" Width="94.5" Height="18.9" Text="[recibo.idrecibo]" HorzAlign="Right" WordWrap="false" Font="Arial, 12pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text9" Left="71.82" Top="45.36" Width="226.8" Height="18.9" Text="[recibo.datarecibo]" Format="Date" Format.Format="dd/MM/yyyy" HorzAlign="Center" WordWrap="false" Font="Arial, 12pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text11" Left="468.72" Top="41.58" Width="249.48" Height="18.9" Text="[recibo.valormovimento]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 12pt, style=Bold" Trimming="EllipsisCharacter"/&gt;
+      &lt;TextObject Name="Text3" Left="151.2" Top="102.06" Width="563.22" Height="18.9" Text="[recibo.nomepessoa]" WordWrap="false" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text12" Left="151.2" Top="124.74" Width="370.44" Height="18.9" Text="[recibo.cpfpessoa]" WordWrap="false" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text14" Left="151.2" Top="162.54" Width="563.22" Height="79.38" Text="[recibo.extenso]" HorzAlign="Justify" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text16" Left="151.2" Top="245.7" Width="563.22" Height="86.94" Text="[recibo.historico]" HorzAlign="Justify" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text18" Left="128.52" Top="340.2" Width="64.26" Height="18.9" Text="[recibo.nomebanco]" HorzAlign="Justify" WordWrap="false" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text19" Left="279.72" Top="340.2" Width="94.5" Height="18.9" Text="[recibo.nroagencia]" HorzAlign="Justify" WordWrap="false" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text22" Left="442.26" Top="340.2" Width="94.5" Height="18.9" Text="[recibo.nroconta]" HorzAlign="Justify" WordWrap="false" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text25" Left="616.14" Top="340.2" Width="98.28" Height="18.9" Text="[recibo.nrocheque]" HorzAlign="Justify" WordWrap="false" Font="Arial, 12pt"/&gt;
+      &lt;TextObject Name="Text27" Left="128.52" Top="362.88" Width="585.9" Height="18.9" Text="[recibo.descricaoconta]" HorzAlign="Justify" WordWrap="false" Font="Arial, 12pt"/&gt;
+      &lt;DataBand Name="Data2" Top="544.98" Width="718.2" Height="22.68" DataSource="movimento"&gt;
+        &lt;TextObject Name="Text7" Left="3.78" Width="113.4" Height="18.9" Text="[movimento.nrodocumento]" WordWrap="false" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text24" Left="120.96" Width="41.58" Height="18.9" Text="[movimento.nroparcela]" HorzAlign="Right" WordWrap="false" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text28" Left="166.32" Width="94.5" Height="18.9" Text="[movimento.datapagamento]" HorzAlign="Center" WordWrap="false" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text29" Left="264.6" Width="124.74" Height="18.9" Text="[movimento.valorparcela]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;TextObject Name="Text31" Left="393.12" Width="94.5" Height="18.9" Text="[movimento.jurosbaixa]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;TextObject Name="Text33" Left="491.4" Width="94.5" Height="18.9" Text="[movimento.descontobaixa]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;TextObject Name="Text35" Left="589.68" Width="128.52" Height="18.9" Text="[movimento.valorbaixa]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+      &lt;/DataBand&gt;
+    &lt;/DataBand&gt;
+    &lt;PageFooterBand Name="PageFooter1" Top="571.66" Width="718.2" Height="18.9"/&gt;
+  &lt;/ReportPage&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+</root>

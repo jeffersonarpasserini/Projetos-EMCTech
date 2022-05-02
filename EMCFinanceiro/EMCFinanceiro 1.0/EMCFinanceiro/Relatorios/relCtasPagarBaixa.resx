@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="dstPagarBaixa.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="rptBaixas.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>145, 17</value>
+  </metadata>
+  <data name="rptBaixas.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="03/17/2014 12:35:05" ReportInfo.Modified="03/25/2014 15:34:47" ReportInfo.CreatorVersion="2013.3.2.0"&gt;
+  &lt;Dictionary&gt;
+    &lt;TableDataSource Name="baixa" ReferenceName="dstPagarBaixa.baixa" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="codempresa" DataType="System.Int32"/&gt;
+      &lt;Column Name="idpagarbaixa" DataType="System.Int32"/&gt;
+      &lt;Column Name="idpagardocumento" DataType="System.Int32"/&gt;
+      &lt;Column Name="idpagarparcelas" DataType="System.Int32"/&gt;
+      &lt;Column Name="fornecedor_codempresa" DataType="System.Int32"/&gt;
+      &lt;Column Name="idfornecedor" DataType="System.Int32"/&gt;
+      &lt;Column Name="nome" DataType="System.String"/&gt;
+      &lt;Column Name="cnpjcpf" DataType="System.String"/&gt;
+      &lt;Column Name="idformapagamento" DataType="System.Int32"/&gt;
+      &lt;Column Name="formapagamento" DataType="System.String"/&gt;
+      &lt;Column Name="ctabancaria_idempresa" DataType="System.Int32"/&gt;
+      &lt;Column Name="idcontacorrente" DataType="System.Int32"/&gt;
+      &lt;Column Name="nrodocumento" DataType="System.String"/&gt;
+      &lt;Column Name="dataentrada" DataType="System.DateTime"/&gt;
+      &lt;Column Name="nroparcela" DataType="System.Int32"/&gt;
+      &lt;Column Name="valordocumento" DataType="System.Decimal"/&gt;
+      &lt;Column Name="valorparcela" DataType="System.Decimal"/&gt;
+      &lt;Column Name="datavencimento" DataType="System.DateTime"/&gt;
+      &lt;Column Name="datapagamento" DataType="System.DateTime"/&gt;
+      &lt;Column Name="valorbaixa" DataType="System.Decimal"/&gt;
+      &lt;Column Name="jurosbaixa" DataType="System.Decimal"/&gt;
+      &lt;Column Name="descontobaixa" DataType="System.Decimal"/&gt;
+      &lt;Column Name="valorpagamento" DataType="System.Decimal"/&gt;
+      &lt;Column Name="idchequeemitir" DataType="System.Int32"/&gt;
+      &lt;Column Name="nrocheque" DataType="System.String"/&gt;
+      &lt;Column Name="valorcheque" DataType="System.Decimal"/&gt;
+      &lt;Column Name="datacheque" DataType="System.DateTime"/&gt;
+      &lt;Column Name="nominal" DataType="System.String"/&gt;
+      &lt;Column Name="descricaoconta" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;Parameter Name="relatorio" DataType="System.String"/&gt;
+    &lt;Parameter Name="Empresa" DataType="System.String"/&gt;
+    &lt;Total Name="totVlrBaixa" Expression="[baixa.valorbaixa]" Evaluator="Data1" PrintOn="GroupFooter1" ResetOnReprint="true"/&gt;
+    &lt;Total Name="totVlrParcela" Expression="[baixa.valorparcela]" Evaluator="Data1" PrintOn="GroupFooter1" ResetOnReprint="true"/&gt;
+    &lt;Total Name="totVlrDesconto" Expression="[baixa.descontobaixa]" Evaluator="Data1" PrintOn="GroupFooter1" ResetOnReprint="true"/&gt;
+    &lt;Total Name="totVlrJuros" Expression="[baixa.jurosbaixa]" Evaluator="Data1" PrintOn="GroupFooter1" ResetOnReprint="true"/&gt;
+    &lt;Total Name="totVlrPagamento" Expression="[baixa.valorpagamento]" Evaluator="Data1" PrintOn="GroupFooter1" ResetOnReprint="true"/&gt;
+  &lt;/Dictionary&gt;
+  &lt;ReportPage Name="Page1" Landscape="true" PaperWidth="297" PaperHeight="210" RawPaperSize="9"&gt;
+    &lt;ReportTitleBand Name="ReportTitle1" Width="1047.06" Height="90.72"&gt;
+      &lt;ShapeObject Name="Shape1" Width="1047.06" Height="88.83"/&gt;
+      &lt;TextObject Name="Text30" Left="5.67" Top="11.34" Width="1037.61" Height="22.68" Text="Contas a Pagar - Baixas" HorzAlign="Center" Font="Arial, 14pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text31" Left="3.78" Top="1.89" Width="51.03" Height="11.34" Text="JlmTech" HorzAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;LineObject Name="Line3" Top="62.37" Width="1045.17"/&gt;
+      &lt;TextObject Name="Text1" Left="3.78" Top="64.26" Width="718.2" Height="18.9" Text="[Empresa]"/&gt;
+      &lt;TextObject Name="Text2" Left="3.78" Top="34.02" Width="1039.5" Height="18.9" Text="[relatorio]" HorzAlign="Center"/&gt;
+    &lt;/ReportTitleBand&gt;
+    &lt;PageHeaderBand Name="PageHeader1" Top="94.72" Width="1047.06" Height="39.69"&gt;
+      &lt;TextObject Name="Text4" Left="3.78" Top="18.9" Width="189" Height="15.12" Text="Fornecedor" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text32" Left="3.78" Top="3.78" Width="98.28" Height="15.12" Text="Documento" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text7" Left="105.84" Top="3.78" Width="34.02" Height="15.12" Text="Parc" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text9" Left="340.2" Top="3.78" Width="94.5" Height="15.12" Text="Vlr Parcela" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text11" Left="143.64" Top="3.78" Width="94.5" Height="15.12" Text="Vencimento" HorzAlign="Center" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text13" Left="241.92" Top="3.78" Width="94.5" Height="15.12" Text="Pagamento" HorzAlign="Center" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text15" Left="438.48" Top="3.78" Width="94.5" Height="15.12" Text="Vlr Baixa" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text17" Left="536.76" Top="3.78" Width="94.5" Height="15.12" Text="Desconto" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text19" Left="635.04" Top="3.78" Width="94.5" Height="15.12" Text="Juros" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text21" Left="733.32" Top="3.78" Width="94.5" Height="15.12" Text="Vlr Pagamento" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text23" Left="967.68" Top="3.78" Width="75.6" Height="15.12" Text="Cheque" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text25" Left="831.6" Top="2.78" Width="132.3" Height="15.12" Text="Forma Pagamento" WordWrap="false" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text33" Left="733.32" Top="22.68" Width="309.96" Height="11.34" Text="Conta Bancária" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+      &lt;LineObject Name="Line1" Left="3.78" Top="37.8" Width="1043.28" Diagonal="true"/&gt;
+    &lt;/PageHeaderBand&gt;
+    &lt;GroupHeaderBand Name="GroupHeader1" Top="138.41" Width="1047.06" Height="3.78" Condition="[baixa.codempresa]"&gt;
+      &lt;DataBand Name="Data1" Top="146.19" Width="1047.06" Height="37.8" DataSource="baixa"&gt;
+        &lt;TextObject Name="Text3" Left="3.78" Top="18.9" Width="529.2" Height="15.12" Text="[baixa.nome]" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text5" Left="3.78" Width="98.28" Height="15.12" Text="[baixa.nrodocumento]" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text6" Left="105.84" Width="34.02" Height="15.12" Text="[baixa.nroparcela]" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text8" Left="340.2" Width="94.5" Height="15.12" Text="[baixa.valorparcela]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8.25pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;TextObject Name="Text10" Left="143.64" Width="94.5" Height="15.12" Text="[baixa.datavencimento]" Format="Date" Format.Format="d" HorzAlign="Center" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text12" Left="241.92" Width="94.5" Height="15.12" Text="[baixa.datapagamento]" Format="Date" Format.Format="d" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text14" Left="438.48" Width="94.5" Height="15.12" Text="[baixa.valorbaixa]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8.25pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;TextObject Name="Text16" Left="536.76" Width="94.5" Height="15.12" Text="[baixa.descontobaixa]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8.25pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;TextObject Name="Text18" Left="635.04" Width="94.5" Height="15.12" Text="[baixa.jurosbaixa]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8.25pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;TextObject Name="Text20" Left="733.32" Width="94.5" Height="15.12" Text="[baixa.valorpagamento]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8.25pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;TextObject Name="Text22" Left="967.68" Top="0.78" Width="75.6" Height="15.12" Text="[baixa.nrocheque]" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text24" Left="831.6" Width="132.3" Height="15.12" Text="[baixa.formapagamento]" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text26" Left="733.32" Top="18.9" Width="309.96" Height="15.12" Text="[baixa.descricaoconta]" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+        &lt;LineObject Name="Line4" Top="34.02" Width="1043.28" Border.Style="Dot" Diagonal="true"/&gt;
+      &lt;/DataBand&gt;
+      &lt;GroupFooterBand Name="GroupFooter1" Top="187.99" Width="1047.06" Height="22.68"&gt;
+        &lt;TextObject Name="Text28" Left="340.2" Top="3.78" Width="94.5" Height="15.12" Text="[totVlrParcela]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text29" Left="438.48" Top="3.78" Width="94.5" Height="15.12" Text="[totVlrBaixa]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text34" Left="536.76" Top="3.78" Width="94.5" Height="15.12" Text="[totVlrDesconto]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text35" Left="635.04" Top="3.78" Width="94.5" Height="15.12" Text="[totVlrJuros]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text36" Left="733.32" Top="3.78" Width="94.5" Height="15.12" Text="[totVlrPagamento]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+      &lt;/GroupFooterBand&gt;
+    &lt;/GroupHeaderBand&gt;
+    &lt;PageFooterBand Name="PageFooter1" Top="214.67" Width="1047.06" Height="18.9"&gt;
+      &lt;TextObject Name="Text27" Left="990.36" Width="94.5" Height="18.9" Text="[PageN]"/&gt;
+    &lt;/PageFooterBand&gt;
+  &lt;/ReportPage&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+</root>

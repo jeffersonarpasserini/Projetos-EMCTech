@@ -1,0 +1,631 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="dstCheques.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>10, 15</value>
+  </metadata>
+  <metadata name="rptRelCheque.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>113, 17</value>
+  </metadata>
+  <data name="rptRelCheque.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="03/25/2014 09:25:05" ReportInfo.Modified="03/29/2014 10:22:52" ReportInfo.CreatorVersion="2013.3.2.0"&gt;
+  &lt;ScriptText&gt;using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Windows.Forms;
+using System.Drawing;
+using System.Data;
+using FastReport;
+using FastReport.Data;
+using FastReport.Dialog;
+using FastReport.Barcode;
+using FastReport.Table;
+using FastReport.Utils;
+
+namespace FastReport
+{
+  public class ReportScript
+  {
+
+    private void Text40_BeforePrint(object sender, EventArgs e)
+    {
+      if(((String)Report.GetColumnValue(&amp;quot;cheque.predatado&amp;quot;))==&amp;quot;S&amp;quot;)
+      {
+        Text40.Text = ((DateTime)Report.GetColumnValue(&amp;quot;cheque.datapredatado&amp;quot;)).ToShortDateString();
+      }
+      
+    }
+  }
+}
+&lt;/ScriptText&gt;
+  &lt;Dictionary&gt;
+    &lt;TableDataSource Name="cheque" ReferenceName="dstCheques.cheque" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="idchequeemitir" DataType="System.Int32"/&gt;
+      &lt;Column Name="idmovimentobancario" DataType="System.Int32"/&gt;
+      &lt;Column Name="idempresa" DataType="System.Int32"/&gt;
+      &lt;Column Name="datacheque" DataType="System.DateTime"/&gt;
+      &lt;Column Name="valorcheque" DataType="System.Decimal"/&gt;
+      &lt;Column Name="nrocheque" DataType="System.String"/&gt;
+      &lt;Column Name="nominal" DataType="System.String"/&gt;
+      &lt;Column Name="predatado" DataType="System.String"/&gt;
+      &lt;Column Name="datapredatado" DataType="System.DateTime"/&gt;
+      &lt;Column Name="compensado" DataType="System.String"/&gt;
+      &lt;Column Name="idctabancaria" DataType="System.Int32"/&gt;
+      &lt;Column Name="idbanco" DataType="System.String"/&gt;
+      &lt;Column Name="descricaobanco" DataType="System.String"/&gt;
+      &lt;Column Name="nroconta" DataType="System.String"/&gt;
+      &lt;Column Name="nroagencia" DataType="System.String"/&gt;
+      &lt;Column Name="descricaoconta" DataType="System.String"/&gt;
+      &lt;Column Name="extenso" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;Parameter Name="periodo" DataType="System.String"/&gt;
+    &lt;Parameter Name="empresa" DataType="System.String"/&gt;
+    &lt;Total Name="TotalChequeConta" Expression="[cheque.valorcheque]" Evaluator="Data1" PrintOn="GroupFooter1" ResetOnReprint="true"/&gt;
+    &lt;Total Name="TotalCheque" Expression="[cheque.valorcheque]" Evaluator="Data1" PrintOn="ReportSummary1"/&gt;
+  &lt;/Dictionary&gt;
+  &lt;ReportPage Name="Page1" Landscape="true" PaperWidth="297" PaperHeight="210" RawPaperSize="9"&gt;
+    &lt;ReportTitleBand Name="ReportTitle1" Width="1047.06" Height="94.5"&gt;
+      &lt;ShapeObject Name="Shape1" Left="3.78" Width="1043.28" Height="92.61"/&gt;
+      &lt;TextObject Name="Text1" Left="5.67" Top="18.9" Width="1037.61" Height="22.68" Text="Relação Cheques Período" HorzAlign="Center" Font="Arial, 14pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text2" Left="986.58" Top="28.35" Width="51.03" Height="11.34" Text="JlmTech" HorzAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text3" Left="3.78" Top="71.82" Width="66.15" Height="17.01" Text="Empresa:" HorzAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text4" Left="7.56" Top="49.14" Width="1035.72" Height="18.9" Text="[periodo]" HorzAlign="Center"/&gt;
+      &lt;TextObject Name="Text5" Left="71.82" Top="71.82" Width="805.14" Height="18.9" Text="[empresa]"/&gt;
+    &lt;/ReportTitleBand&gt;
+    &lt;PageHeaderBand Name="PageHeader1" Top="98.5" Width="1047.06" Height="24.57"&gt;
+      &lt;LineObject Name="Line6" Top="22.68" Width="1043.28"/&gt;
+      &lt;TextObject Name="Text44" Left="3.78" Top="3.78" Width="151.2" Height="15.12" Text="Cheque Emitidos em :" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text12" Left="158.76" Top="3.78" Width="283.5" Height="15.12" Text="[periodo]" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text13" Left="446.04" Top="3.78" Width="597.24" Height="15.12" Text="[empresa]" Font="Arial, 8.25pt"/&gt;
+    &lt;/PageHeaderBand&gt;
+    &lt;GroupHeaderBand Name="GroupHeader1" Top="127.07" Width="1047.06" Height="49.14" Condition="[cheque.idctabancaria]" SortOrder="None"&gt;
+      &lt;TextObject Name="Text6" Left="60.48" Top="26.46" Width="68.04" Height="15.12" Text="Cheque" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;LineObject Name="Line7" Top="45.36" Width="1043.28"/&gt;
+      &lt;TextObject Name="Text38" Left="132.3" Top="26.46" Width="94.5" Height="15.12" Text="Data Emissão" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text39" Left="230.58" Top="26.46" Width="94.5" Height="15.12" Text="Data Pré Datado" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text41" Left="328.86" Top="26.46" Width="362.88" Height="15.12" Text="Nominal" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text42" Left="695.52" Top="26.46" Width="117.18" Height="15.12" Text="Valor Cheque" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text43" Left="816.48" Top="26.46" Width="26.46" Height="15.12" Text="CP" HorzAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;LineObject Name="Line8" Top="22.68" Width="1043.28"/&gt;
+      &lt;TextObject Name="Text45" Top="3.78" Width="52.92" Height="15.12" Text="Banco :" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text14" Left="56.7" Top="3.78" Width="45.36" Height="15.12" Text="[cheque.idbanco]" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text46" Left="105.84" Top="3.78" Width="15.12" Height="15.12" Text="-" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text15" Left="124.74" Top="3.78" Width="207.9" Height="15.12" Text="[cheque.descricaobanco]" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text47" Left="336.42" Top="3.78" Width="52.92" Height="15.12" Text="Agência :" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text48" Left="480.06" Top="3.78" Width="52.92" Height="15.12" Text="Conta :" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text16" Left="393.12" Top="3.78" Width="83.16" Height="15.12" Text="[cheque.nroagencia]" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text17" Left="536.76" Top="3.78" Width="94.5" Height="15.12" Text="[cheque.nroconta]" Font="Arial, 8.25pt"/&gt;
+      &lt;DataBand Name="Data1" Top="180.21" Width="1047.06" Height="18.9" DataSource="cheque"&gt;
+        &lt;TextObject Name="Text7" Left="60.48" Top="3.78" Width="68.04" Height="15.12" Text="[cheque.nrocheque]" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text8" Left="132.3" Top="3.78" Width="94.5" Height="15.12" Text="[cheque.datacheque]" Format="Date" Format.Format="d" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text40" Left="230.58" Top="3.78" Width="94.5" Height="15.12" BeforePrintEvent="Text40_BeforePrint" Format="Date" Format.Format="d" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text9" Left="328.86" Top="3.78" Width="362.88" Height="15.12" Text="[cheque.nominal]" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text11" Left="695.52" Top="3.78" Width="117.18" Height="15.12" Text="[cheque.valorcheque]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8.25pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;TextObject Name="Text10" Left="816.48" Top="3.78" Width="26.46" Height="15.12" Text="[cheque.compensado]" HorzAlign="Center"/&gt;
+      &lt;/DataBand&gt;
+      &lt;GroupFooterBand Name="GroupFooter1" Top="203.11" Width="1047.06" Height="26.46"&gt;
+        &lt;LineObject Name="Line9" Width="1043.28"/&gt;
+        &lt;TextObject Name="Text49" Left="336.42" Top="7.56" Width="52.92" Height="15.12" Text="Agência :" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text50" Left="480.06" Top="7.56" Width="52.92" Height="15.12" Text="Conta :" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text51" Left="393.12" Top="7.56" Width="83.16" Height="15.12" Text="[cheque.nroagencia]" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text52" Left="536.76" Top="7.56" Width="94.5" Height="15.12" Text="[cheque.nroconta]" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text53" Left="635.04" Top="7.56" Width="56.7" Height="15.12" Text="Total :" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text18" Left="695.52" Top="7.56" Width="117.18" Height="15.12" Text="[TotalChequeConta]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" Font="Arial, 8.25pt, style=Bold"/&gt;
+      &lt;/GroupFooterBand&gt;
+    &lt;/GroupHeaderBand&gt;
+    &lt;ReportSummaryBand Name="ReportSummary1" Top="233.57" Width="1047.06" Height="26.46"&gt;
+      &lt;TextObject Name="Text56" Left="34.02" Top="3.78" Width="597.24" Height="15.12" Text="[empresa]" HorzAlign="Right" Font="Arial, 8.25pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text57" Left="635.04" Top="3.78" Width="56.7" Height="15.12" Text="Total :" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text19" Left="695.52" Top="3.78" Width="117.18" Height="15.12" Text="[TotalCheque]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+      &lt;LineObject Name="Line10" Width="1043.28"/&gt;
+    &lt;/ReportSummaryBand&gt;
+    &lt;PageFooterBand Name="PageFooter1" Top="264.03" Width="1047.06" Height="17.01"&gt;
+      &lt;TextObject Name="Text54" Left="963.9" Top="3.78" Width="79.38" Height="13.23" Text="Pág: [Page#]" HorzAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text55" Top="3.78" Width="192.78" Height="13.23" Text="Data Emissão: [Date]" Font="Arial, 8pt"/&gt;
+    &lt;/PageFooterBand&gt;
+  &lt;/ReportPage&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+  <metadata name="rptChequeNaoEmitido.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>223, 17</value>
+  </metadata>
+  <data name="rptChequeNaoEmitido.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="03/25/2014 15:51:23" ReportInfo.Modified="03/29/2014 10:22:52" ReportInfo.CreatorVersion="2013.3.2.0"&gt;
+  &lt;ScriptText&gt;using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Windows.Forms;
+using System.Drawing;
+using System.Data;
+using FastReport;
+using FastReport.Data;
+using FastReport.Dialog;
+using FastReport.Barcode;
+using FastReport.Table;
+using FastReport.Utils;
+
+namespace FastReport
+{
+  public class ReportScript
+  {
+
+    private void Text40_BeforePrint(object sender, EventArgs e)
+    {
+      if(((String)Report.GetColumnValue(&amp;quot;cheque.predatado&amp;quot;))==&amp;quot;S&amp;quot;)
+      {
+        Text40.Text = ((DateTime)Report.GetColumnValue(&amp;quot;cheque.datapredatado&amp;quot;)).ToShortDateString();
+      }
+    }
+  }
+}
+&lt;/ScriptText&gt;
+  &lt;Dictionary&gt;
+    &lt;TableDataSource Name="cheque" ReferenceName="dstCheques.cheque" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="idchequeemitir" DataType="System.Int32"/&gt;
+      &lt;Column Name="idmovimentobancario" DataType="System.Int32"/&gt;
+      &lt;Column Name="idempresa" DataType="System.Int32"/&gt;
+      &lt;Column Name="datacheque" DataType="System.DateTime"/&gt;
+      &lt;Column Name="valorcheque" DataType="System.Decimal"/&gt;
+      &lt;Column Name="nrocheque" DataType="System.String"/&gt;
+      &lt;Column Name="nominal" DataType="System.String"/&gt;
+      &lt;Column Name="predatado" DataType="System.String"/&gt;
+      &lt;Column Name="datapredatado" DataType="System.DateTime"/&gt;
+      &lt;Column Name="compensado" DataType="System.String"/&gt;
+      &lt;Column Name="idctabancaria" DataType="System.Int32"/&gt;
+      &lt;Column Name="idbanco" DataType="System.String"/&gt;
+      &lt;Column Name="descricaobanco" DataType="System.String"/&gt;
+      &lt;Column Name="nroconta" DataType="System.String"/&gt;
+      &lt;Column Name="nroagencia" DataType="System.String"/&gt;
+      &lt;Column Name="descricaoconta" DataType="System.String"/&gt;
+      &lt;Column Name="extenso" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;Parameter Name="periodo" DataType="System.String"/&gt;
+    &lt;Parameter Name="empresa" DataType="System.String"/&gt;
+    &lt;Total Name="TotalChequeConta" Expression="[cheque.valorcheque]" Evaluator="Data1" PrintOn="GroupFooter1" ResetOnReprint="true"/&gt;
+    &lt;Total Name="TotalCheque" Expression="[cheque.valorcheque]" Evaluator="Data1" PrintOn="ReportSummary1"/&gt;
+  &lt;/Dictionary&gt;
+  &lt;ReportPage Name="Page1" Landscape="true" PaperWidth="297" PaperHeight="210" RawPaperSize="9"&gt;
+    &lt;ReportTitleBand Name="ReportTitle1" Width="1047.06" Height="94.5"&gt;
+      &lt;ShapeObject Name="Shape1" Width="1043.28" Height="92.61"/&gt;
+      &lt;TextObject Name="Text1" Left="1.89" Top="18.9" Width="1037.61" Height="22.68" Text="Relação Cheques não Emitidos" HorzAlign="Center" Font="Arial, 14pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text2" Left="982.8" Top="28.35" Width="51.03" Height="11.34" Text="JlmTech" HorzAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text3" Top="68.04" Width="66.15" Height="17.01" Text="Empresa:" HorzAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text4" Left="68.04" Top="68.04" Width="797.58" Height="15.12" Text="[empresa]"/&gt;
+      &lt;TextObject Name="Text5" Left="3.78" Top="41.58" Width="1035.72" Height="18.9" Text="[periodo]"/&gt;
+    &lt;/ReportTitleBand&gt;
+    &lt;PageHeaderBand Name="PageHeader1" Top="98.5" Width="1047.06" Height="20.79"&gt;
+      &lt;TextObject Name="Text44" Left="3.78" Top="3.78" Width="105.84" Height="15.12" Text="Pagamentos em :" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text12" Left="113.4" Top="3.78" Width="283.5" Height="15.12" Text="[periodo]" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text13" Left="446.04" Top="3.78" Width="597.24" Height="15.12" Text="[empresa]" Font="Arial, 8.25pt"/&gt;
+      &lt;LineObject Name="Line6" Top="18.9" Width="1043.28"/&gt;
+    &lt;/PageHeaderBand&gt;
+    &lt;GroupHeaderBand Name="GroupHeader1" Top="123.29" Width="1047.06" Height="49.14" Condition="[cheque.idctabancaria]" SortOrder="None"&gt;
+      &lt;LineObject Name="Line8" Top="22.68" Width="1043.28"/&gt;
+      &lt;TextObject Name="Text45" Top="3.78" Width="52.92" Height="15.12" Text="Banco :" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text14" Left="56.7" Top="3.78" Width="45.36" Height="15.12" Text="[cheque.idbanco]" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text46" Left="105.84" Top="3.78" Width="15.12" Height="15.12" Text="-" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text15" Left="124.74" Top="3.78" Width="207.9" Height="15.12" Text="[cheque.descricaobanco]" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text47" Left="336.42" Top="3.78" Width="52.92" Height="15.12" Text="Agência :" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text48" Left="480.06" Top="3.78" Width="52.92" Height="15.12" Text="Conta :" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text16" Left="393.12" Top="3.78" Width="83.16" Height="15.12" Text="[cheque.nroagencia]" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text17" Left="536.76" Top="3.78" Width="94.5" Height="15.12" Text="[cheque.nroconta]" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text6" Left="60.48" Top="26.46" Width="68.04" Height="15.12" Text="Cheque" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;LineObject Name="Line7" Top="45.36" Width="1043.28"/&gt;
+      &lt;TextObject Name="Text38" Left="132.3" Top="26.46" Width="94.5" Height="15.12" Text="Data Emissão" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text39" Left="230.58" Top="26.46" Width="94.5" Height="15.12" Text="Data Pré Datado" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text41" Left="328.86" Top="26.46" Width="362.88" Height="15.12" Text="Nominal" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text42" Left="695.52" Top="26.46" Width="117.18" Height="15.12" Text="Valor Cheque" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text43" Left="816.48" Top="26.46" Width="26.46" Height="15.12" Text="CP" HorzAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;DataBand Name="Data1" Top="176.43" Width="1047.06" Height="18.9" DataSource="cheque"&gt;
+        &lt;TextObject Name="Text7" Left="60.48" Width="68.04" Height="15.12" Text="[cheque.nrocheque]" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text8" Left="132.3" Width="94.5" Height="15.12" Text="[cheque.datacheque]" Format="Date" Format.Format="d" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text40" Left="230.58" Width="94.5" Height="15.12" BeforePrintEvent="Text40_BeforePrint" Format="Date" Format.Format="d" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text9" Left="328.86" Width="362.88" Height="15.12" Text="[cheque.nominal]" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text11" Left="695.52" Width="117.18" Height="15.12" Text="[cheque.valorcheque]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8.25pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;TextObject Name="Text10" Left="816.48" Width="26.46" Height="15.12" Text="[cheque.compensado]" HorzAlign="Center"/&gt;
+      &lt;/DataBand&gt;
+      &lt;GroupFooterBand Name="GroupFooter1" Top="199.33" Width="1047.06" Height="26.46"&gt;
+        &lt;LineObject Name="Line9" Width="1043.28"/&gt;
+        &lt;TextObject Name="Text49" Left="336.42" Top="7.56" Width="52.92" Height="15.12" Text="Agência :" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text50" Left="480.06" Top="7.56" Width="52.92" Height="15.12" Text="Conta :" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text51" Left="393.12" Top="7.56" Width="83.16" Height="15.12" Text="[cheque.nroagencia]" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text52" Left="536.76" Top="7.56" Width="94.5" Height="15.12" Text="[cheque.nroconta]" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text53" Left="635.04" Top="7.56" Width="56.7" Height="15.12" Text="Total :" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text18" Left="695.52" Top="7.56" Width="117.18" Height="15.12" Text="[TotalChequeConta]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" Font="Arial, 8.25pt, style=Bold"/&gt;
+      &lt;/GroupFooterBand&gt;
+    &lt;/GroupHeaderBand&gt;
+    &lt;ReportSummaryBand Name="ReportSummary1" Top="229.79" Width="1047.06" Height="22.68"&gt;
+      &lt;TextObject Name="Text56" Left="34.02" Top="3.78" Width="597.24" Height="15.12" Text="[empresa]" HorzAlign="Right" Font="Arial, 8.25pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text57" Left="635.04" Top="3.78" Width="56.7" Height="15.12" Text="Total :" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text19" Left="695.52" Top="3.78" Width="117.18" Height="15.12" Text="[TotalCheque]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+      &lt;LineObject Name="Line10" Width="1043.28"/&gt;
+    &lt;/ReportSummaryBand&gt;
+    &lt;PageFooterBand Name="PageFooter1" Top="256.47" Width="1047.06" Height="18.9"&gt;
+      &lt;TextObject Name="Text54" Left="963.9" Top="3.78" Width="79.38" Height="13.23" Text="Pág: [Page#]" HorzAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text55" Left="3.78" Top="3.78" Width="192.78" Height="13.23" Text="Data Emissão: [Date]" Font="Arial, 8pt"/&gt;
+    &lt;/PageFooterBand&gt;
+  &lt;/ReportPage&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+  <metadata name="rptChequeDetalhado.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>390, 18</value>
+  </metadata>
+  <data name="rptChequeDetalhado.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="03/25/2014 16:45:37" ReportInfo.Modified="03/29/2014 10:22:52" ReportInfo.CreatorVersion="2013.3.2.0"&gt;
+  &lt;Dictionary&gt;
+    &lt;TableDataSource Name="cheque" ReferenceName="dstCheques.cheque" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="idchequeemitir" DataType="System.Int32"/&gt;
+      &lt;Column Name="idmovimentobancario" DataType="System.Int32"/&gt;
+      &lt;Column Name="idempresa" DataType="System.Int32"/&gt;
+      &lt;Column Name="datacheque" DataType="System.DateTime"/&gt;
+      &lt;Column Name="valorcheque" DataType="System.Decimal"/&gt;
+      &lt;Column Name="nrocheque" DataType="System.String"/&gt;
+      &lt;Column Name="nominal" DataType="System.String"/&gt;
+      &lt;Column Name="predatado" DataType="System.String"/&gt;
+      &lt;Column Name="datapredatado" DataType="System.DateTime"/&gt;
+      &lt;Column Name="compensado" DataType="System.String"/&gt;
+      &lt;Column Name="idctabancaria" DataType="System.Int32"/&gt;
+      &lt;Column Name="idbanco" DataType="System.String"/&gt;
+      &lt;Column Name="descricaobanco" DataType="System.String"/&gt;
+      &lt;Column Name="nroconta" DataType="System.String"/&gt;
+      &lt;Column Name="nroagencia" DataType="System.String"/&gt;
+      &lt;Column Name="descricaoconta" DataType="System.String"/&gt;
+      &lt;Column Name="extenso" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;TableDataSource Name="pagamentos" ReferenceName="dstCheques.pagamentos" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="idpagardocumento" DataType="System.Int32"/&gt;
+      &lt;Column Name="idpagarparcelas" DataType="System.Int32"/&gt;
+      &lt;Column Name="idpagarbaixa" DataType="System.Int32"/&gt;
+      &lt;Column Name="idmovimentobancario" DataType="System.Int32"/&gt;
+      &lt;Column Name="nrodocumento" DataType="System.String"/&gt;
+      &lt;Column Name="dataentrada" DataType="System.DateTime"/&gt;
+      &lt;Column Name="dataemissao" DataType="System.DateTime"/&gt;
+      &lt;Column Name="idfornecedor" DataType="System.Int32"/&gt;
+      &lt;Column Name="nomefornecedor" DataType="System.String"/&gt;
+      &lt;Column Name="cnpjfornecedor" DataType="System.String"/&gt;
+      &lt;Column Name="nroparcelas" DataType="System.String"/&gt;
+      &lt;Column Name="nroparcela" DataType="System.String"/&gt;
+      &lt;Column Name="datavencimento" DataType="System.DateTime"/&gt;
+      &lt;Column Name="datapagamento" DataType="System.DateTime"/&gt;
+      &lt;Column Name="valorbaixa" DataType="System.Decimal"/&gt;
+      &lt;Column Name="cmbaixa" DataType="System.Decimal"/&gt;
+      &lt;Column Name="jurosbaixa" DataType="System.Decimal"/&gt;
+      &lt;Column Name="descontobaixa" DataType="System.Decimal"/&gt;
+      &lt;Column Name="totalbaixa" DataType="System.Decimal"/&gt;
+      &lt;Column Name="historico" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;Relation Name="cheque_pagamento_movbanco" ReferenceName="dstCheques.cheque_pagamento_movbanco" ParentDataSource="cheque" ChildDataSource="pagamentos" ParentColumns="idmovimentobancario" ChildColumns="idmovimentobancario" Enabled="true"/&gt;
+    &lt;Parameter Name="periodo" DataType="System.String"/&gt;
+    &lt;Parameter Name="empresa" DataType="System.String"/&gt;
+    &lt;Total Name="TotalChequeConta" Expression="[cheque.valorcheque]" Evaluator="Data1" PrintOn="GroupFooter1" ResetOnReprint="true"/&gt;
+    &lt;Total Name="TotalCheque" Expression="[cheque.valorcheque]" Evaluator="Data1" PrintOn="ReportSummary1"/&gt;
+  &lt;/Dictionary&gt;
+  &lt;ReportPage Name="Page1" Landscape="true" PaperWidth="297" PaperHeight="210" RawPaperSize="9"&gt;
+    &lt;ReportTitleBand Name="ReportTitle1" Width="1047.06" Height="94.5"&gt;
+      &lt;ShapeObject Name="Shape1" Width="1043.28" Height="92.61"/&gt;
+      &lt;TextObject Name="Text1" Left="1.89" Top="18.9" Width="1037.61" Height="22.68" Text="Relação Cheques - Detalhado" HorzAlign="Center" Font="Arial, 14pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text2" Left="982.8" Top="28.35" Width="51.03" Height="11.34" Text="JlmTech" HorzAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text3" Top="71.82" Width="66.15" Height="17.01" Text="Empresa:" HorzAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text4" Left="3.78" Top="49.14" Width="1035.72" Height="18.9" Text="[periodo]" HorzAlign="Center"/&gt;
+      &lt;TextObject Name="Text5" Left="68.04" Top="71.82" Width="805.14" Height="18.9" Text="[empresa]"/&gt;
+    &lt;/ReportTitleBand&gt;
+    &lt;PageHeaderBand Name="PageHeader1" Top="97.28" Width="1047.06" Height="24.57"&gt;
+      &lt;LineObject Name="Line6" Top="22.68" Width="1043.28"/&gt;
+      &lt;TextObject Name="Text44" Left="3.78" Top="3.78" Width="151.2" Height="15.12" Text="Cheque Emitidos em :" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text12" Left="158.76" Top="3.78" Width="283.5" Height="15.12" Text="[periodo]" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text13" Left="446.04" Top="3.78" Width="597.24" Height="15.12" Text="[empresa]" Font="Arial, 8.25pt"/&gt;
+    &lt;/PageHeaderBand&gt;
+    &lt;GroupHeaderBand Name="GroupHeader1" Top="124.63" Width="1047.06" Height="22.68" Condition="[cheque.idctabancaria]" SortOrder="None"&gt;
+      &lt;TextObject Name="Text45" Width="52.92" Height="15.12" Text="Banco :" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text14" Left="56.7" Width="45.36" Height="15.12" Text="[cheque.idbanco]" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text46" Left="105.84" Width="15.12" Height="15.12" Text="-" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text15" Left="124.74" Width="207.9" Height="15.12" Text="[cheque.descricaobanco]" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text47" Left="336.42" Width="52.92" Height="15.12" Text="Agência :" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text48" Left="480.06" Width="52.92" Height="15.12" Text="Conta :" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text16" Left="393.12" Width="83.16" Height="15.12" Text="[cheque.nroagencia]" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text17" Left="536.76" Width="94.5" Height="15.12" Text="[cheque.nroconta]" Font="Arial, 8.25pt"/&gt;
+      &lt;DataBand Name="Data1" Top="150.08" Width="1047.06" Height="52.92" DataSource="cheque"&gt;
+        &lt;TextObject Name="Text7" Left="49.14" Top="3.78" Width="68.04" Height="15.12" Text="[cheque.nrocheque]" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text8" Left="177.66" Top="3.78" Width="94.5" Height="15.12" Text="[cheque.datacheque]" Format="Date" Format.Format="d" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text40" Left="343.98" Top="3.78" Width="94.5" Height="15.12" BeforePrintEvent="Text40_BeforePrint" Format="Date" Format.Format="d" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text9" Left="495.18" Top="3.78" Width="306.18" Height="15.12" Text="[cheque.nominal]" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text11" Left="888.3" Top="3.78" Width="120.96" Height="15.12" Text="[cheque.valorcheque]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8.25pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;TextObject Name="Text10" Left="1013.04" Top="3.78" Width="26.46" Height="15.12" Text="[cheque.compensado]" HorzAlign="Center" Font="Arial, 8.25pt"/&gt;
+        &lt;LineObject Name="Line12" Top="49.14" Width="1043.28" Border.Style="Dot"/&gt;
+        &lt;TextObject Name="Text58" Top="30.24" Width="37.8" Height="15.12" Text="Cod" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text59" Left="41.58" Top="30.24" Width="94.5" Height="15.12" Text="CNPJ/CPF" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text60" Left="139.86" Top="30.24" Width="219.24" Height="15.12" Text="Fornecedor" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text61" Left="362.88" Top="30.24" Width="90.72" Height="15.12" Text="Documento" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text62" Left="457.38" Top="30.24" Width="60.48" Height="15.12" Text="Parcela" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text63" Left="521.64" Top="30.24" Width="94.5" Height="15.12" Text="Valor Baixa" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text64" Left="619.92" Top="30.24" Width="94.5" Height="15.12" Text="Correção" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text65" Left="718.2" Top="30.24" Width="94.5" Height="15.12" Text="Juros" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text66" Left="816.48" Top="30.24" Width="94.5" Height="15.12" Text="Desconto" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text67" Left="914.76" Top="30.24" Width="94.5" Height="15.12" Text="Valor Pagamento" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;LineObject Name="Line14" Width="1043.28"/&gt;
+        &lt;TextObject Name="Text6" Top="3.78" Width="56.7" Height="15.12" Text="Cheque:" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text38" Left="120.96" Top="3.78" Width="94.5" Height="15.12" Text="Emissão:" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text39" Left="275.94" Top="3.78" Width="94.5" Height="15.12" Text="Pré Datado:" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text41" Left="442.26" Top="3.78" Width="60.48" Height="15.12" Text="Nominal:" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text42" Left="805.14" Top="3.78" Width="79.38" Height="15.12" Text="Valor Cheque" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;DataBand Name="Data2" Top="205.78" Width="1047.06" Height="22.68" DataSource="pagamentos"&gt;
+          &lt;TextObject Name="Text20" Left="362.88" Width="90.72" Height="15.12" Text="[pagamentos.nrodocumento]" Font="Arial, 8.25pt"/&gt;
+          &lt;TextObject Name="Text21" Width="37.8" Height="15.12" Text="[pagamentos.idfornecedor]" Font="Arial, 8.25pt"/&gt;
+          &lt;TextObject Name="Text22" Left="41.58" Width="94.5" Height="15.12" Text="[pagamentos.cnpjfornecedor]" Font="Arial, 8.25pt"/&gt;
+          &lt;TextObject Name="Text23" Left="139.86" Width="219.24" Height="15.12" Text="[pagamentos.nomefornecedor]" Font="Arial, 8.25pt"/&gt;
+          &lt;TextObject Name="Text24" Left="457.38" Width="22.68" Height="15.12" Text="[pagamentos.nroparcela]" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+          &lt;TextObject Name="Text25" Left="491.4" Width="26.46" Height="15.12" Text="[pagamentos.nroparcelas]" Font="Arial, 8.25pt"/&gt;
+          &lt;TextObject Name="Text26" Left="480.06" Width="11.34" Height="15.12" Text="/"/&gt;
+          &lt;TextObject Name="Text27" Left="521.64" Width="94.5" Height="15.12" Text="[pagamentos.valorbaixa]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8.25pt" Trimming="EllipsisCharacter"/&gt;
+          &lt;TextObject Name="Text28" Left="619.92" Width="94.5" Height="15.12" Text="[pagamentos.cmbaixa]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8.25pt" Trimming="EllipsisCharacter"/&gt;
+          &lt;TextObject Name="Text29" Left="718.2" Width="94.5" Height="15.12" Text="[pagamentos.jurosbaixa]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8.25pt" Trimming="EllipsisCharacter"/&gt;
+          &lt;TextObject Name="Text30" Left="816.48" Width="94.5" Height="15.12" Text="[pagamentos.descontobaixa]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8.25pt" Trimming="EllipsisCharacter"/&gt;
+          &lt;TextObject Name="Text31" Left="914.76" Width="94.5" Height="15.12" Text="[pagamentos.totalbaixa]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8.25pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;/DataBand&gt;
+      &lt;/DataBand&gt;
+      &lt;GroupFooterBand Name="GroupFooter1" Top="231.24" Width="1047.06" Height="26.46"&gt;
+        &lt;LineObject Name="Line9" Width="1043.28"/&gt;
+        &lt;TextObject Name="Text49" Left="336.42" Top="7.56" Width="52.92" Height="15.12" Text="Agência :" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text50" Left="480.06" Top="7.56" Width="52.92" Height="15.12" Text="Conta :" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text51" Left="393.12" Top="7.56" Width="83.16" Height="15.12" Text="[cheque.nroagencia]" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text52" Left="536.76" Top="7.56" Width="94.5" Height="15.12" Text="[cheque.nroconta]" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text53" Left="635.04" Top="7.56" Width="56.7" Height="15.12" Text="Total :" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text18" Left="695.52" Top="7.56" Width="117.18" Height="15.12" Text="[TotalChequeConta]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" Font="Arial, 8.25pt, style=Bold"/&gt;
+      &lt;/GroupFooterBand&gt;
+    &lt;/GroupHeaderBand&gt;
+    &lt;ReportSummaryBand Name="ReportSummary1" Top="260.48" Width="1047.06" Height="22.68"&gt;
+      &lt;TextObject Name="Text56" Left="34.02" Top="3.78" Width="597.24" Height="15.12" Text="[empresa]" HorzAlign="Right" Font="Arial, 8.25pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text57" Left="635.04" Top="3.78" Width="56.7" Height="15.12" Text="Total :" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text19" Left="695.52" Top="3.78" Width="117.18" Height="15.12" Text="[TotalCheque]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+      &lt;LineObject Name="Line10" Width="1043.28"/&gt;
+    &lt;/ReportSummaryBand&gt;
+    &lt;PageFooterBand Name="PageFooter1" Top="285.93" Width="1047.06" Height="18.9"&gt;
+      &lt;TextObject Name="Text54" Left="963.9" Top="3.78" Width="79.38" Height="13.23" Text="Pág: [Page#]" HorzAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text55" Left="3.78" Top="3.78" Width="192.78" Height="13.23" Text="Data Emissão: [Date]" Font="Arial, 8pt"/&gt;
+    &lt;/PageFooterBand&gt;
+  &lt;/ReportPage&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+  <metadata name="rptCopiaCheque.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>541, 19</value>
+  </metadata>
+  <data name="rptCopiaCheque.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="03/25/2014 17:23:00" ReportInfo.Modified="03/29/2014 10:22:52" ReportInfo.CreatorVersion="2013.3.2.0"&gt;
+  &lt;Dictionary&gt;
+    &lt;TableDataSource Name="cheque" ReferenceName="dstCheques.cheque" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="idchequeemitir" DataType="System.Int32"/&gt;
+      &lt;Column Name="idmovimentobancario" DataType="System.Int32"/&gt;
+      &lt;Column Name="idempresa" DataType="System.Int32"/&gt;
+      &lt;Column Name="datacheque" DataType="System.DateTime"/&gt;
+      &lt;Column Name="valorcheque" DataType="System.Decimal"/&gt;
+      &lt;Column Name="nrocheque" DataType="System.String"/&gt;
+      &lt;Column Name="nominal" DataType="System.String"/&gt;
+      &lt;Column Name="predatado" DataType="System.String"/&gt;
+      &lt;Column Name="datapredatado" DataType="System.DateTime"/&gt;
+      &lt;Column Name="compensado" DataType="System.String"/&gt;
+      &lt;Column Name="idctabancaria" DataType="System.Int32"/&gt;
+      &lt;Column Name="idbanco" DataType="System.String"/&gt;
+      &lt;Column Name="descricaobanco" DataType="System.String"/&gt;
+      &lt;Column Name="nroconta" DataType="System.String"/&gt;
+      &lt;Column Name="nroagencia" DataType="System.String"/&gt;
+      &lt;Column Name="descricaoconta" DataType="System.String"/&gt;
+      &lt;Column Name="extenso" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;TableDataSource Name="pagamentos" ReferenceName="dstCheques.pagamentos" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="idpagardocumento" DataType="System.Int32"/&gt;
+      &lt;Column Name="idpagarparcelas" DataType="System.Int32"/&gt;
+      &lt;Column Name="idpagarbaixa" DataType="System.Int32"/&gt;
+      &lt;Column Name="idmovimentobancario" DataType="System.Int32"/&gt;
+      &lt;Column Name="nrodocumento" DataType="System.String"/&gt;
+      &lt;Column Name="dataentrada" DataType="System.DateTime"/&gt;
+      &lt;Column Name="dataemissao" DataType="System.DateTime"/&gt;
+      &lt;Column Name="idfornecedor" DataType="System.Int32"/&gt;
+      &lt;Column Name="nomefornecedor" DataType="System.String"/&gt;
+      &lt;Column Name="cnpjfornecedor" DataType="System.String"/&gt;
+      &lt;Column Name="nroparcelas" DataType="System.String"/&gt;
+      &lt;Column Name="nroparcela" DataType="System.String"/&gt;
+      &lt;Column Name="datavencimento" DataType="System.DateTime"/&gt;
+      &lt;Column Name="datapagamento" DataType="System.DateTime"/&gt;
+      &lt;Column Name="valorbaixa" DataType="System.Decimal"/&gt;
+      &lt;Column Name="cmbaixa" DataType="System.Decimal"/&gt;
+      &lt;Column Name="jurosbaixa" DataType="System.Decimal"/&gt;
+      &lt;Column Name="descontobaixa" DataType="System.Decimal"/&gt;
+      &lt;Column Name="totalbaixa" DataType="System.Decimal"/&gt;
+      &lt;Column Name="historico" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;Relation Name="cheque_pagamento_movbanco" ReferenceName="dstCheques.cheque_pagamento_movbanco" ParentDataSource="cheque" ChildDataSource="pagamentos" ParentColumns="idmovimentobancario" ChildColumns="idmovimentobancario" Enabled="true"/&gt;
+    &lt;Parameter Name="empresa" DataType="System.String"/&gt;
+  &lt;/Dictionary&gt;
+  &lt;ReportPage Name="Page1"&gt;
+    &lt;ReportTitleBand Name="ReportTitle1" Width="718.2" Height="11.34"/&gt;
+    &lt;PageHeaderBand Name="PageHeader1" Top="13.42" Width="718.2" Height="18.9"&gt;
+      &lt;TextObject Name="Text52" Left="665.28" Top="3.78" Width="51.03" Height="11.34" Text="JlmTech" HorzAlign="Center" Font="Arial, 8pt"/&gt;
+    &lt;/PageHeaderBand&gt;
+    &lt;DataBand Name="Data1" Top="34.41" Width="718.2" Height="181.44" DataSource="cheque"&gt;
+      &lt;TextObject Name="Text2" Left="627.48" Top="3.78" Width="86.94" Height="11.34" Text="Cópia Cheque" HorzAlign="Right" Font="Arial, 8.25pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text4" Left="393.12" Top="22.68" Width="56.7" Height="11.34" Text="Cheque :" HorzAlign="Right" Font="Microsoft Sans Serif, 8.25pt"/&gt;
+      &lt;TextObject Name="Text6" Left="563.22" Top="22.68" Width="52.92" Height="11.34" Text="Valor :" HorzAlign="Right" Font="Microsoft Sans Serif, 8.25pt"/&gt;
+      &lt;TextObject Name="Text1" Left="453.6" Top="22.68" Width="79.38" Height="11.34" Text="[cheque.nrocheque]" Font="Microsoft Sans Serif, 8.25pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text3" Left="619.92" Top="22.68" Width="94.5" Height="11.34" Text="[cheque.valorcheque]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8.25pt, style=Bold" Trimming="EllipsisCharacter"/&gt;
+      &lt;TextObject Name="Text5" Left="64.26" Top="41.58" Width="650.16" Height="34.02" Text="[cheque.extenso]" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text7" Top="22.68" Width="30.24" Height="11.34" Text="Bco:" HorzAlign="Right" Font="Microsoft Sans Serif, 8.25pt"/&gt;
+      &lt;TextObject Name="Text8" Left="109.62" Top="22.68" Width="52.92" Height="11.34" Text="Agência:" HorzAlign="Right" Font="Microsoft Sans Serif, 8.25pt"/&gt;
+      &lt;TextObject Name="Text9" Left="257.04" Top="22.68" Width="41.58" Height="11.34" Text="Conta:" HorzAlign="Right" Font="Microsoft Sans Serif, 8.25pt"/&gt;
+      &lt;TextObject Name="Text10" Left="34.02" Top="22.68" Width="60.48" Height="11.34" Text="[cheque.idbanco]" Font="Arial, 8.25pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text12" Left="166.32" Top="22.68" Width="68.04" Height="11.34" Text="[cheque.nroagencia]" Font="Arial, 8.25pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text14" Left="302.4" Top="22.68" Width="64.26" Height="11.34" Text="[cheque.nroconta]" Font="Arial, 8.25pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text16" Top="41.58" Width="60.48" Height="15.12" Text="Extenso :" Font="Arial, 8.25pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text17" Top="79.38" Width="60.48" Height="15.12" Text="Nominal:" Font="Arial, 8.25pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text11" Left="64.26" Top="79.38" Width="650.16" Height="15.12" Text="[cheque.nominal]" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text13" Left="510.3" Top="98.28" Width="204.12" Height="15.12" Text="[cheque.datacheque]" Format="Date" Format.Format="D" Font="Arial, 8.25pt"/&gt;
+      &lt;LineObject Name="Line1" Left="-3.78" Top="139.86" Width="721.98" Border.Style="Dash" Diagonal="true"/&gt;
+      &lt;LineObject Name="Line2" Width="721.98" Diagonal="true"/&gt;
+      &lt;TextObject Name="Text18" Top="158.76" Width="30.24" Height="11.34" Text="Cod" Font="Microsoft Sans Serif, 8.25pt"/&gt;
+      &lt;TextObject Name="Text20" Left="136.08" Top="158.76" Width="336.42" Height="11.34" Text="Fornecedor" Font="Microsoft Sans Serif, 8.25pt"/&gt;
+      &lt;TextObject Name="Text33" Top="143.64" Width="75.6" Height="11.34" Text="Documento" Font="Microsoft Sans Serif, 8.25pt"/&gt;
+      &lt;TextObject Name="Text38" Left="79.38" Top="143.64" Width="49.14" Height="11.34" Text="Parcela" HorzAlign="Center" Font="Microsoft Sans Serif, 8.25pt"/&gt;
+      &lt;TextObject Name="Text40" Left="132.3" Top="143.64" Width="75.6" Height="11.34" Text="Vencimento" HorzAlign="Center" Font="Microsoft Sans Serif, 8.25pt"/&gt;
+      &lt;TextObject Name="Text42" Left="207.9" Top="143.64" Width="75.6" Height="11.34" Text="Pagamento" HorzAlign="Center" Font="Microsoft Sans Serif, 8.25pt"/&gt;
+      &lt;TextObject Name="Text43" Left="283.5" Top="143.64" Width="105.84" Height="11.34" Text="Valor Baixa" HorzAlign="Right" Font="Microsoft Sans Serif, 8.25pt"/&gt;
+      &lt;TextObject Name="Text44" Left="393.12" Top="143.64" Width="75.6" Height="11.34" Text="Correção" HorzAlign="Right" Font="Microsoft Sans Serif, 8.25pt"/&gt;
+      &lt;TextObject Name="Text45" Left="472.5" Top="143.64" Width="75.6" Height="11.34" Text="Juros" HorzAlign="Right" Font="Microsoft Sans Serif, 8.25pt"/&gt;
+      &lt;TextObject Name="Text46" Left="548.1" Top="143.64" Width="75.6" Height="11.34" Text="Desconto" HorzAlign="Right" Font="Microsoft Sans Serif, 8.25pt"/&gt;
+      &lt;TextObject Name="Text47" Left="623.7" Top="143.64" Width="90.72" Height="11.34" Text="Pagamento" HorzAlign="Right" WordWrap="false" Font="Microsoft Sans Serif, 8.25pt"/&gt;
+      &lt;TextObject Name="Text49" Left="34.02" Top="158.76" Width="98.28" Height="11.34" Text="Cnpj/Cpf" Font="Microsoft Sans Serif, 8.25pt"/&gt;
+      &lt;TextObject Name="Text22" Left="64.26" Top="98.28" Width="442.26" Height="15.12" Text="[empresa]" Font="Arial, 8.25pt"/&gt;
+      &lt;TextObject Name="Text50" Top="124.74" Width="714.42" Height="11.34" Text="A IMPORTÂNCIA ACIMA, REFERENTE AO(S) DOCUMENTO(S) ABAIXO RELACIONADO(S)." HorzAlign="Center" Font="Arial, 8.25pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text24" Top="3.78" Width="597.24" Height="15.12" Text="[cheque.descricaobanco]" Font="Arial, 8.25pt"/&gt;
+      &lt;LineObject Name="Line3" Top="173.88" Width="721.98" Border.Style="Dash" Diagonal="true"/&gt;
+      &lt;TextObject Name="Text51" Top="98.28" Width="60.48" Height="15.12" Text="Empresa:" Font="Arial, 8.25pt, style=Bold"/&gt;
+      &lt;DataBand Name="Data2" Top="217.93" Width="718.2" Height="37.8" DataSource="pagamentos"&gt;
+        &lt;TextObject Name="Text15" Top="15.12" Width="30.24" Height="15.12" Text="[pagamentos.idfornecedor]" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text19" Left="136.08" Top="15.12" Width="253.26" Height="15.12" Text="[pagamentos.nomefornecedor]" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text21" Left="623.7" Width="90.72" Height="11.34" Text="[pagamentos.totalbaixa]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8.25pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;TextObject Name="Text23" Left="548.1" Width="75.6" Height="11.34" Text="[pagamentos.descontobaixa]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8.25pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;TextObject Name="Text25" Left="472.5" Width="75.6" Height="11.34" Text="[pagamentos.jurosbaixa]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8.25pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;TextObject Name="Text27" Left="393.12" Width="75.6" Height="11.34" Text="[pagamentos.cmbaixa]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8.25pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;TextObject Name="Text29" Left="287.28" Width="102.06" Height="11.34" Text="[pagamentos.valorbaixa]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8.25pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;TextObject Name="Text31" Width="75.6" Height="11.34" Text="[pagamentos.nrodocumento]" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text34" Left="83.16" Width="22.68" Height="11.34" Text="[pagamentos.nroparcela]" HorzAlign="Right" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text35" Left="98.28" Width="11.34" Height="11.34" Text="/"/&gt;
+        &lt;TextObject Name="Text36" Left="105.84" Width="22.68" Height="11.34" Text="[pagamentos.nroparcelas]" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text39" Left="132.3" Width="75.6" Height="11.34" Text="[pagamentos.datavencimento]" Format="Date" Format.Format="d" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text41" Left="207.9" Width="75.6" Height="11.34" Text="[pagamentos.datapagamento]" Format="Date" Format.Format="d" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text48" Left="34.02" Top="15.12" Width="98.28" Height="15.12" Text="[pagamentos.cnpjfornecedor]" Font="Arial, 8.25pt"/&gt;
+        &lt;TextObject Name="Text26" Left="393.12" Top="15.12" Width="321.3" Height="15.12" Text="[pagamentos.historico]" Font="Arial, 8.25pt"/&gt;
+      &lt;/DataBand&gt;
+    &lt;/DataBand&gt;
+    &lt;PageFooterBand Name="PageFooter1" Top="257.81" Width="718.2" Height="3.78"/&gt;
+  &lt;/ReportPage&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>49</value>
+  </metadata>
+</root>

@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="dstCtasPagas.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>19, 7</value>
+  </metadata>
+  <metadata name="todos.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>143, 7</value>
+  </metadata>
+  <data name="todos.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="09/18/2013 10:13:34" ReportInfo.Modified="03/21/2014 08:28:22" ReportInfo.CreatorVersion="2013.3.2.0"&gt;
+  &lt;Dictionary&gt;
+    &lt;TableDataSource Name="MyTable" ReferenceName="dstCtasPagas.MyTable" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="codigoconta" DataType="System.String"/&gt;
+      &lt;Column Name="tipolancamento" DataType="System.String"/&gt;
+      &lt;Column Name="nrodocumento" DataType="System.String"/&gt;
+      &lt;Column Name="datavencimento" DataType="System.DateTime"/&gt;
+      &lt;Column Name="tipodocumento" DataType="System.String"/&gt;
+      &lt;Column Name="nroparcela" DataType="System.Int64"/&gt;
+      &lt;Column Name="fornecedor" DataType="System.String"/&gt;
+      &lt;Column Name="documentobaixa" DataType="System.String"/&gt;
+      &lt;Column Name="databaixa" DataType="System.DateTime"/&gt;
+      &lt;Column Name="valorbaixa" DataType="System.Double"/&gt;
+      &lt;Column Name="valorjuros" DataType="System.Double"/&gt;
+      &lt;Column Name="valordesconto" DataType="System.Double"/&gt;
+      &lt;Column Name="historicobaixa" DataType="System.String"/&gt;
+      &lt;Column Name="valordocumento" DataType="System.Double"/&gt;
+      &lt;Column Name="nroparcelas" DataType="System.Int64"/&gt;
+      &lt;Column Name="valorparcela" DataType="System.Double"/&gt;
+      &lt;Column Name="descricao" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;Parameter Name="Periodo" DataType="System.String"/&gt;
+    &lt;Parameter Name="Empresa" DataType="System.String"/&gt;
+    &lt;Total Name="TotalPago2" Expression="[MyTable.valorbaixa]" Evaluator="Data1"/&gt;
+    &lt;Total Name="Total" TotalType="Count" Evaluator="Data1" PrintOn="GroupFooter1" ResetOnReprint="true"/&gt;
+    &lt;Total Name="TotalPago" Expression="[MyTable.valorbaixa]" Evaluator="Data1" PrintOn="GroupFooter1" ResetOnReprint="true"/&gt;
+  &lt;/Dictionary&gt;
+  &lt;ReportPage Name="Page1" Landscape="true" PaperWidth="297" PaperHeight="210" RawPaperSize="9" FirstPageSource="15" OtherPagesSource="15" Guides="-18.9"&gt;
+    &lt;PageHeaderBand Name="PageHeader1" Width="1047.06" Height="113.4"&gt;
+      &lt;TextObject Name="Text2" Left="982.8" Top="28.35" Width="51.03" Height="11.34" Text="JlmTech" HorzAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text1" Left="160.65" Top="18.9" Width="697.41" Height="22.68" Text="Títulos Pagos" HorzAlign="Center" Font="Arial, 14pt, style=Bold"/&gt;
+      &lt;ShapeObject Name="Shape1" Width="1062.18" Height="92.61"/&gt;
+      &lt;LineObject Name="Line1" Top="66.15" Width="1062.18"/&gt;
+      &lt;TextObject Name="Text4" Left="47.25" Top="47.25" Width="912.87" Height="17.01" Text="[Periodo]" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text3" Left="9.45" Top="77.49" Width="66.15" Height="17.01" Text="Empresa:" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text29" Left="75.6" Top="75.6" Width="576.45" Height="18.9" Text="[Empresa]"/&gt;
+      &lt;LineObject Name="Line6" Top="113.4" Width="1062.18"/&gt;
+      &lt;TextObject Name="Text10" Top="94.5" Width="37.8" Height="18.9" Text="Lçto" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text11" Left="37.8" Top="94.5" Width="103.95" Height="18.9" Text="Nro Documento" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text12" Left="330.75" Top="94.5" Width="56.7" Height="18.9" Text="Parcela" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text13" Left="141.75" Top="94.5" Width="75.6" Height="18.9" Text="Dt. Venc" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text14" Left="217.35" Top="94.5" Width="103.95" Height="18.9" Text="Tipo Documento" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text16" Left="689.85" Top="94.5" Width="66.15" Height="18.9" Text="Juros" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text18" Left="916.65" Top="94.5" Width="103.95" Height="18.9" Text="Fornecedor" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text23" Left="826.6" Top="94.5" Width="75.6" Height="18.9" Text="Valor Baixa" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text32" Left="396.9" Top="94.5" Width="75.6" Height="18.9" Text="Doc baixa" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text33" Left="756" Top="94.5" Width="66.15" Height="18.9" Text="Desconto" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text34" Left="548.1" Top="94.5" Width="75.6" Height="18.9" Text="Valor Doc" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text31" Left="481.95" Top="94.5" Width="75.6" Height="18.9" Text="Dt. Baixa" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text41" Left="623.7" Top="94.5" Width="75.6" Height="18.9" Text="Valor Parc" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/&gt;
+    &lt;/PageHeaderBand&gt;
+    &lt;GroupHeaderBand Name="GroupHeader1" Top="117.4" Width="1047.06" Height="18.9" Condition="[MyTable.codigoconta]"&gt;
+      &lt;TextObject Name="Text6" Width="85.05" Height="18.9" Text="Conta Custo:" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text5" Left="75.6" Width="132.3" Height="18.9" Text="[MyTable.codigoconta]" Font="Arial, 10pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text44" Left="160.65" Width="18.9" Height="18.9" Text="–" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text45" Left="179.55" Width="434.7" Height="18.9" Text="[MyTable.descricao]" Font="Arial, 10pt, style=Bold"/&gt;
+      &lt;DataBand Name="Data1" Top="140.3" Width="1047.06" Height="28.35" DataSource="MyTable"&gt;
+        &lt;TextObject Name="Text7" Width="37.8" Height="18.9" Text="[MyTable.tipolancamento]" HorzAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text15" Left="37.8" Width="113.4" Height="28.35" Text="[MyTable.nrodocumento]" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text19" Left="217.35" Width="122.85" Height="28.35" Text="[MyTable.tipodocumento]" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text20" Left="330.75" Width="18.9" Height="18.9" Text="[MyTable.nroparcela]" HorzAlign="Right" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text35" Left="349.65" Width="9.45" Height="18.9" Text="/"/&gt;
+        &lt;TextObject Name="Text21" Left="359.1" Width="28.35" Height="18.9" Text="[MyTable.nroparcelas]" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text22" Left="387.45" Width="94.5" Height="28.35" Text="[MyTable.documentobaixa]" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text24" Left="481.95" Width="75.6" Height="18.9" Text="[MyTable.databaixa]" Format="Date" Format.Format="d" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text30" Left="916.65" Width="141.75" Height="28.35" Text="[MyTable.fornecedor]" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text26" Left="826.6" Width="75.6" Height="18.9" Text="[MyTable.valorbaixa]" Format="Number" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;TextObject Name="Text25" Left="548.1" Width="75.6" Height="18.9" Text="[MyTable.valordocumento]" Format="Number" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;TextObject Name="Text27" Left="689.85" Width="66.15" Height="18.9" Text="[MyTable.valorjuros]" Format="Number" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;TextObject Name="Text28" Left="756" Width="66.15" Height="18.9" Text="[MyTable.valordesconto]" Format="Number" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;TextObject Name="Text40" Left="623.7" Width="75.6" Height="18.9" Text="[MyTable.valorparcela]" Format="Number" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;TextObject Name="Text17" Left="141.75" Width="75.6" Height="18.9" Text="[MyTable.datavencimento]" Format="Date" Format.Format="d" Font="Arial, 8pt"/&gt;
+      &lt;/DataBand&gt;
+      &lt;GroupFooterBand Name="GroupFooter1" Top="172.65" Width="1047.06" Height="18.9"&gt;
+        &lt;TextObject Name="Text39" Left="793.8" Width="41.58" Height="17.01" Text="Pago:" WordWrap="false" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text38" Left="633.15" Width="107.73" Height="17.01" Text="Total de Registros: " WordWrap="false" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;LineObject Name="Line4" Top="18.9" Width="1052.73"/&gt;
+        &lt;TextObject Name="Text37" Left="739.55" Width="37.8" Height="18.9" Text="[Total]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="0" Format.DecimalSeparator="," Format.GroupSeparator="." Format.NegativePattern="1" WordWrap="false" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text36" Left="826.6" Width="75.6" Height="18.9" Text="[TotalPago]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;/GroupFooterBand&gt;
+    &lt;/GroupHeaderBand&gt;
+    &lt;ReportSummaryBand Name="ReportSummary1" Top="195.55" Width="1047.06" Height="18.9"&gt;
+      &lt;TextObject Name="Text42" Left="765.45" Width="79.38" Height="17.01" Text="Total Pago:" VertAlign="Bottom" WordWrap="false" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text43" Left="826.6" Width="75.6" Height="18.9" Text="[TotalPago2]" Format="Currency" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="," Format.GroupSeparator="." Format.CurrencySymbol="R$" Format.PositivePattern="2" Format.NegativePattern="9" HorzAlign="Right" VertAlign="Bottom" Font="Arial, 8pt, style=Bold"/&gt;
+    &lt;/ReportSummaryBand&gt;
+    &lt;PageFooterBand Name="PageFooter1" Top="218.45" Width="1047.06" Height="18.9"&gt;
+      &lt;TextObject Name="Text9" Width="192.78" Height="17.01" Text="Data Emissão: [Date]" VertAlign="Bottom" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text8" Left="963.9" Width="79.38" Height="17.01" Text="Pág: [Page#]" HorzAlign="Center" VertAlign="Bottom" Font="Arial, 8pt"/&gt;
+      &lt;LineObject Name="Line7" Width="1062.18"/&gt;
+    &lt;/PageFooterBand&gt;
+  &lt;/ReportPage&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+  <metadata name="fornecedor.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>217, 9</value>
+  </metadata>
+  <data name="fornecedor.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="09/18/2013 10:13:34" ReportInfo.Modified="03/21/2014 08:28:22" ReportInfo.CreatorVersion="2013.3.2.0"&gt;
+  &lt;Dictionary&gt;
+    &lt;TableDataSource Name="MyTable" ReferenceName="dstCtasPagas.MyTable" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="codigoconta" DataType="System.String"/&gt;
+      &lt;Column Name="tipolancamento" DataType="System.String"/&gt;
+      &lt;Column Name="nrodocumento" DataType="System.String"/&gt;
+      &lt;Column Name="datavencimento" DataType="System.DateTime"/&gt;
+      &lt;Column Name="tipodocumento" DataType="System.String"/&gt;
+      &lt;Column Name="nroparcela" DataType="System.Int64"/&gt;
+      &lt;Column Name="fornecedor" DataType="System.String"/&gt;
+      &lt;Column Name="documentobaixa" DataType="System.String"/&gt;
+      &lt;Column Name="databaixa" DataType="System.DateTime"/&gt;
+      &lt;Column Name="valorbaixa" DataType="System.Double"/&gt;
+      &lt;Column Name="valorjuros" DataType="System.Double"/&gt;
+      &lt;Column Name="valordesconto" DataType="System.Double"/&gt;
+      &lt;Column Name="historicobaixa" DataType="System.String"/&gt;
+      &lt;Column Name="valordocumento" DataType="System.Double"/&gt;
+      &lt;Column Name="nroparcelas" DataType="System.Int64"/&gt;
+      &lt;Column Name="valorparcela" DataType="System.Double"/&gt;
+      &lt;Column Name="descricao" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;Parameter Name="Periodo" DataType="System.String"/&gt;
+    &lt;Parameter Name="Empresa" DataType="System.String"/&gt;
+    &lt;Total Name="Total" TotalType="Count" Evaluator="Data1" PrintOn="GroupFooter2" ResetOnReprint="true"/&gt;
+    &lt;Total Name="TotalPago2" Expression="[MyTable.valorbaixa]" Evaluator="Data1"/&gt;
+    &lt;Total Name="TotalPago" Expression="[MyTable.valorbaixa]" Evaluator="Data1" PrintOn="GroupFooter2" ResetOnReprint="true"/&gt;
+  &lt;/Dictionary&gt;
+  &lt;ReportPage Name="Page1" Landscape="true" PaperWidth="297" PaperHeight="210" RawPaperSize="9" FirstPageSource="15" OtherPagesSource="15" Guides="-18.9"&gt;
+    &lt;PageHeaderBand Name="PageHeader1" Width="1047.06" Height="113.4"&gt;
+      &lt;TextObject Name="Text2" Left="982.8" Top="28.35" Width="51.03" Height="11.34" Text="JlmTech" HorzAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text1" Left="160.65" Top="18.9" Width="697.41" Height="22.68" Text="Títulos Pagos" HorzAlign="Center" Font="Arial, 14pt, style=Bold"/&gt;
+      &lt;ShapeObject Name="Shape1" Width="1062.18" Height="92.61"/&gt;
+      &lt;LineObject Name="Line1" Top="66.15" Width="1062.18"/&gt;
+      &lt;TextObject Name="Text4" Left="122.85" Top="47.25" Width="799.47" Height="17.01" Text="[Periodo]" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text3" Left="9.45" Top="77.49" Width="66.15" Height="17.01" Text="Empresa:" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text29" Left="75.6" Top="75.6" Width="576.45" Height="18.9" Text="[Empresa]"/&gt;
+      &lt;LineObject Name="Line6" Top="113.4" Width="1062.18"/&gt;
+      &lt;TextObject Name="Text10" Top="94.5" Width="37.8" Height="18.9" Text="Lçto" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text11" Left="37.8" Top="94.5" Width="103.95" Height="18.9" Text="Nro Documento" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text12" Left="406.35" Top="94.5" Width="56.7" Height="18.9" Text="Parcela" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text13" Left="170.1" Top="94.5" Width="94.5" Height="18.9" Text="Dt. Vencimento" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text14" Left="274.05" Top="94.5" Width="103.95" Height="18.9" Text="Tipo Documento" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text16" Left="803.25" Top="94.5" Width="66.15" Height="18.9" Text="Juros" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text23" Left="949.45" Top="94.5" Width="75.6" Height="18.9" Text="Valor Baixa" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text32" Left="472.5" Top="94.5" Width="94.5" Height="18.9" Text="Doc baixa" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text33" Left="878.85" Top="94.5" Width="66.15" Height="18.9" Text="Desconto" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text34" Left="661.5" Top="94.5" Width="75.6" Height="18.9" Text="Valor Doc" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text31" Left="585.9" Top="94.5" Width="75.6" Height="18.9" Text="Dt. Baixa" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text41" Left="737.1" Top="94.5" Width="75.6" Height="18.9" Text="Valor Parc" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/&gt;
+    &lt;/PageHeaderBand&gt;
+    &lt;GroupHeaderBand Name="GroupHeader1" Top="117.4" Width="1047.06" Height="18.9" Condition="[MyTable.fornecedor]" SortOrder="None"&gt;
+      &lt;TextObject Name="Text18" Width="85.05" Height="18.9" Text="Fornecedor:" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text30" Left="75.6" Width="481.95" Height="18.9" Text="[MyTable.fornecedor]" Font="Arial, 10pt, style=Bold"/&gt;
+      &lt;GroupHeaderBand Name="GroupHeader2" Top="140.3" Width="1047.06" Height="18.9" Condition="[MyTable.codigoconta]"&gt;
+        &lt;TextObject Name="Text5" Left="85.05" Width="160.65" Height="18.9" Text="[MyTable.codigoconta]" Font="Arial, 10pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text6" Width="85.05" Height="18.9" Text="Código Conta:" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text45" Left="207.9" Width="699.3" Height="18.9" Text="[MyTable.descricao]" Font="Arial, 10pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text44" Left="179.55" Width="18.9" Height="18.9" Text="–" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/&gt;
+        &lt;DataBand Name="Data1" Top="163.2" Width="1047.06" Height="18.9" DataSource="MyTable"&gt;
+          &lt;TextObject Name="Text7" Width="37.8" Height="18.9" Text="[MyTable.tipolancamento]" HorzAlign="Center" Font="Arial, 8pt"/&gt;
+          &lt;TextObject Name="Text15" Left="37.8" Width="132.3" Height="18.9" Text="[MyTable.nrodocumento]" Font="Arial, 8pt"/&gt;
+          &lt;TextObject Name="Text19" Left="274.05" Width="141.75" Height="18.9" Text="[MyTable.tipodocumento]" Font="Arial, 8pt"/&gt;
+          &lt;TextObject Name="Text20" Left="406.35" Width="18.9" Height="18.9" Text="[MyTable.nroparcela]" HorzAlign="Right" Font="Arial, 8pt"/&gt;
+          &lt;TextObject Name="Text35" Left="425.25" Width="9.45" Height="18.9" Text="/" Font="Arial, 8pt"/&gt;
+          &lt;TextObject Name="Text21" Left="434.7" Width="28.35" Height="18.9" Text="[MyTable.nroparcelas]" Font="Arial, 8pt"/&gt;
+          &lt;TextObject Name="Text22" Left="472.5" Width="113.4" Height="18.9" Text="[MyTable.documentobaixa]" Font="Arial, 8pt"/&gt;
+          &lt;TextObject Name="Text24" Left="585.9" Width="85.05" Height="18.9" Text="[MyTable.databaixa]" Format="Date" Format.Format="d" Font="Arial, 8pt"/&gt;
+          &lt;TextObject Name="Text26" Left="949.45" Width="75.6" Height="18.9" Text="[MyTable.valorbaixa]" Format="Number" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+          &lt;TextObject Name="Text25" Left="661.5" Width="75.6" Height="18.9" Text="[MyTable.valordocumento]" Format="Number" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+          &lt;TextObject Name="Text27" Left="803.25" Width="66.15" Height="18.9" Text="[MyTable.valorjuros]" Format="Number" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+          &lt;TextObject Name="Text28" Left="878.85" Width="66.15" Height="18.9" Text="[MyTable.valordesconto]" Format="Number" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+          &lt;TextObject Name="Text40" Left="737.1" Width="75.6" Height="18.9" Text="[MyTable.valorparcela]" Format="Number" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+          &lt;TextObject Name="Text17" Left="170.1" Width="94.5" Height="18.9" Text="[MyTable.datavencimento]" Format="Date" Format.Format="d" Font="Arial, 8pt"/&gt;
+        &lt;/DataBand&gt;
+        &lt;GroupFooterBand Name="GroupFooter2" Top="186.1" Width="1047.06" Height="18.9"&gt;
+          &lt;TextObject Name="Text39" Left="926.1" Width="41.58" Height="17.01" Text="Pago:" WordWrap="false" Font="Arial, 8pt, style=Bold"/&gt;
+          &lt;TextObject Name="Text38" Left="727.65" Width="107.73" Height="17.01" Text="Total de Registros: " WordWrap="false" Font="Arial, 8pt, style=Bold"/&gt;
+          &lt;TextObject Name="Text37" Left="822.15" Width="43.47" Height="17.01" Text="[Total]" HorzAlign="Right" WordWrap="false" Font="Arial, 8pt, style=Bold"/&gt;
+          &lt;TextObject Name="Text36" Left="949.45" Width="75.6" Height="18.9" Text="[TotalPago]" Format="Currency" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="," Format.GroupSeparator="." Format.CurrencySymbol="R$" Format.PositivePattern="2" Format.NegativePattern="9" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;/GroupFooterBand&gt;
+      &lt;/GroupHeaderBand&gt;
+      &lt;GroupFooterBand Name="GroupFooter1" Top="209" Width="1047.06" Height="18.9"&gt;
+        &lt;LineObject Name="Line4" Top="18.9" Width="1052.73"/&gt;
+      &lt;/GroupFooterBand&gt;
+    &lt;/GroupHeaderBand&gt;
+    &lt;ReportSummaryBand Name="ReportSummary1" Top="231.9" Width="1047.06" Height="18.9"&gt;
+      &lt;TextObject Name="Text42" Left="897.75" Width="79.38" Height="17.01" Text="Total Pago:" WordWrap="false" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text43" Left="949.45" Width="75.6" Height="18.9" Text="[TotalPago2]" Format="Currency" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="," Format.GroupSeparator="." Format.CurrencySymbol="R$" Format.PositivePattern="2" Format.NegativePattern="9" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/&gt;
+    &lt;/ReportSummaryBand&gt;
+    &lt;PageFooterBand Name="PageFooter1" Top="254.8" Width="1047.06" Height="18.9"&gt;
+      &lt;TextObject Name="Text9" Width="192.78" Height="17.01" Text="Data Emissão: [Date]" VertAlign="Bottom" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text8" Left="963.9" Width="79.38" Height="17.01" Text="Pág: [Page#]" HorzAlign="Center" VertAlign="Bottom" Font="Arial, 8pt"/&gt;
+      &lt;LineObject Name="Line7" Width="1062.18"/&gt;
+    &lt;/PageFooterBand&gt;
+  &lt;/ReportPage&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+  <metadata name="contaCusto.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>324, 10</value>
+  </metadata>
+  <data name="contaCusto.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="09/18/2013 10:13:34" ReportInfo.Modified="03/21/2014 08:28:22" ReportInfo.CreatorVersion="2013.3.2.0"&gt;
+  &lt;Dictionary&gt;
+    &lt;TableDataSource Name="MyTable" ReferenceName="dstCtasPagas.MyTable" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="codigoconta" DataType="System.String"/&gt;
+      &lt;Column Name="tipolancamento" DataType="System.String"/&gt;
+      &lt;Column Name="nrodocumento" DataType="System.String"/&gt;
+      &lt;Column Name="datavencimento" DataType="System.DateTime"/&gt;
+      &lt;Column Name="tipodocumento" DataType="System.String"/&gt;
+      &lt;Column Name="nroparcela" DataType="System.Int64"/&gt;
+      &lt;Column Name="fornecedor" DataType="System.String"/&gt;
+      &lt;Column Name="documentobaixa" DataType="System.String"/&gt;
+      &lt;Column Name="databaixa" DataType="System.DateTime"/&gt;
+      &lt;Column Name="valorbaixa" DataType="System.Double"/&gt;
+      &lt;Column Name="valorjuros" DataType="System.Double"/&gt;
+      &lt;Column Name="valordesconto" DataType="System.Double"/&gt;
+      &lt;Column Name="historicobaixa" DataType="System.String"/&gt;
+      &lt;Column Name="valordocumento" DataType="System.Double"/&gt;
+      &lt;Column Name="nroparcelas" DataType="System.Int64"/&gt;
+      &lt;Column Name="valorparcela" DataType="System.Double"/&gt;
+      &lt;Column Name="descricao" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;Parameter Name="Periodo" DataType="System.String"/&gt;
+    &lt;Parameter Name="Empresa" DataType="System.String"/&gt;
+    &lt;Total Name="Total" TotalType="Count" Evaluator="Data1" PrintOn="GroupFooter1" ResetOnReprint="true"/&gt;
+    &lt;Total Name="TotalPago" Expression="[MyTable.valorbaixa]" Evaluator="Data1" PrintOn="GroupFooter1" ResetOnReprint="true"/&gt;
+    &lt;Total Name="TotalPago2" Expression="[MyTable.valorbaixa]" Evaluator="Data1" PrintOn="ReportSummary1"/&gt;
+  &lt;/Dictionary&gt;
+  &lt;ReportPage Name="Page1" Landscape="true" PaperWidth="297" PaperHeight="210" RawPaperSize="9" FirstPageSource="15" OtherPagesSource="15" Guides="-18.9"&gt;
+    &lt;PageHeaderBand Name="PageHeader1" Width="1047.06" Height="113.4"&gt;
+      &lt;TextObject Name="Text2" Left="982.8" Top="28.35" Width="51.03" Height="11.34" Text="JlmTech" HorzAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text1" Left="160.65" Top="18.9" Width="697.41" Height="22.68" Text="Títulos Pagos" HorzAlign="Center" Font="Arial, 14pt, style=Bold"/&gt;
+      &lt;ShapeObject Name="Shape1" Width="1062.18" Height="92.61"/&gt;
+      &lt;LineObject Name="Line1" Top="66.15" Width="1062.18"/&gt;
+      &lt;TextObject Name="Text4" Top="47.25" Width="1045.17" Height="17.01" Text="[Periodo]" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text3" Left="9.45" Top="77.49" Width="66.15" Height="17.01" Text="Empresa:" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text29" Left="75.6" Top="75.6" Width="576.45" Height="18.9" Text="[Empresa]"/&gt;
+      &lt;LineObject Name="Line6" Top="113.4" Width="1062.18"/&gt;
+      &lt;TextObject Name="Text10" Top="94.5" Width="37.8" Height="18.9" Text="Lçto" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text11" Left="37.8" Top="94.5" Width="103.95" Height="18.9" Text="Nro Documento" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text12" Left="406.35" Top="94.5" Width="56.7" Height="18.9" Text="Parcela" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text13" Left="170.1" Top="94.5" Width="94.5" Height="18.9" Text="Dt. Vencimento" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text14" Left="274.05" Top="94.5" Width="103.95" Height="18.9" Text="Tipo Documento" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text16" Left="803.25" Top="94.5" Width="66.15" Height="18.9" Text="Juros" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text23" Left="949.45" Top="94.5" Width="75.6" Height="18.9" Text="Valor Baixa" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text32" Left="472.5" Top="94.5" Width="94.5" Height="18.9" Text="Doc baixa" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text33" Left="878.85" Top="94.5" Width="66.15" Height="18.9" Text="Desconto" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text34" Left="661.5" Top="94.5" Width="75.6" Height="18.9" Text="Valor Doc" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text31" Left="585.9" Top="94.5" Width="75.6" Height="18.9" Text="Dt. Baixa" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text41" Left="737.1" Top="94.5" Width="75.6" Height="18.9" Text="Valor Parc" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/&gt;
+    &lt;/PageHeaderBand&gt;
+    &lt;GroupHeaderBand Name="GroupHeader1" Top="117.4" Width="1047.06" Height="18.9" Condition="[MyTable.codigoconta]"&gt;
+      &lt;TextObject Name="Text45" Left="207.9" Width="699.3" Height="18.9" Text="[MyTable.descricao]" Font="Arial, 10pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text5" Left="85.05" Width="160.65" Height="18.9" Text="[MyTable.codigoconta]" Font="Arial, 10pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text6" Width="85.05" Height="18.9" Text="Código Conta:" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text44" Left="179.55" Width="18.9" Height="18.9" Text="–" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/&gt;
+      &lt;GroupHeaderBand Name="GroupHeader2" Top="140.3" Width="1047.06" Height="18.9" Condition="[MyTable.fornecedor]" SortOrder="None"&gt;
+        &lt;TextObject Name="Text30" Left="75.6" Width="481.95" Height="18.9" Text="[MyTable.fornecedor]" Font="Arial, 10pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text18" Width="85.05" Height="18.9" Text="Fornecedor:" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;DataBand Name="Data1" Top="163.2" Width="1047.06" Height="18.9" DataSource="MyTable"&gt;
+          &lt;TextObject Name="Text7" Width="37.8" Height="18.9" Text="[MyTable.tipolancamento]" HorzAlign="Center" Font="Arial, 8pt"/&gt;
+          &lt;TextObject Name="Text15" Left="37.8" Width="132.3" Height="18.9" Text="[MyTable.nrodocumento]" Font="Arial, 8pt"/&gt;
+          &lt;TextObject Name="Text19" Left="274.05" Width="141.75" Height="18.9" Text="[MyTable.tipodocumento]" Font="Arial, 8pt"/&gt;
+          &lt;TextObject Name="Text20" Left="406.35" Width="18.9" Height="18.9" Text="[MyTable.nroparcela]" HorzAlign="Right" Font="Arial, 8pt"/&gt;
+          &lt;TextObject Name="Text35" Left="425.25" Width="9.45" Height="18.9" Text="/" Font="Arial, 8pt"/&gt;
+          &lt;TextObject Name="Text21" Left="434.7" Width="28.35" Height="18.9" Text="[MyTable.nroparcelas]" Font="Arial, 8pt"/&gt;
+          &lt;TextObject Name="Text22" Left="472.5" Width="113.4" Height="18.9" Text="[MyTable.documentobaixa]" Font="Arial, 8pt"/&gt;
+          &lt;TextObject Name="Text24" Left="585.9" Width="85.05" Height="18.9" Text="[MyTable.databaixa]" Format="Date" Format.Format="d" Font="Arial, 8pt"/&gt;
+          &lt;TextObject Name="Text26" Left="949.45" Width="75.6" Height="18.9" Text="[MyTable.valorbaixa]" Format="Number" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+          &lt;TextObject Name="Text25" Left="661.5" Width="75.6" Height="18.9" Text="[MyTable.valordocumento]" Format="Number" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+          &lt;TextObject Name="Text27" Left="803.25" Width="66.15" Height="18.9" Text="[MyTable.valorjuros]" Format="Number" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+          &lt;TextObject Name="Text28" Left="878.85" Width="66.15" Height="18.9" Text="[MyTable.valordesconto]" Format="Number" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+          &lt;TextObject Name="Text40" Left="737.1" Width="75.6" Height="18.9" Text="[MyTable.valorparcela]" Format="Number" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+          &lt;TextObject Name="Text17" Left="170.1" Width="94.5" Height="18.9" Text="[MyTable.datavencimento]" Format="Date" Format.Format="d" Font="Arial, 8pt"/&gt;
+        &lt;/DataBand&gt;
+        &lt;GroupFooterBand Name="GroupFooter2" Top="186.1" Width="1047.06" Height="18.9"&gt;
+          &lt;TextObject Name="Text36" Left="949.45" Width="75.6" Height="18.9" Text="[TotalPago]" Format="Currency" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="," Format.GroupSeparator="." Format.CurrencySymbol="R$" Format.PositivePattern="2" Format.NegativePattern="9" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/&gt;
+          &lt;TextObject Name="Text39" Left="916.65" Width="41.58" Height="17.01" Text="Pago:" WordWrap="false" Font="Arial, 8pt, style=Bold"/&gt;
+          &lt;TextObject Name="Text38" Left="727.65" Width="107.73" Height="17.01" Text="Total de Registros: " WordWrap="false" Font="Arial, 8pt, style=Bold"/&gt;
+          &lt;TextObject Name="Text37" Left="825.93" Width="43.47" Height="17.01" Text="[Total]" HorzAlign="Right" WordWrap="false" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;/GroupFooterBand&gt;
+      &lt;/GroupHeaderBand&gt;
+      &lt;GroupFooterBand Name="GroupFooter1" Top="209" Width="1047.06" Height="9.45"/&gt;
+    &lt;/GroupHeaderBand&gt;
+    &lt;ReportSummaryBand Name="ReportSummary1" Top="222.45" Width="1047.06" Height="18.9"&gt;
+      &lt;TextObject Name="Text42" Left="888.3" Width="79.38" Height="17.01" Text="Total Pago:" WordWrap="false" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text43" Left="949.45" Width="75.6" Height="18.9" Text="[TotalPago2]" Format="Currency" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="," Format.GroupSeparator="." Format.CurrencySymbol="R$" Format.PositivePattern="2" Format.NegativePattern="9" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;LineObject Name="Line4" Width="1052.73"/&gt;
+    &lt;/ReportSummaryBand&gt;
+    &lt;PageFooterBand Name="PageFooter1" Top="245.35" Width="1047.06" Height="18.9"&gt;
+      &lt;TextObject Name="Text9" Width="192.78" Height="17.01" Text="Data Emissão: [Date]" VertAlign="Bottom" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text8" Left="963.9" Width="79.38" Height="17.01" Text="Pág: [Page#]" HorzAlign="Center" VertAlign="Bottom" Font="Arial, 8pt"/&gt;
+      &lt;LineObject Name="Line7" Width="1062.18"/&gt;
+    &lt;/PageFooterBand&gt;
+  &lt;/ReportPage&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>45</value>
+  </metadata>
+</root>

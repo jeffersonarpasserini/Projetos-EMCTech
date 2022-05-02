@@ -1,0 +1,7 @@
+D:\fontes\jlmtech\EMCTech\EMCFinanceiro\EMCFinanceiro 1.0\EMCFinanceiroModel\bin\Debug\EMCFinanceiroModel.dll
+D:\fontes\jlmtech\EMCTech\EMCFinanceiro\EMCFinanceiro 1.0\EMCFinanceiroModel\bin\Debug\EMCFinanceiroModel.pdb
+D:\fontes\jlmtech\EMCTech\EMCFinanceiro\EMCFinanceiro 1.0\EMCFinanceiroModel\bin\Debug\EMCCadastroModel.dll
+D:\fontes\jlmtech\EMCTech\EMCFinanceiro\EMCFinanceiro 1.0\EMCFinanceiroModel\bin\Debug\EMCCadastroModel.pdb
+D:\fontes\jlmtech\EMCTech\EMCFinanceiro\EMCFinanceiro 1.0\EMCFinanceiroModel\obj\Debug\EMCFinanceiroModel.csprojResolveAssemblyReference.cache
+D:\fontes\jlmtech\EMCTech\EMCFinanceiro\EMCFinanceiro 1.0\EMCFinanceiroModel\obj\Debug\EMCFinanceiroModel.dll
+D:\fontes\jlmtech\EMCTech\EMCFinanceiro\EMCFinanceiro 1.0\EMCFinanceiroModel\obj\Debug\EMCFinanceiroModel.pdb
