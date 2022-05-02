@@ -1,0 +1,13 @@
+D:\fontes\jlmtech\EMCTech\EMCLibrary\EMCLibrary 1.0\EMCLibrary\obj\Debug\EMCLibrary.csprojResolveAssemblyReference.cache
+D:\fontes\jlmtech\EMCTech\EMCLibrary\EMCLibrary 1.0\EMCLibrary\obj\Debug\EMCLibrary.EMCForm.resources
+D:\fontes\jlmtech\EMCTech\EMCLibrary\EMCLibrary 1.0\EMCLibrary\obj\Debug\EMCLibrary.tplRelatorio.resources
+D:\fontes\jlmtech\EMCTech\EMCLibrary\EMCLibrary 1.0\EMCLibrary\obj\Debug\EMCLibrary.frmGeral.resources
+D:\fontes\jlmtech\EMCTech\EMCLibrary\EMCLibrary 1.0\EMCLibrary\obj\Debug\EMCLibrary.Properties.Resources.resources
+D:\fontes\jlmtech\EMCTech\EMCLibrary\EMCLibrary 1.0\EMCLibrary\obj\Debug\EMCLibrary.csproj.GenerateResource.Cache
+D:\fontes\jlmtech\EMCTech\EMCLibrary\EMCLibrary 1.0\EMCLibrary\bin\Debug\EMCLibrary.dll.config
+D:\fontes\jlmtech\EMCTech\EMCLibrary\EMCLibrary 1.0\EMCLibrary\bin\Debug\EMCLibrary.dll
+D:\fontes\jlmtech\EMCTech\EMCLibrary\EMCLibrary 1.0\EMCLibrary\bin\Debug\EMCLibrary.pdb
+D:\fontes\jlmtech\EMCTech\EMCLibrary\EMCLibrary 1.0\EMCLibrary\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+D:\fontes\jlmtech\EMCTech\EMCLibrary\EMCLibrary 1.0\EMCLibrary\bin\Debug\FirebirdSql.Data.FirebirdClient.pdb
+D:\fontes\jlmtech\EMCTech\EMCLibrary\EMCLibrary 1.0\EMCLibrary\obj\Debug\EMCLibrary.dll
+D:\fontes\jlmtech\EMCTech\EMCLibrary\EMCLibrary 1.0\EMCLibrary\obj\Debug\EMCLibrary.pdb

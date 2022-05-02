@@ -1,0 +1,12 @@
+D:\fontes\jlmtech\EMCTech\EMCLibrary\EMCLibrary 1.0\EMCLibrary\bin\Release\EMCLibrary.dll.config
+D:\fontes\jlmtech\EMCTech\EMCLibrary\EMCLibrary 1.0\EMCLibrary\bin\Release\EMCLibrary.dll
+D:\fontes\jlmtech\EMCTech\EMCLibrary\EMCLibrary 1.0\EMCLibrary\bin\Release\FirebirdSql.Data.FirebirdClient.dll
+D:\fontes\jlmtech\EMCTech\EMCLibrary\EMCLibrary 1.0\EMCLibrary\bin\Release\FirebirdSql.Data.FirebirdClient.pdb
+D:\fontes\jlmtech\EMCTech\EMCLibrary\EMCLibrary 1.0\EMCLibrary\obj\x86\Release\EMCLibrary.EMCForm.resources
+D:\fontes\jlmtech\EMCTech\EMCLibrary\EMCLibrary 1.0\EMCLibrary\obj\x86\Release\EMCLibrary.tplRelatorio.resources
+D:\fontes\jlmtech\EMCTech\EMCLibrary\EMCLibrary 1.0\EMCLibrary\obj\x86\Release\EMCLibrary.frmGeral.resources
+D:\fontes\jlmtech\EMCTech\EMCLibrary\EMCLibrary 1.0\EMCLibrary\obj\x86\Release\EMCLibrary.Properties.Resources.resources
+D:\fontes\jlmtech\EMCTech\EMCLibrary\EMCLibrary 1.0\EMCLibrary\obj\x86\Release\EMCLibrary.csproj.GenerateResource.Cache
+D:\fontes\jlmtech\EMCTech\EMCLibrary\EMCLibrary 1.0\EMCLibrary\obj\x86\Release\EMCLibrary.dll
+D:\fontes\jlmtech\EMCTech\EMCLibrary\EMCLibrary 1.0\EMCLibrary\bin\Release\MySql.Data.dll
+D:\fontes\jlmtech\EMCTech\EMCLibrary\EMCLibrary 1.0\EMCLibrary\obj\x86\Release\EMCLibrary.csprojResolveAssemblyReference.cache
