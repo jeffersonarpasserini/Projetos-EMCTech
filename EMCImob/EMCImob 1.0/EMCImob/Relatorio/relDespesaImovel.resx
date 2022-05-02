@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnPessoa.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAn9JREFUOE+1
+        kMtPE1EUxrtoiGHJgpULlizZaQQLHUpLh870MTPtPNuZdlpq29TyHCAFLMQWNyooNihRG43GsDAhUeMf
+        gBvCwrBw0RCWujHGsCAuyOelzMpoxIW/5OSee8/9vnvOdfx37tYfdWw2nl+wt+cjVSh1RlVDXKqulGrV
+        WrNUyO9svXzRZpdbvHq9bWe/ENXTPQwvNUuTFh4/aeDe6ipmJscxqsebqsDVMrrWNb9080qxkP+UThoV
+        W3aGVV6kVD357frYBDY2HuJWtYp8xoTMhRH2+8AMDSLgoY55NvB1hOSKJB3Y0jPGJqd3s2kiiArIZDLI
+        kkgoMkJEPOJxgx4kQQ2AJnlS16EbyVxLOFVedN6oLBezZuqIJs6MfxhhloWrrxeaqkLkIhBCLAJeDwKn
+        dd9Qy5h0+85B5umasaw3cTEKlQQXDqH38iVIYgyD7oGTXL7w3UylwAVZ8KEgWRmwtB8RlkFYEHccuVJx
+        S45ySBkGDNKW3+eFh6I+hyLc+4SuT49PWVv57CiCw174SPt+0oV/yIMgw/wICqLLIeWVcuqtBdlUwUXC
+        oPpdJzFREm/frzsXFivLZkI74cmrksCBISbDROx29UFR1Tt7H/fJ/ONjbYl6tiFtXwNF9UPguMaH3T2H
+        NTvXMGSJfCgPPa4hxnPwugcgSvJxLBrbmSsvtLc+8JT1tVVntjiqBwW+oupGx8Rs+aKSj0OWBaRNkxjE
+        QZPRQgxzpCSM7uXqitOW/p7Np412fl5tFg5rkC0dfCQCynUVmqat21f+TjBA98Sf5Q7NLwvwpWgEaP+x
+        mcl22+XzYWhKJyeH1tWJ5D4nxJL28b+z9qD+h5kdjp+sFilVGbU/qAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <metadata name="dstDespesaImovel.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>122, 17</value>
+  </metadata>
+  <metadata name="rptDespesaImovel.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>272, 17</value>
+  </metadata>
+  <data name="rptDespesaImovel.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="04/30/2014 16:02:59" ReportInfo.Modified="06/09/2014 10:06:11" ReportInfo.CreatorVersion="2013.3.2.0"&gt;
+  &lt;Dictionary&gt;
+    &lt;TableDataSource Name="DespesaImovel" ReferenceName="dstDespesaImovel.DespesaImovel" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="IdDespesaImovel" DataType="System.Int16"/&gt;
+      &lt;Column Name="idimovel" DataType="System.Int16"/&gt;
+      &lt;Column Name="idlocacaoproventos" DataType="System.Int16"/&gt;
+      &lt;Column Name="desc_tipoimovel" DataType="System.String"/&gt;
+      &lt;Column Name="proventos" DataType="System.String"/&gt;
+      &lt;Column Name="datalancamento" DataType="System.DateTime"/&gt;
+      &lt;Column Name="historico" DataType="System.String"/&gt;
+      &lt;Column Name="valordespesa" DataType="System.Double"/&gt;
+      &lt;Column Name="dataacerto" DataType="System.DateTime"/&gt;
+      &lt;Column Name="situacao" DataType="System.String"/&gt;
+      &lt;Column Name="descricaoacerto" DataType="System.String"/&gt;
+      &lt;Column Name="fornecedor_idpessoa" DataType="System.Int16"/&gt;
+      &lt;Column Name="nome_proprietario" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;TableDataSource Name="Imovel" ReferenceName="dstDespesaImovel.Imovel" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="IdImovel" DataType="System.Int16"/&gt;
+      &lt;Column Name="idtipoimovel" DataType="System.Int16"/&gt;
+      &lt;Column Name="tipoimovel" DataType="System.String"/&gt;
+      &lt;Column Name="rua" DataType="System.String"/&gt;
+      &lt;Column Name="numero" DataType="System.String"/&gt;
+      &lt;Column Name="complemento" DataType="System.String"/&gt;
+      &lt;Column Name="bairro" DataType="System.String"/&gt;
+      &lt;Column Name="nrocep" DataType="System.String"/&gt;
+      &lt;Column Name="cidade" DataType="System.String"/&gt;
+      &lt;Column Name="estado" DataType="System.String"/&gt;
+      &lt;Column Name="codigoimovel" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;Relation Name="Relation1" ReferenceName="dstDespesaImovel.Relation1" ParentDataSource="Imovel" ChildDataSource="DespesaImovel" ParentColumns="IdImovel" ChildColumns="idimovel" Enabled="true"/&gt;
+    &lt;Parameter Name="Empresa" DataType="System.String"/&gt;
+    &lt;Parameter Name="Periodo" DataType="System.String"/&gt;
+    &lt;Total Name="Total" TotalType="Count" Evaluator="Data1"/&gt;
+  &lt;/Dictionary&gt;
+  &lt;ReportPage Name="Page1" Landscape="true" PaperWidth="297" PaperHeight="210" RawPaperSize="9"&gt;
+    &lt;ReportTitleBand Name="ReportTitle1" Width="1047.06" Height="45.2"&gt;
+      &lt;ShapeObject Name="Shape1" Left="0.83" Top="0.83" Width="1045.49" Height="44.37"/&gt;
+      &lt;TextObject Name="Text1" Left="1.74" Top="2.63" Width="1041.94" Height="18.9" Text="Relatório Despesas Imóvel" HorzAlign="Center" VertAlign="Center" Font="Arial, 14pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text2" Left="986.41" Top="4.68" Width="57.2" Height="15.26" Text="JLMTech" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;LineObject Name="Line1" Left="1.76" Top="23.47" Width="1043.62" Diagonal="true"/&gt;
+      &lt;TextObject Name="Text4" Left="2.49" Top="26.25" Width="58.11" Height="15.26" Text="Empresa:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text3" Left="62.4" Top="26" Width="544.19" Height="15.26" Text="[Empresa]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text32" Left="806.94" Top="26" Width="235.96" Height="15.26" Text="[Periodo]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text33" Left="737.15" Top="26" Width="68.94" Height="15.26" Text="Período de:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+    &lt;/ReportTitleBand&gt;
+    &lt;DataBand Name="Data1" Top="48.83" Width="1047.06" Height="73.39" DataSource="DespesaImovel"&gt;
+      &lt;TextObject Name="Text5" Left="1.65" Top="-0.14" Width="39.06" Height="15.26" Text="Cód." VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text6" Left="43.21" Top="-0.14" Width="127.54" Height="15.26" Text="Código Imóvel" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text7" Left="603.14" Top="-0.14" Width="150.22" Height="15.26" Text="Provento" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text8" Left="755.2" Top="-0.15" Width="80.29" Height="15.26" Text="Data Lançam." VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text9" Left="836.78" Top="0.44" Width="83.02" Height="15.26" Text="Valor Despesa" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text10" Left="921.17" Top="-0.17" Width="69.37" Height="15.26" Text="Data Acerto" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text11" Left="991.73" Top="-0.17" Width="53.91" Height="15.26" Text="Situação" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text12" Left="1.78" Top="35.16" Width="64.74" Height="15.26" Text="Descrição:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text13" Left="1.73" Top="53.29" Width="64.87" Height="15.26" Text="Histórico:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text14" Left="1.51" Top="17.52" Width="39.15" Height="15.26" Text="[DespesaImovel.IdDespesaImovel]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text17" Left="603.44" Top="17.52" Width="17.37" Height="15.26" Text="[DespesaImovel.idlocacaoproventos]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text18" Left="621.93" Top="17.52" Width="131.72" Height="15.26" Text="[DespesaImovel.proventos]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text19" Left="755.37" Top="17.52" Width="79.94" Height="15.26" Text="[DespesaImovel.datalancamento]" Format="Date" Format.Format="d" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text20" Left="836.86" Top="17.52" Width="82.67" Height="15.26" Text="[DespesaImovel.valordespesa]" Format="Number" Format.UseLocale="true" HorzAlign="Right" VertAlign="Center" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+      &lt;TextObject Name="Text21" Left="920.96" Top="17.52" Width="69.04" Height="15.26" Text="[DespesaImovel.dataacerto]" Format="Date" Format.Format="d" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text22" Left="991.64" Top="17.52" Width="53.66" Height="15.26" Text="[DespesaImovel.situacao]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text23" Left="68.61" Top="35.89" Width="975.74" Height="15.26" Text="[DespesaImovel.descricaoacerto]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text24" Left="68.32" Top="53.25" Width="976.33" Height="15.26" Text="[DespesaImovel.historico]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text29" Left="172.11" Top="-0.12" Width="428.61" Height="15.26" Text="Fornecedor" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text30" Left="172.06" Top="17.26" Width="23.71" Height="15.26" Text="[DespesaImovel.fornecedor_idpessoa]" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text31" Left="197.34" Top="17.26" Width="403.67" Height="15.26" Text="[DespesaImovel.nome_proprietario]" Font="Arial, 8pt"/&gt;
+      &lt;LineObject Name="Line2" Left="1.58" Top="71.2" Width="1043.62" Border.Style="Dash" Diagonal="true"/&gt;
+      &lt;TextObject Name="Text34" Left="43.21" Top="17.91" Width="127.21" Height="15.26" Text="[DespesaImovel.Imovel.codigoimovel]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+    &lt;/DataBand&gt;
+    &lt;ReportSummaryBand Name="ReportSummary1" Top="125.84" Width="1047.06" Height="23.58"&gt;
+      &lt;ShapeObject Name="Shape2" Left="-0.12" Top="0.13" Width="1046.48" Height="23.45"/&gt;
+      &lt;TextObject Name="Text25" Left="1010.05" Top="2.95" Width="31.91" Height="15.26" Text="[Total]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text26" Left="916.64" Top="2.81" Width="91.68" Height="15.26" Text="Total Registros:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+    &lt;/ReportSummaryBand&gt;
+    &lt;PageFooterBand Name="PageFooter1" Top="153.05" Width="1047.06" Height="15.83"&gt;
+      &lt;TextObject Name="Text27" Left="0.98" Top="0.57" Width="451.68" Height="15.26" Text="Data Emissão: [Date]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text28" Left="962.46" Top="-0.02" Width="79.95" Height="15.26" Text="Página: [Page]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+    &lt;/PageFooterBand&gt;
+  &lt;/ReportPage&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+  <metadata name="rptFornecedor.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>421, 17</value>
+  </metadata>
+  <data name="rptFornecedor.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="04/30/2014 16:02:59" ReportInfo.Modified="06/09/2014 10:06:11" ReportInfo.CreatorVersion="2013.3.2.0"&gt;
+  &lt;Dictionary&gt;
+    &lt;TableDataSource Name="DespesaImovel" ReferenceName="dstDespesaImovel.DespesaImovel" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="IdDespesaImovel" DataType="System.Int16"/&gt;
+      &lt;Column Name="idimovel" DataType="System.Int16"/&gt;
+      &lt;Column Name="idlocacaoproventos" DataType="System.Int16"/&gt;
+      &lt;Column Name="desc_tipoimovel" DataType="System.String"/&gt;
+      &lt;Column Name="proventos" DataType="System.String"/&gt;
+      &lt;Column Name="datalancamento" DataType="System.DateTime"/&gt;
+      &lt;Column Name="historico" DataType="System.String"/&gt;
+      &lt;Column Name="valordespesa" DataType="System.Double"/&gt;
+      &lt;Column Name="dataacerto" DataType="System.DateTime"/&gt;
+      &lt;Column Name="situacao" DataType="System.String"/&gt;
+      &lt;Column Name="descricaoacerto" DataType="System.String"/&gt;
+      &lt;Column Name="fornecedor_idpessoa" DataType="System.Int16"/&gt;
+      &lt;Column Name="nome_proprietario" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;TableDataSource Name="Imovel" ReferenceName="dstDespesaImovel.Imovel" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="IdImovel" DataType="System.Int16"/&gt;
+      &lt;Column Name="idtipoimovel" DataType="System.Int16"/&gt;
+      &lt;Column Name="tipoimovel" DataType="System.String"/&gt;
+      &lt;Column Name="rua" DataType="System.String"/&gt;
+      &lt;Column Name="numero" DataType="System.String"/&gt;
+      &lt;Column Name="complemento" DataType="System.String"/&gt;
+      &lt;Column Name="bairro" DataType="System.String"/&gt;
+      &lt;Column Name="nrocep" DataType="System.String"/&gt;
+      &lt;Column Name="cidade" DataType="System.String"/&gt;
+      &lt;Column Name="estado" DataType="System.String"/&gt;
+      &lt;Column Name="codigoimovel" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;Relation Name="Relation1" ReferenceName="dstDespesaImovel.Relation1" ParentDataSource="Imovel" ChildDataSource="DespesaImovel" ParentColumns="IdImovel" ChildColumns="idimovel" Enabled="true"/&gt;
+    &lt;Parameter Name="Empresa" DataType="System.String"/&gt;
+    &lt;Parameter Name="Periodo" DataType="System.String"/&gt;
+    &lt;Total Name="Total" TotalType="Count" Evaluator="Data1"/&gt;
+  &lt;/Dictionary&gt;
+  &lt;ReportPage Name="Page1" Landscape="true" PaperWidth="297" PaperHeight="210" RawPaperSize="9"&gt;
+    &lt;ReportTitleBand Name="ReportTitle1" Width="1047.06" Height="45.2"&gt;
+      &lt;ShapeObject Name="Shape1" Left="0.83" Top="0.83" Width="1045.49" Height="44.37"/&gt;
+      &lt;TextObject Name="Text1" Left="1.74" Top="2.63" Width="1041.94" Height="18.9" Text="Relatório Despesas por Fornecedor" HorzAlign="Center" VertAlign="Center" Font="Arial, 14pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text2" Left="986.41" Top="4.68" Width="57.2" Height="15.26" Text="JLMTech" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;LineObject Name="Line1" Left="1.76" Top="23.47" Width="1043.62" Diagonal="true"/&gt;
+      &lt;TextObject Name="Text4" Left="2.49" Top="26.25" Width="58.11" Height="15.26" Text="Empresa:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text3" Left="62.4" Top="26" Width="628.55" Height="15.26" Text="[Empresa]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text13" Left="819.39" Top="26" Width="224.17" Height="15.26" Text="[Periodo]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text32" Left="750.69" Top="26" Width="68.1" Height="15.26" Text="Período de:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+    &lt;/ReportTitleBand&gt;
+    &lt;GroupHeaderBand Name="GroupHeader1" Top="48.83" Width="1047.06" Height="30.76" Condition="[DespesaImovel.nome_proprietario]"&gt;
+      &lt;TextObject Name="Text5" Left="0.71" Top="14.64" Width="53.62" Height="15.26" Text="Despesa" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text6" Left="55.95" Top="14.64" Width="137.48" Height="15.26" Text="Código Imóvel" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text7" Left="195.18" Top="14.64" Width="150.22" Height="15.26" Text="Provento" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text8" Left="347.24" Top="14.64" Width="80.29" Height="15.26" Text="Data Lançam." VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text10" Left="513.21" Top="14.64" Width="69.37" Height="15.26" Text="Data Acerto" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text11" Left="583.77" Top="14.64" Width="53.91" Height="15.26" Text="Situação" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text29" Left="0.71" Top="0.44" Width="72.24" Height="15.26" Text="Fornecedor:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text9" Left="428.82" Top="14.64" Width="83.02" Height="15.26" Text="Valor Despesa" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text12" Left="638.86" Top="14.85" Width="404.72" Height="15.26" Text="Descrição" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text30" Left="74.09" Top="0.35" Width="25.57" Height="15.26" Text="[DespesaImovel.fornecedor_idpessoa]" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text31" Left="101.66" Top="0.35" Width="608.63" Height="15.26" Text="[DespesaImovel.nome_proprietario]" Font="Arial, 8pt"/&gt;
+      &lt;DataBand Name="Data1" Top="83.21" Width="1047.06" Height="21.28" DataSource="DespesaImovel"&gt;
+        &lt;TextObject Name="Text14" Left="0.71" Top="2.05" Width="52.8" Height="15.26" Text="[DespesaImovel.IdDespesaImovel]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text17" Left="195.48" Top="2.05" Width="17.37" Height="15.26" Text="[DespesaImovel.idlocacaoproventos]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text18" Left="213.97" Top="2.05" Width="131.72" Height="15.26" Text="[DespesaImovel.proventos]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text19" Left="347.41" Top="2.05" Width="79.94" Height="15.26" Text="[DespesaImovel.datalancamento]" Format="Date" Format.Format="d" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text20" Left="428.9" Top="2.05" Width="82.67" Height="15.26" Text="[DespesaImovel.valordespesa]" Format="Number" Format.UseLocale="true" HorzAlign="Right" VertAlign="Center" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;TextObject Name="Text21" Left="513" Top="2.05" Width="69.04" Height="15.26" Text="[DespesaImovel.dataacerto]" Format="Date" Format.Format="d" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text22" Left="583.68" Top="2.05" Width="53.66" Height="15.26" Text="[DespesaImovel.situacao]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text23" Left="637.9" Top="2.05" Width="406.53" Height="15.26" Text="[DespesaImovel.descricaoacerto]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text24" Left="56.28" Top="1.57" Width="137.15" Height="15.27" Text="[DespesaImovel.Imovel.codigoimovel]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;/DataBand&gt;
+      &lt;GroupFooterBand Name="GroupFooter1" Top="108.12" Width="1047.06" Height="3.32"&gt;
+        &lt;LineObject Name="Line2" Left="0.67" Top="1.55" Width="1043.62" Border.Style="Dash" Diagonal="true"/&gt;
+      &lt;/GroupFooterBand&gt;
+    &lt;/GroupHeaderBand&gt;
+    &lt;ReportSummaryBand Name="ReportSummary1" Top="115.07" Width="1047.06" Height="23.58"&gt;
+      &lt;ShapeObject Name="Shape2" Left="-0.12" Top="0.13" Width="1046.48" Height="23.45"/&gt;
+      &lt;TextObject Name="Text25" Left="1010.05" Top="2.95" Width="31.91" Height="15.26" Text="[Total]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text26" Left="916.64" Top="2.81" Width="91.68" Height="15.26" Text="Total Registros:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+    &lt;/ReportSummaryBand&gt;
+    &lt;PageFooterBand Name="PageFooter1" Top="142.27" Width="1047.06" Height="17.36"&gt;
+      &lt;TextObject Name="Text27" Left="0.98" Top="0.57" Width="451.68" Height="15.26" Text="Data Emissão: [Date]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text28" Left="962.46" Top="-0.02" Width="79.95" Height="15.26" Text="Página: [Page]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+    &lt;/PageFooterBand&gt;
+  &lt;/ReportPage&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+  <metadata name="rptImovel.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>545, 18</value>
+  </metadata>
+  <data name="rptImovel.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="05/06/2014 14:02:30" ReportInfo.Modified="06/09/2014 10:07:15" ReportInfo.CreatorVersion="2013.3.2.0"&gt;
+  &lt;Dictionary&gt;
+    &lt;TableDataSource Name="DespesaImovel" ReferenceName="dstDespesaImovel.DespesaImovel" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="IdDespesaImovel" DataType="System.Int16"/&gt;
+      &lt;Column Name="idimovel" DataType="System.Int16"/&gt;
+      &lt;Column Name="idlocacaoproventos" DataType="System.Int16"/&gt;
+      &lt;Column Name="desc_tipoimovel" DataType="System.String"/&gt;
+      &lt;Column Name="proventos" DataType="System.String"/&gt;
+      &lt;Column Name="datalancamento" DataType="System.DateTime"/&gt;
+      &lt;Column Name="historico" DataType="System.String"/&gt;
+      &lt;Column Name="valordespesa" DataType="System.Double"/&gt;
+      &lt;Column Name="dataacerto" DataType="System.DateTime"/&gt;
+      &lt;Column Name="situacao" DataType="System.String"/&gt;
+      &lt;Column Name="descricaoacerto" DataType="System.String"/&gt;
+      &lt;Column Name="fornecedor_idpessoa" DataType="System.Int16"/&gt;
+      &lt;Column Name="nome_proprietario" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;TableDataSource Name="Imovel" ReferenceName="dstDespesaImovel.Imovel" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="IdImovel" DataType="System.Int16"/&gt;
+      &lt;Column Name="idtipoimovel" DataType="System.Int16"/&gt;
+      &lt;Column Name="tipoimovel" DataType="System.String"/&gt;
+      &lt;Column Name="rua" DataType="System.String"/&gt;
+      &lt;Column Name="numero" DataType="System.String"/&gt;
+      &lt;Column Name="complemento" DataType="System.String"/&gt;
+      &lt;Column Name="bairro" DataType="System.String"/&gt;
+      &lt;Column Name="nrocep" DataType="System.String"/&gt;
+      &lt;Column Name="cidade" DataType="System.String"/&gt;
+      &lt;Column Name="estado" DataType="System.String"/&gt;
+      &lt;Column Name="codigoimovel" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;Relation Name="Relation1" ReferenceName="dstDespesaImovel.Relation1" ParentDataSource="Imovel" ChildDataSource="DespesaImovel" ParentColumns="IdImovel" ChildColumns="idimovel" Enabled="true"/&gt;
+    &lt;Parameter Name="Empresa" DataType="System.String"/&gt;
+    &lt;Parameter Name="Periodo" DataType="System.String"/&gt;
+    &lt;Total Name="Total" TotalType="Count" Evaluator="Data2"/&gt;
+  &lt;/Dictionary&gt;
+  &lt;ReportPage Name="Page1" Landscape="true" PaperWidth="297" PaperHeight="210" RawPaperSize="9"&gt;
+    &lt;ReportTitleBand Name="ReportTitle1" Width="1047.06" Height="42.84"&gt;
+      &lt;TextObject Name="Text1" Left="1.58" Top="2.17" Width="1042.55" Height="18.9" Text="Relatório de despesas por Imóvel" HorzAlign="Center" VertAlign="Center" Font="Arial, 14pt, style=Bold"/&gt;
+      &lt;ShapeObject Name="Shape1" Left="0.7" Top="0.34" Width="1046.11" Height="42.5"/&gt;
+      &lt;TextObject Name="Text2" Left="989.63" Top="4.85" Width="55.41" Height="15.26" Text="JLMTech" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;LineObject Name="Line1" Left="1.65" Top="23.91" Width="1044.09" Diagonal="true"/&gt;
+      &lt;TextObject Name="Text4" Left="1.54" Top="24.87" Width="60.84" Height="15.26" Text="Empresa:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text20" Left="64.36" Top="24.87" Width="624.99" Height="15.26" Text="[Empresa]" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text23" Left="793.28" Top="24.87" Width="250.56" Height="15.26" Text="[Periodo]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text60" Left="724.67" Top="24.87" Width="69.03" Height="15.26" Text="Período de:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+    &lt;/ReportTitleBand&gt;
+    &lt;DataBand Name="Data1" Top="46.47" Width="1047.06" Height="37.48" DataSource="Imovel"&gt;
+      &lt;TextObject Name="Text5" Left="0.72" Top="2.33" Width="128.65" Height="15.26" Text="Código Imóvel" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text17" Left="654.03" Top="2.33" Width="187.57" Height="15.26" Text="Bairro" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text18" Left="842.3" Top="2.33" Width="153.91" Height="15.26" Text="Cidade" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text19" Left="998.44" Top="2.33" Width="44.66" Height="15.26" Text="Estado" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text7" Left="131.24" Top="2.33" Width="323.86" Height="15.26" Text="Endereço" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text8" Left="456.77" Top="2.33" Width="50.84" Height="15.26" Text="Número" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text9" Left="509.4" Top="2.33" Width="81.77" Height="15.26" Text="Complemento" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text10" Left="592.73" Top="2.33" Width="59.02" Height="15.26" Text="CEP" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text24" Left="654.03" Top="19.94" Width="186.71" Height="15.26" Text="[Imovel.bairro]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text25" Left="841.96" Top="19.94" Width="154.3" Height="15.26" Text="[Imovel.cidade]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text26" Left="997.64" Top="19.94" Width="45.45" Height="15.26" Text="[Imovel.estado]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text13" Left="131.24" Top="19.94" Width="323.65" Height="15.26" Text="[Imovel.rua]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text14" Left="456.71" Top="19.94" Width="50.9" Height="15.26" Text="[Imovel.numero]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text15" Left="509.41" Top="19.94" Width="81.76" Height="15.26" Text="[Imovel.complemento]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text16" Left="592.71" Top="19.94" Width="59.04" Height="15.26" Text="[Imovel.nrocep]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text6" Left="0.72" Top="19.94" Width="129.01" Height="15.26" Text="[Imovel.codigoimovel]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;GroupHeaderBand Name="GroupHeader1" Top="87.57" Width="1047.06" Height="25.11" Condition="[DespesaImovel.idimovel]"&gt;
+        &lt;TextObject Name="Text42" Left="0.72" Top="4.61" Width="80.94" Height="15.26" Text="Cód. Despesa" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text43" Left="362.37" Top="4.61" Width="102.7" Height="15.26" Text="Data Lançamento" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text44" Left="464.88" Top="4.61" Width="83.64" Height="15.26" Text="Valor Despesa" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text45" Left="550.13" Top="4.61" Width="70.02" Height="15.26" Text="Data Acerto" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text46" Left="621.67" Top="4.61" Width="54.66" Height="15.26" Text="Situação" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text47" Left="83.24" Top="4.61" Width="278.2" Height="15.26" Text="Provento" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;TextObject Name="Text55" Left="678" Top="4.61" Width="365.9" Height="15.26" Text="Descrição" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+        &lt;LineObject Name="Line3" Left="1.58" Top="23.41" Width="1044.09" Border.Style="Dash" Border.Width="0.25" Diagonal="true"/&gt;
+        &lt;LineObject Name="Line4" Left="0.7" Top="1.64" Width="1044.09" Border.Style="Dash" Border.Width="0.25" Diagonal="true"/&gt;
+        &lt;DataBand Name="Data2" Top="116.31" Width="1047.06" Height="19.69" DataSource="DespesaImovel"&gt;
+          &lt;TextObject Name="Text57" Left="678.05" Top="2.18" Width="366.59" Height="15.26" Text="[DespesaImovel.descricaoacerto]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+          &lt;TextObject Name="Text48" Left="0.77" Top="2.18" Width="80.85" Height="15.26" Text="[DespesaImovel.IdDespesaImovel]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+          &lt;TextObject Name="Text49" Left="108.93" Top="2.18" Width="253.46" Height="15.26" Text="[DespesaImovel.proventos]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+          &lt;TextObject Name="Text50" Left="363.33" Top="2.18" Width="102.69" Height="15.26" Text="[DespesaImovel.datalancamento]" Format="Date" Format.Format="d" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+          &lt;TextObject Name="Text51" Left="465.88" Top="2.18" Width="83.59" Height="15.26" Text="[DespesaImovel.valordespesa]" Format="Number" Format.UseLocale="true" HorzAlign="Right" VertAlign="Center" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+          &lt;TextObject Name="Text52" Left="551.14" Top="2.18" Width="69.96" Height="15.26" Text="[DespesaImovel.dataacerto]" Format="Date" Format.Format="d" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+          &lt;TextObject Name="Text53" Left="622.75" Top="2.18" Width="53.62" Height="15.26" Text="[DespesaImovel.situacao]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+          &lt;TextObject Name="Text54" Left="84.19" Top="2.18" Width="22.84" Height="15.26" Text="[DespesaImovel.idlocacaoproventos]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;/DataBand&gt;
+        &lt;GroupFooterBand Name="GroupFooter1" Top="139.63" Width="1047.06" Height="8.77"&gt;
+          &lt;LineObject Name="Line2" Left="1.67" Top="1.54" Width="1044.09" Border.Width="0.25" Diagonal="true"/&gt;
+        &lt;/GroupFooterBand&gt;
+      &lt;/GroupHeaderBand&gt;
+    &lt;/DataBand&gt;
+    &lt;ReportSummaryBand Name="ReportSummary1" Top="152.02" Width="1047.06" Height="22.49"&gt;
+      &lt;ShapeObject Name="Shape2" Left="-0.2" Top="1.79" Width="1046.11" Height="20.7"/&gt;
+      &lt;TextObject Name="Text59" Left="914.3" Top="4.2" Width="92.69" Height="15.26" Text="Total Registros:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text21" Left="1007.32" Top="4.3" Width="37.32" Height="15.26" Text="[Total]" Font="Arial, 8pt"/&gt;
+    &lt;/ReportSummaryBand&gt;
+    &lt;PageFooterBand Name="PageFooter1" Top="178.14" Width="1047.06" Height="15.85"&gt;
+      &lt;TextObject Name="Text3" Left="963.86" Top="0.22" Width="79.95" Height="15.26" Text="Página: [Page]" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text22" Left="1.47" Top="0.22" Width="386.37" Height="15.26" Text="Data Emissão: [Date]" Font="Arial, 8pt"/&gt;
+    &lt;/PageFooterBand&gt;
+  &lt;/ReportPage&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+  <data name="btnImovel.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAn9JREFUOE+1
+        kMtPE1EUxrtoiGHJgpULlizZaQQLHUpLh870MTPtPNuZdlpq29TyHCAFLMQWNyooNihRG43GsDAhUeMf
+        gBvCwrBw0RCWujHGsCAuyOelzMpoxIW/5OSee8/9vnvOdfx37tYfdWw2nl+wt+cjVSh1RlVDXKqulGrV
+        WrNUyO9svXzRZpdbvHq9bWe/ENXTPQwvNUuTFh4/aeDe6ipmJscxqsebqsDVMrrWNb9080qxkP+UThoV
+        W3aGVV6kVD357frYBDY2HuJWtYp8xoTMhRH2+8AMDSLgoY55NvB1hOSKJB3Y0jPGJqd3s2kiiArIZDLI
+        kkgoMkJEPOJxgx4kQQ2AJnlS16EbyVxLOFVedN6oLBezZuqIJs6MfxhhloWrrxeaqkLkIhBCLAJeDwKn
+        dd9Qy5h0+85B5umasaw3cTEKlQQXDqH38iVIYgyD7oGTXL7w3UylwAVZ8KEgWRmwtB8RlkFYEHccuVJx
+        S45ySBkGDNKW3+eFh6I+hyLc+4SuT49PWVv57CiCw174SPt+0oV/yIMgw/wICqLLIeWVcuqtBdlUwUXC
+        oPpdJzFREm/frzsXFivLZkI74cmrksCBISbDROx29UFR1Tt7H/fJ/ONjbYl6tiFtXwNF9UPguMaH3T2H
+        NTvXMGSJfCgPPa4hxnPwugcgSvJxLBrbmSsvtLc+8JT1tVVntjiqBwW+oupGx8Rs+aKSj0OWBaRNkxjE
+        QZPRQgxzpCSM7uXqitOW/p7Np412fl5tFg5rkC0dfCQCynUVmqat21f+TjBA98Sf5Q7NLwvwpWgEaP+x
+        mcl22+XzYWhKJyeH1tWJ5D4nxJL28b+z9qD+h5kdjp+sFilVGbU/qAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>82</value>
+  </metadata>
+</root>

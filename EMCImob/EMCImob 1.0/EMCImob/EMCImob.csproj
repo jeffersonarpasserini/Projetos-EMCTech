@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7ABCF260-B201-4B47-A7AF-15F6C205ADE2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EMCImob</RootNamespace>
+    <AssemblyName>EMCImob</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EMCCadastro">
+      <HintPath>..\..\..\DLLProducao\EMCCadastro.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCCadastroModel">
+      <HintPath>..\..\..\DLLProducao\EMCCadastroModel.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCCadastroRN">
+      <HintPath>..\..\..\DLLProducao\EMCCadastroRN.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCIntegracaoModel">
+      <HintPath>..\..\..\DLLProducao\EMCIntegracaoModel.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCIntegracaoRN">
+      <HintPath>..\..\..\DLLProducao\EMCIntegracaoRN.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCLibrary">
+      <HintPath>..\..\..\DLLProducao\EMCLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCSecurity">
+      <HintPath>..\..\..\DLLProducao\EMCSecurity.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCSecurityModel">
+      <HintPath>..\..\..\DLLProducao\EMCSecurityModel.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCSecurityRN">
+      <HintPath>..\..\..\DLLProducao\EMCSecurityRN.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport, Version=2013.3.2.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c, processorArchitecture=MSIL" />
+    <Reference Include="FastReport.Bars, Version=2013.3.2.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c, processorArchitecture=MSIL" />
+    <Reference Include="FastReport.Editor, Version=2013.3.2.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c, processorArchitecture=MSIL" />
+    <Reference Include="MaskedDateEntryControl">
+      <HintPath>..\..\..\DLLProducao\MaskedDateEntryControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Manutencao\frmIntegFinanceiro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmIntegFinanceiro.Designer.cs">
+      <DependentUpon>frmIntegFinanceiro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmIptu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmIptu.Designer.cs">
+      <DependentUpon>frmIptu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmDespesaImovel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmDespesaImovel.Designer.cs">
+      <DependentUpon>frmDespesaImovel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmContratoLocacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmContratoLocacao.Designer.cs">
+      <DependentUpon>frmContratoLocacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmImovel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmImovel.Designer.cs">
+      <DependentUpon>frmImovel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmCarteiraImoveis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmCarteiraImoveis.Designer.cs">
+      <DependentUpon>frmCarteiraImoveis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmComodo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmComodo.Designer.cs">
+      <DependentUpon>frmComodo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmContasCaptacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmContasCaptacao.Designer.cs">
+      <DependentUpon>frmContasCaptacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmLocacaoProventos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmLocacaoProventos.Designer.cs">
+      <DependentUpon>frmLocacaoProventos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmTipoImovel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmTipoImovel.Designer.cs">
+      <DependentUpon>frmTipoImovel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmTipoLanctoCaptacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmTipoLanctoCaptacao.Designer.cs">
+      <DependentUpon>frmTipoLanctoCaptacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Pesquisa\psqCarteiraImoveis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqCarteiraImoveis.Designer.cs">
+      <DependentUpon>psqCarteiraImoveis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqComodo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqComodo.Designer.cs">
+      <DependentUpon>psqComodo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqTipoImovel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqTipoImovel.Designer.cs">
+      <DependentUpon>psqTipoImovel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqTipoLanctoCaptacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqTipoLanctoCaptacao.Designer.cs">
+      <DependentUpon>psqTipoLanctoCaptacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqLocacaoProventos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqLocacaoProventos.Designer.cs">
+      <DependentUpon>psqLocacaoProventos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqImovel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqImovel.Designer.cs">
+      <DependentUpon>psqImovel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqDespesaImovel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqDespesaImovel.Designer.cs">
+      <DependentUpon>psqDespesaImovel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqIptu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqIptu.Designer.cs">
+      <DependentUpon>psqIptu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorio\LocacaoCCReceberRN.cs" />
+    <Compile Include="Relatorio\relCarteiraImoveis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorio\relCarteiraImoveis.Designer.cs">
+      <DependentUpon>relCarteiraImoveis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorio\relComodo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorio\relComodo.Designer.cs">
+      <DependentUpon>relComodo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorio\relContratoLocacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorio\relContratoLocacao.Designer.cs">
+      <DependentUpon>relContratoLocacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorio\relParcelasVencidas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorio\relParcelasVencidas.Designer.cs">
+      <DependentUpon>relParcelasVencidas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorio\relTipoImovel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorio\relTipoImovel.Designer.cs">
+      <DependentUpon>relTipoImovel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorio\relTipoLanctoCaptacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorio\relTipoLanctoCaptacao.Designer.cs">
+      <DependentUpon>relTipoLanctoCaptacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorio\relLocacaoProventos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorio\relLocacaoProventos.Designer.cs">
+      <DependentUpon>relLocacaoProventos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorio\relImovel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorio\relImovel.Designer.cs">
+      <DependentUpon>relImovel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorio\relDespesaImovel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorio\relDespesaImovel.Designer.cs">
+      <DependentUpon>relDespesaImovel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorio\relIptu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorio\relIptu.Designer.cs">
+      <DependentUpon>relIptu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorio\relContratoProventos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorio\relContratoProventos.Designer.cs">
+      <DependentUpon>relContratoProventos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorio\relExtratoContrato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorio\relExtratoContrato.Designer.cs">
+      <DependentUpon>relExtratoContrato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Version.cs" />
+    <EmbeddedResource Include="Manutencao\frmCarteiraImoveis.resx">
+      <DependentUpon>frmCarteiraImoveis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmComodo.resx">
+      <DependentUpon>frmComodo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmContasCaptacao.resx">
+      <DependentUpon>frmContasCaptacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmContratoLocacao.resx">
+      <DependentUpon>frmContratoLocacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmDespesaImovel.resx">
+      <DependentUpon>frmDespesaImovel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmImovel.resx">
+      <DependentUpon>frmImovel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmIntegFinanceiro.resx">
+      <DependentUpon>frmIntegFinanceiro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmIptu.resx">
+      <DependentUpon>frmIptu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmLocacaoProventos.resx">
+      <DependentUpon>frmLocacaoProventos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmTipoImovel.resx">
+      <DependentUpon>frmTipoImovel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmTipoLanctoCaptacao.resx">
+      <DependentUpon>frmTipoLanctoCaptacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqCarteiraImoveis.resx">
+      <DependentUpon>psqCarteiraImoveis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqComodo.resx">
+      <DependentUpon>psqComodo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqDespesaImovel.resx">
+      <DependentUpon>psqDespesaImovel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqImovel.resx">
+      <DependentUpon>psqImovel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqIptu.resx">
+      <DependentUpon>psqIptu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqLocacaoProventos.resx">
+      <DependentUpon>psqLocacaoProventos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqTipoImovel.resx">
+      <DependentUpon>psqTipoImovel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Pesquisa\psqTipoLanctoCaptacao.resx">
+      <DependentUpon>psqTipoLanctoCaptacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\relCarteiraImoveis.resx">
+      <DependentUpon>relCarteiraImoveis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\relComodo.resx">
+      <DependentUpon>relComodo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\relContratoLocacao.resx">
+      <DependentUpon>relContratoLocacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\relContratoProventos.resx">
+      <DependentUpon>relContratoProventos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\relParcelasVencidas.resx">
+      <DependentUpon>relParcelasVencidas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\relTipoImovel.resx">
+      <DependentUpon>relTipoImovel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\relTipoLanctoCaptacao.resx">
+      <DependentUpon>relTipoLanctoCaptacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\relLocacaoProventos.resx">
+      <DependentUpon>relLocacaoProventos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\relImovel.resx">
+      <DependentUpon>relImovel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\relDespesaImovel.resx">
+      <DependentUpon>relDespesaImovel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\relIptu.resx">
+      <DependentUpon>relIptu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\relExtratoContrato.resx">
+      <DependentUpon>relExtratoContrato.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EMCImobModel\EMCImobModel.csproj">
+      <Project>{26813EEC-4458-456A-AAEB-D161150E3745}</Project>
+      <Name>EMCImobModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EMCImobRN\EMCImobRN.csproj">
+      <Project>{8338E0F2-B730-48AC-BE60-E3C806DFDD23}</Project>
+      <Name>EMCImobRN</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alteracao_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redo_16x16.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

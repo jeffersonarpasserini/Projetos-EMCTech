@@ -1,0 +1,7 @@
+D:\fontes\jlmtech\EMCTech\EMCImob\EMCImob 1.0\EMCImobModel\bin\Debug\EMCImobModel.dll
+D:\fontes\jlmtech\EMCTech\EMCImob\EMCImob 1.0\EMCImobModel\bin\Debug\EMCImobModel.pdb
+D:\fontes\jlmtech\EMCTech\EMCImob\EMCImob 1.0\EMCImobModel\bin\Debug\EMCCadastroModel.dll
+D:\fontes\jlmtech\EMCTech\EMCImob\EMCImob 1.0\EMCImobModel\bin\Debug\EMCCadastroModel.pdb
+D:\fontes\jlmtech\EMCTech\EMCImob\EMCImob 1.0\EMCImobModel\obj\Debug\EMCImobModel.csprojResolveAssemblyReference.cache
+D:\fontes\jlmtech\EMCTech\EMCImob\EMCImob 1.0\EMCImobModel\obj\Debug\EMCImobModel.dll
+D:\fontes\jlmtech\EMCTech\EMCImob\EMCImob 1.0\EMCImobModel\obj\Debug\EMCImobModel.pdb

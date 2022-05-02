@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="dstLocacaoCCPagar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="dstLocacaoCCReceber.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>176, 17</value>
+  </metadata>
+  <metadata name="rptLocador.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>348, 17</value>
+  </metadata>
+  <data name="rptLocador.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="09/03/2014 11:21:20" ReportInfo.Modified="09/09/2014 09:46:16" ReportInfo.CreatorVersion="2013.3.2.0"&gt;
+  &lt;Dictionary&gt;
+    &lt;TableDataSource Name="LocacaoCCPagar" ReferenceName="dstLocacaoCCPagar.LocacaoCCPagar" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="idlocacaoccpagar" DataType="System.Int16"/&gt;
+      &lt;Column Name="idlocacaopagar" DataType="System.Int16"/&gt;
+      &lt;Column Name="idlocacaoproventos" DataType="System.Int16"/&gt;
+      &lt;Column Name="codempresa" DataType="System.Int16"/&gt;
+      &lt;Column Name="idlocador" DataType="System.Int16"/&gt;
+      &lt;Column Name="nome_locador" DataType="System.String"/&gt;
+      &lt;Column Name="tipoprovento" DataType="System.String"/&gt;
+      &lt;Column Name="valorlancamento" DataType="System.Decimal"/&gt;
+      &lt;Column Name="datalancamento" DataType="System.DateTime"/&gt;
+      &lt;Column Name="datavencimento" DataType="System.DateTime"/&gt;
+      &lt;Column Name="descricao_prov" DataType="System.String"/&gt;
+      &lt;Column Name="nroparcela" DataType="System.Int32"/&gt;
+      &lt;Column Name="identificacaocontrato" DataType="System.String"/&gt;
+      &lt;Column Name="idlocacaocontrato" DataType="System.Int16"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;Parameter Name="Empresa" DataType="System.String"/&gt;
+    &lt;Total Name="Total" TotalType="Count" Evaluator="Data1"/&gt;
+  &lt;/Dictionary&gt;
+  &lt;ReportPage Name="Page1"&gt;
+    &lt;ReportTitleBand Name="ReportTitle1" Width="718.2" Height="42.95"&gt;
+      &lt;ShapeObject Name="Shape1" Left="-0.21" Top="-0.4" Width="719.07" Height="43.32"/&gt;
+      &lt;TextObject Name="Text1" Left="0.83" Top="1.74" Width="716.43" Height="20.72" Text="Relatório de Proventos - Locador" HorzAlign="Center" VertAlign="Center" Font="Arial, 14pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text2" Left="660.02" Top="3.56" Width="56.29" Height="15.26" Text="JLMTech" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text3" Left="0.72" Top="24.4" Width="59.02" Height="15.26" Text="Empresa:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;LineObject Name="Line1" Left="-0.04" Top="22.58" Width="716.36" Diagonal="true"/&gt;
+      &lt;TextObject Name="Text4" Left="59.9" Top="24.81" Width="544.18" Height="15.26" Text="[Empresa]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+    &lt;/ReportTitleBand&gt;
+    &lt;GroupHeaderBand Name="GroupHeader1" Top="46.58" Width="718.2" Height="34.13" Condition="[LocacaoCCPagar.nroparcela]"&gt;
+      &lt;TextObject Name="Text9" Left="0.8" Top="0.49" Width="57.2" Height="15.26" Text="Contrato:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text10" Left="58.42" Top="0.49" Width="107.24" Height="15.26" Text="[LocacaoCCPagar.identificacaocontrato]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text11" Left="166.77" Top="0.78" Width="51.74" Height="15.26" Text="Parcela:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text12" Left="218.67" Top="0.62" Width="30.08" Height="15.26" Text="[LocacaoCCPagar.nroparcela]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text13" Left="249.19" Top="0.74" Width="55.38" Height="15.26" Text="Locador:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text14" Left="304.95" Top="0.88" Width="410.98" Height="15.26" Text="[LocacaoCCPagar.nome_locador]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text15" Left="0.85" Top="16.22" Width="74.49" Height="15.26" Text="Lançamento" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text16" Left="75.19" Top="16.21" Width="31.76" Height="15.26" Text="Tipo" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text17" Left="106.86" Top="16.22" Width="69.03" Height="15.26" Text="Valor" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text18" Left="175.8" Top="16.19" Width="76.3" Height="15.26" Text="Vencimento" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text19" Left="251.91" Top="16.2" Width="464.33" Height="15.26" Text="Descrição" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;LineObject Name="Line2" Left="0.71" Top="32.48" Width="716.36" Border.Style="DashDot" Border.Width="0.25" Diagonal="true"/&gt;
+      &lt;DataBand Name="Data1" Top="84.33" Width="718.2" Height="17.11" DataSource="LocacaoCCPagar"&gt;
+        &lt;TextObject Name="Text20" Left="1.02" Top="0.58" Width="74.5" Height="15.26" Text="[LocacaoCCPagar.datalancamento]" Format="Date" Format.Format="d" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text21" Left="75.19" Top="0.58" Width="31.88" Height="15.26" Text="[LocacaoCCPagar.tipoprovento]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text22" Left="106.86" Top="0.58" Width="69.11" Height="15.26" Text="[LocacaoCCPagar.valorlancamento]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" VertAlign="Center" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;TextObject Name="Text23" Left="175.8" Top="0.58" Width="76.33" Height="15.26" Text="[LocacaoCCPagar.datavencimento]" Format="Date" Format.Format="d" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text24" Left="251.91" Top="0.58" Width="464.45" Height="15.26" Text="[LocacaoCCPagar.descricao_prov]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;Sort&gt;
+          &lt;Sort Expression="[LocacaoCCPagar.datavencimento]"/&gt;
+        &lt;/Sort&gt;
+      &lt;/DataBand&gt;
+      &lt;GroupFooterBand Name="GroupFooter1" Top="105.07" Width="718.2" Height="4.17"&gt;
+        &lt;LineObject Name="Line3" Left="-0.04" Top="2.33" Width="716.36" Border.Width="0.25" Diagonal="true"/&gt;
+      &lt;/GroupFooterBand&gt;
+    &lt;/GroupHeaderBand&gt;
+    &lt;ReportSummaryBand Name="ReportSummary1" Top="112.87" Width="718.2" Height="22.07"&gt;
+      &lt;ShapeObject Name="Shape2" Left="-0.21" Top="0.07" Width="719.07" Height="21.91"/&gt;
+      &lt;TextObject Name="Text7" Left="682.45" Top="3.08" Width="33.7" Height="15.26" Text="[Total]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text8" Left="591.06" Top="3.08" Width="91.64" Height="15.26" Text="Total Registros:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+    &lt;/ReportSummaryBand&gt;
+    &lt;PageFooterBand Name="PageFooter1" Top="138.56" Width="718.2" Height="14.63"&gt;
+      &lt;TextObject Name="Text5" Left="1.03" Top="-0.63" Width="285.77" Height="15.26" Text="Data Emissão: [Date]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text6" Left="635.17" Top="-0.63" Width="80.86" Height="15.26" Text="Página: [Page]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+    &lt;/PageFooterBand&gt;
+  &lt;/ReportPage&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+  <metadata name="rptLocatario.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>459, 17</value>
+  </metadata>
+  <data name="rptLocatario.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="09/03/2014 11:21:30" ReportInfo.Modified="09/09/2014 09:46:16" ReportInfo.CreatorVersion="2013.3.2.0"&gt;
+  &lt;Dictionary&gt;
+    &lt;TableDataSource Name="LocacaoCCReceber" ReferenceName="dstLocacaoCCReceber.LocacaoCCReceber" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="idlocacaoccreceber" DataType="System.Int16"/&gt;
+      &lt;Column Name="idlocacaoreceber" DataType="System.Int16"/&gt;
+      &lt;Column Name="idlocacaoproventos" DataType="System.Int16"/&gt;
+      &lt;Column Name="tipoprovento" DataType="System.String"/&gt;
+      &lt;Column Name="datalancamento" DataType="System.DateTime"/&gt;
+      &lt;Column Name="valorlancamento" DataType="System.Decimal"/&gt;
+      &lt;Column Name="datavencimento" DataType="System.DateTime"/&gt;
+      &lt;Column Name="descricao_prov" DataType="System.String"/&gt;
+      &lt;Column Name="cliente_codempresa" DataType="System.Int16"/&gt;
+      &lt;Column Name="idcliente" DataType="System.Int16"/&gt;
+      &lt;Column Name="nome_locatario" DataType="System.String"/&gt;
+      &lt;Column Name="nroparcela" DataType="System.Int32"/&gt;
+      &lt;Column Name="identificacaocontrato" DataType="System.String"/&gt;
+      &lt;Column Name="idlocacaocontrato" DataType="System.Int16"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;Parameter Name="Empresa" DataType="System.String"/&gt;
+    &lt;Total Name="Total" TotalType="Count" Evaluator="Data1"/&gt;
+  &lt;/Dictionary&gt;
+  &lt;ReportPage Name="Page1"&gt;
+    &lt;ReportTitleBand Name="ReportTitle1" Width="718.2" Height="42"&gt;
+      &lt;ShapeObject Name="Shape1" Left="-0.05" Top="-0.44" Width="718.33" Height="41.53"/&gt;
+      &lt;TextObject Name="Text1" Left="0.81" Top="0.81" Width="715.54" Height="20.72" Text="Relatório de Proventos - Locatário" HorzAlign="Center" VertAlign="Center" Font="Arial, 14pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text2" Left="660.89" Top="3.56" Width="55.42" Height="15.26" Text="JLMTech" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;LineObject Name="Line1" Left="-0.06" Top="22.58" Width="717.2" Diagonal="true"/&gt;
+      &lt;TextObject Name="Text3" Left="0.79" Top="23.46" Width="59.06" Height="15.26" Text="Empresa:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text4" Left="60.18" Top="23.63" Width="541.45" Height="15.26" Text="[Empresa]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+    &lt;/ReportTitleBand&gt;
+    &lt;GroupHeaderBand Name="GroupHeader1" Top="45.63" Width="718.2" Height="31.31" Condition="[LocacaoCCReceber.nroparcela]"&gt;
+      &lt;TextObject Name="Text5" Left="0.76" Top="-0.14" Width="59.06" Height="15.26" Text="Contrato:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text6" Left="60.23" Top="-0.14" Width="128.14" Height="15.26" Text="[LocacaoCCReceber.identificacaocontrato]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text7" Left="189.28" Top="-0.14" Width="51.78" Height="15.26" Text="Parcela:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text8" Left="240.56" Top="-0.14" Width="27.39" Height="15.26" Text="[LocacaoCCReceber.nroparcela]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text9" Left="269.95" Top="-0.14" Width="61.79" Height="15.26" Text="Locatário:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text10" Left="330.56" Top="-0.14" Width="26.48" Height="15.26" Text="[LocacaoCCReceber.idcliente]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text11" Left="357.14" Top="-0.14" Width="359.24" Height="15.26" Text="[LocacaoCCReceber.nome_locatario]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text12" Left="0.81" Top="15.31" Width="72.71" Height="15.26" Text="Lançamento" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text13" Left="73.34" Top="15.28" Width="30.9" Height="15.26" Text="Tipo" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text14" Left="104.14" Top="15.26" Width="79.08" Height="15.26" Text="Valor" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text15" Left="183.01" Top="15.23" Width="85.34" Height="15.26" Text="Vencimento" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;TextObject Name="Text16" Left="268.28" Top="15.28" Width="448.04" Height="15.26" Text="Descrição" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+      &lt;LineObject Name="Line2" Left="-0.15" Top="30.65" Width="717.2" Border.Style="DashDot" Border.Width="0.25" Diagonal="true"/&gt;
+      &lt;DataBand Name="Data1" Top="80.56" Width="718.2" Height="17.39" DataSource="LocacaoCCReceber"&gt;
+        &lt;TextObject Name="Text17" Left="0.81" Top="1.16" Width="72.7" Height="15.26" Text="[LocacaoCCReceber.datalancamento]" Format="Date" Format.Format="d" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text18" Left="73.34" Top="1.16" Width="30.93" Height="15.26" Text="[LocacaoCCReceber.tipoprovento]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text19" Left="104.14" Top="1.16" Width="79.05" Height="15.26" Text="[LocacaoCCReceber.valorlancamento]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" VertAlign="Center" WordWrap="false" Font="Arial, 8pt" Trimming="EllipsisCharacter"/&gt;
+        &lt;TextObject Name="Text20" Left="183.01" Top="1.16" Width="85.4" Height="15.26" Text="[LocacaoCCReceber.datavencimento]" Format="Date" Format.Format="d" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/&gt;
+        &lt;TextObject Name="Text21" Left="268.28" Top="1.16" Width="448.1" Height="15.26" Text="[LocacaoCCReceber.descricao_prov]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;/DataBand&gt;
+      &lt;GroupFooterBand Name="GroupFooter1" Top="101.58" Width="718.2" Height="3.3"&gt;
+        &lt;LineObject Name="Line3" Left="-0.11" Top="1.4" Width="717.2" Border.Width="0.25" Diagonal="true"/&gt;
+      &lt;/GroupFooterBand&gt;
+    &lt;/GroupHeaderBand&gt;
+    &lt;ReportSummaryBand Name="ReportSummary1" Top="108.51" Width="718.2" Height="22.32"&gt;
+      &lt;ShapeObject Name="Shape2" Left="-0.05" Top="0.59" Width="718.33" Height="20.63"/&gt;
+      &lt;TextObject Name="Text22" Left="686.54" Top="3.38" Width="29.15" Height="15.26" Text="[Total]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text25" Left="592.88" Top="3.38" Width="93.53" Height="15.26" Text="Total Registros:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/&gt;
+    &lt;/ReportSummaryBand&gt;
+    &lt;PageFooterBand Name="PageFooter1" Top="134.45" Width="718.2" Height="17.07"&gt;
+      &lt;TextObject Name="Text23" Left="1.04" Top="-0.33" Width="282.17" Height="15.26" Text="Data Emissão: [Date]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+      &lt;TextObject Name="Text24" Left="636.32" Top="-0.33" Width="79.94" Height="15.26" Text="Página: [Page]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+    &lt;/PageFooterBand&gt;
+  &lt;/ReportPage&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>69</value>
+  </metadata>
+</root>
