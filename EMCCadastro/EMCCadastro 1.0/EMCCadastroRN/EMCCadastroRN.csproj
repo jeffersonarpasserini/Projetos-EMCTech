@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{48B2CEE3-3C61-4C64-BBD1-D3406F509150}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EMCCadastroRN</RootNamespace>
+    <AssemblyName>EMCCadastroRN</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EMCLibrary">
+      <HintPath>..\..\..\DLLProducao\EMCLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCSecurityDAO">
+      <HintPath>..\..\..\DLLProducao\EMCSecurityDAO.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCSecurityModel">
+      <HintPath>..\..\..\DLLProducao\EMCSecurityModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AplicacaoRN.cs" />
+    <Compile Include="AutorizadosClienteRN.cs" />
+    <Compile Include="BancoRN.cs" />
+    <Compile Include="CepRN.cs" />
+    <Compile Include="CidadeRN.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="ClienteRN.cs" />
+    <Compile Include="ContaCustoRN.cs" />
+    <Compile Include="ContatoRN.cs" />
+    <Compile Include="CtaBancariaRN.cs" />
+    <Compile Include="Custo_ComponenteGrupoRN.cs" />
+    <Compile Include="Custo_ComponenteRN.cs" />
+    <Compile Include="EmpresaRN.cs" />
+    <Compile Include="EstadoRN.cs" />
+    <Compile Include="FeriadoRN.cs" />
+    <Compile Include="FiadorRN.cs" />
+    <Compile Include="FormaPagamentoRN.cs" />
+    <Compile Include="FornecedorRN.cs" />
+    <Compile Include="GrupoEmpresaRN.cs" />
+    <Compile Include="HistoricoRN.cs" />
+    <Compile Include="HoldingRN.cs" />
+    <Compile Include="IbgeCidadeRN.cs" />
+    <Compile Include="IndexadorRN.cs" />
+    <Compile Include="IndicesRN.cs" />
+    <Compile Include="PessoaRN.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReferenciaClienteRN.cs" />
+    <Compile Include="TipoCobrancaRN.cs" />
+    <Compile Include="TipoDocumentoRN.cs" />
+    <Compile Include="VendedorRN.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EMCCadastroDAO\EMCCadastroDAO.csproj">
+      <Project>{7F00B4C2-7F1D-4928-ADA1-BDA470936EC4}</Project>
+      <Name>EMCCadastroDAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EMCCadastroModel\EMCCadastroModel.csproj">
+      <Project>{7DF8E347-033D-4E56-B451-1CC8BCEF7430}</Project>
+      <Name>EMCCadastroModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

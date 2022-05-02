@@ -1,0 +1,755 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8EBBC40B-137A-4031-B348-70352C0E8A67}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EMCCadastro</RootNamespace>
+    <AssemblyName>EMCCadastro</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EMCLibrary">
+      <HintPath>..\..\..\DLLProducao\EMCLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCSecurity">
+      <HintPath>..\..\..\DLLProducao\EMCSecurity.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCSecurityDAO">
+      <HintPath>..\..\..\DLLProducao\EMCSecurityDAO.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCSecurityModel">
+      <HintPath>..\..\..\DLLProducao\EMCSecurityModel.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCSecurityRN">
+      <HintPath>..\..\..\DLLProducao\EMCSecurityRN.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport, Version=2013.3.5.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\FastReports\FastReport.Net Demo\FastReport.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Bars, Version=2013.3.5.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\FastReports\FastReport.Net Demo\FastReport.Bars.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Editor, Version=2013.3.5.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\FastReports\FastReport.Net Demo\FastReport.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUsuario.Designer.cs">
+      <DependentUpon>frmUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmCidade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmCidade.Designer.cs">
+      <DependentUpon>frmCidade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmIbgeCidade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmIbgeCidade.Designer.cs">
+      <DependentUpon>frmIbgeCidade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmEstado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmEstado.Designer.cs">
+      <DependentUpon>frmEstado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global.cs" />
+    <Compile Include="Manutencao\frmAplicacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmAplicacao.Designer.cs">
+      <DependentUpon>frmAplicacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmAutorizadosCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmAutorizadosCliente.Designer.cs">
+      <DependentUpon>frmAutorizadosCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmBanco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmBanco.Designer.cs">
+      <DependentUpon>frmBanco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmCep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmCep.Designer.cs">
+      <DependentUpon>frmCep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmCliente.Designer.cs">
+      <DependentUpon>frmCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmContaCusto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmContaCusto.designer.cs">
+      <DependentUpon>frmContaCusto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmContato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmContato.Designer.cs">
+      <DependentUpon>frmContato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmCtaBancaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmCtaBancaria.Designer.cs">
+      <DependentUpon>frmCtaBancaria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmCusto_Componente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmCusto_Componente.designer.cs">
+      <DependentUpon>frmCusto_Componente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmCusto_ComponenteGrupo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmCusto_ComponenteGrupo.designer.cs">
+      <DependentUpon>frmCusto_ComponenteGrupo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\FrmEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\FrmEmpresa.Designer.cs">
+      <DependentUpon>FrmEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmFeriado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmFeriado.Designer.cs">
+      <DependentUpon>frmFeriado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmFormaPagamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmFormaPagamento.designer.cs">
+      <DependentUpon>frmFormaPagamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmFornecedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmFornecedor.Designer.cs">
+      <DependentUpon>frmFornecedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmGrupoEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmGrupoEmpresa.Designer.cs">
+      <DependentUpon>frmGrupoEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmHistorico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmHistorico.Designer.cs">
+      <DependentUpon>frmHistorico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmHolding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmHolding.Designer.cs">
+      <DependentUpon>frmHolding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmIndexador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmIndexador.Designer.cs">
+      <DependentUpon>frmIndexador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmIndice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmIndice.Designer.cs">
+      <DependentUpon>frmIndice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmPessoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmPessoa.Designer.cs">
+      <DependentUpon>frmPessoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmReferenciaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmReferenciaCliente.Designer.cs">
+      <DependentUpon>frmReferenciaCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmTipoCobranca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmTipoCobranca.Designer.cs">
+      <DependentUpon>frmTipoCobranca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\frmTipoDocumento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\frmTipoDocumento.designer.cs">
+      <DependentUpon>frmTipoDocumento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao\menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manutencao\menu.Designer.cs">
+      <DependentUpon>menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqAplicacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqAplicacao.Designer.cs">
+      <DependentUpon>psqAplicacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqBanco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqBanco.Designer.cs">
+      <DependentUpon>psqBanco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqCep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqCep.Designer.cs">
+      <DependentUpon>psqCep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqCliente.designer.cs">
+      <DependentUpon>psqCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqContaCusto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqContaCusto.Designer.cs">
+      <DependentUpon>psqContaCusto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqCustoComponente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqCustoComponente.Designer.cs">
+      <DependentUpon>psqCustoComponente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqEstado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqEstado.Designer.cs">
+      <DependentUpon>psqEstado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqFormaPagamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqFormaPagamento.Designer.cs">
+      <DependentUpon>psqFormaPagamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqFornecedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqFornecedor.Designer.cs">
+      <DependentUpon>psqFornecedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqGrupoComponente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqGrupoComponente.Designer.cs">
+      <DependentUpon>psqGrupoComponente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqGrupoEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqGrupoEmpresa.Designer.cs">
+      <DependentUpon>psqGrupoEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqHistorico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqHistorico.Designer.cs">
+      <DependentUpon>psqHistorico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqHolding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqHolding.Designer.cs">
+      <DependentUpon>psqHolding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqIbgeCidade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqIbgeCidade.Designer.cs">
+      <DependentUpon>psqIbgeCidade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqIndexador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqIndexador.Designer.cs">
+      <DependentUpon>psqIndexador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqPessoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqPessoa.Designer.cs">
+      <DependentUpon>psqPessoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqTipoCobranca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqTipoCobranca.Designer.cs">
+      <DependentUpon>psqTipoCobranca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa\psqTipoDocumento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa\psqTipoDocumento.Designer.cs">
+      <DependentUpon>psqTipoDocumento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Relatorios\relAplicacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\relAplicacao.Designer.cs">
+      <DependentUpon>relAplicacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\relCadastroBanco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\relCadastroBanco.Designer.cs">
+      <DependentUpon>relCadastroBanco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\relCEP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\relCEP.Designer.cs">
+      <DependentUpon>relCEP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\relContaCusto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\relContaCusto.Designer.cs">
+      <DependentUpon>relContaCusto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\relCtaBancaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\relCtaBancaria.Designer.cs">
+      <DependentUpon>relCtaBancaria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\relCustoComponente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\relCustoComponente.Designer.cs">
+      <DependentUpon>relCustoComponente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\relCustoComponenteGrupo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\relCustoComponenteGrupo.Designer.cs">
+      <DependentUpon>relCustoComponenteGrupo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\relEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\relEmpresa.Designer.cs">
+      <DependentUpon>relEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\relFeriado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\relFeriado.Designer.cs">
+      <DependentUpon>relFeriado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\relFormaPagamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\relFormaPagamento.Designer.cs">
+      <DependentUpon>relFormaPagamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\relHistorico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\relHistorico.Designer.cs">
+      <DependentUpon>relHistorico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\relIndicePeríodo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\relIndicePeríodo.Designer.cs">
+      <DependentUpon>relIndicePeríodo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\relPessoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\relPessoa.Designer.cs">
+      <DependentUpon>relPessoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\relTipoCobranca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\relTipoCobranca.Designer.cs">
+      <DependentUpon>relTipoCobranca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\relTipoDocumento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\relTipoDocumento.Designer.cs">
+      <DependentUpon>relTipoDocumento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Version.cs" />
+    <EmbeddedResource Include="Manutencao\frmCidade.resx">
+      <DependentUpon>frmCidade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmIbgeCidade.resx">
+      <DependentUpon>frmIbgeCidade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmEstado.resx">
+      <DependentUpon>frmEstado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmAplicacao.resx">
+      <DependentUpon>frmAplicacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmAutorizadosCliente.resx">
+      <DependentUpon>frmAutorizadosCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmBanco.resx">
+      <DependentUpon>frmBanco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmCep.resx">
+      <DependentUpon>frmCep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmCliente.resx">
+      <DependentUpon>frmCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmContaCusto.resx">
+      <DependentUpon>frmContaCusto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmContato.resx">
+      <DependentUpon>frmContato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmCtaBancaria.resx">
+      <DependentUpon>frmCtaBancaria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmCusto_Componente.resx">
+      <DependentUpon>frmCusto_Componente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmCusto_ComponenteGrupo.resx">
+      <DependentUpon>frmCusto_ComponenteGrupo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\FrmEmpresa.resx">
+      <DependentUpon>FrmEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmFeriado.resx">
+      <DependentUpon>frmFeriado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmFormaPagamento.resx">
+      <DependentUpon>frmFormaPagamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmFornecedor.resx">
+      <DependentUpon>frmFornecedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmGrupoEmpresa.resx">
+      <DependentUpon>frmGrupoEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmHistorico.resx">
+      <DependentUpon>frmHistorico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmHolding.resx">
+      <DependentUpon>frmHolding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmIndexador.resx">
+      <DependentUpon>frmIndexador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmIndice.resx">
+      <DependentUpon>frmIndice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmPessoa.resx">
+      <DependentUpon>frmPessoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmReferenciaCliente.resx">
+      <DependentUpon>frmReferenciaCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmTipoCobranca.resx">
+      <DependentUpon>frmTipoCobranca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\frmTipoDocumento.resx">
+      <DependentUpon>frmTipoDocumento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manutencao\menu.resx">
+      <DependentUpon>menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqAplicacao.resx">
+      <DependentUpon>psqAplicacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqBanco.resx">
+      <DependentUpon>psqBanco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqCep.resx">
+      <DependentUpon>psqCep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqCliente.resx">
+      <DependentUpon>psqCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqContaCusto.resx">
+      <DependentUpon>psqContaCusto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqCustoComponente.resx">
+      <DependentUpon>psqCustoComponente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqEstado.resx">
+      <DependentUpon>psqEstado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqFormaPagamento.resx">
+      <DependentUpon>psqFormaPagamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqFornecedor.resx">
+      <DependentUpon>psqFornecedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqGrupoComponente.resx">
+      <DependentUpon>psqGrupoComponente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqGrupoEmpresa.resx">
+      <DependentUpon>psqGrupoEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqHistorico.resx">
+      <DependentUpon>psqHistorico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqHolding.resx">
+      <DependentUpon>psqHolding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqIbgeCidade.resx">
+      <DependentUpon>psqIbgeCidade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqIndexador.resx">
+      <DependentUpon>psqIndexador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqPessoa.resx">
+      <DependentUpon>psqPessoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqTipoCobranca.resx">
+      <DependentUpon>psqTipoCobranca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\psqTipoDocumento.resx">
+      <DependentUpon>psqTipoDocumento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Relatorios\relAplicacao.resx">
+      <DependentUpon>relAplicacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\relCadastroBanco.resx">
+      <DependentUpon>relCadastroBanco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\relCEP.resx">
+      <DependentUpon>relCEP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\relContaCusto.resx">
+      <DependentUpon>relContaCusto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\relCtaBancaria.resx">
+      <DependentUpon>relCtaBancaria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\relCustoComponente.resx">
+      <DependentUpon>relCustoComponente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\relCustoComponenteGrupo.resx">
+      <DependentUpon>relCustoComponenteGrupo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\relEmpresa.resx">
+      <DependentUpon>relEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\relFeriado.resx">
+      <DependentUpon>relFeriado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\relFormaPagamento.resx">
+      <DependentUpon>relFormaPagamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\relHistorico.resx">
+      <DependentUpon>relHistorico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\relIndicePeríodo.resx">
+      <DependentUpon>relIndicePeríodo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\relPessoa.resx">
+      <DependentUpon>relPessoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\relTipoCobranca.resx">
+      <DependentUpon>relTipoCobranca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\relTipoDocumento.resx">
+      <DependentUpon>relTipoDocumento.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EMCCadastroModel\EMCCadastroModel.csproj">
+      <Project>{7DF8E347-033D-4E56-B451-1CC8BCEF7430}</Project>
+      <Name>EMCCadastroModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EMCCadastroRN\EMCCadastroRN.csproj">
+      <Project>{48B2CEE3-3C61-4C64-BBD1-D3406F509150}</Project>
+      <Name>EMCCadastroRN</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\binoculo_16x161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contato_32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contato_32x32pb1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Deletar_16x161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImgFechar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImgSalvar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Incluir_16x161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pessoas_32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pessoas_32x32pb1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImgNovo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\binoculo_32x32.png" />
+    <None Include="Resources\ImgCancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

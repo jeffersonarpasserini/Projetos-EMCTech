@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7F00B4C2-7F1D-4928-ADA1-BDA470936EC4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EMCCadastroDAO</RootNamespace>
+    <AssemblyName>EMCCadastroDAO</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EMCLibrary">
+      <HintPath>..\..\..\DLLProducao\EMCLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCSecurityDAO">
+      <HintPath>..\..\..\DLLProducao\EMCSecurityDAO.dll</HintPath>
+    </Reference>
+    <Reference Include="EMCSecurityModel">
+      <HintPath>..\..\..\DLLProducao\EMCSecurityModel.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\MySql.Data.6.9.8\lib\net40\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AplicacaoDAO.cs" />
+    <Compile Include="AutorizadosClienteDAO.cs" />
+    <Compile Include="BancoDAO.cs" />
+    <Compile Include="CepDAO.cs" />
+    <Compile Include="CidadeDAO.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="ClienteDAO.cs" />
+    <Compile Include="ContaCustoDAO.cs" />
+    <Compile Include="ContatoDAO.cs" />
+    <Compile Include="CtaBancariaDAO.cs" />
+    <Compile Include="Custo_ComponenteDAO.cs" />
+    <Compile Include="Custo_ComponenteGrupoDAO.cs" />
+    <Compile Include="EmpresaDAO.cs" />
+    <Compile Include="EstadoDAO.cs" />
+    <Compile Include="FeriadoDAO.cs" />
+    <Compile Include="FiadorDAO.cs" />
+    <Compile Include="FormaPagamentoDAO.cs" />
+    <Compile Include="FornecedorDAO.cs" />
+    <Compile Include="GrupoEmpresaDAO.cs" />
+    <Compile Include="HistoricoDAO.cs" />
+    <Compile Include="HoldingDAO.cs" />
+    <Compile Include="IbgeCidadeDAO.cs" />
+    <Compile Include="IndexadorDAO.cs" />
+    <Compile Include="IndicesDAO.cs" />
+    <Compile Include="PessoaDAO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReferenciaClienteDAO.cs" />
+    <Compile Include="TipoCobrancaDAO.cs" />
+    <Compile Include="TipoDocumentoDAO.cs" />
+    <Compile Include="VendedorDAO.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EMCCadastroModel\EMCCadastroModel.csproj">
+      <Project>{7DF8E347-033D-4E56-B451-1CC8BCEF7430}</Project>
+      <Name>EMCCadastroModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

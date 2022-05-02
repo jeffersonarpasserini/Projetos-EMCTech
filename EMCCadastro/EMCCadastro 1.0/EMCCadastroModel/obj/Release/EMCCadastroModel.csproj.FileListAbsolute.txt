@@ -1,0 +1,10 @@
+D:\fontes\jlmtech\EMCTech\EMCCadastro\EMCCadastro 1.0\EMCCadastroModel\bin\Release\EMCCadastroModel.dll
+D:\fontes\jlmtech\EMCTech\EMCCadastro\EMCCadastro 1.0\EMCCadastroModel\bin\Release\EMCCadastroModel.pdb
+D:\fontes\jlmtech\EMCTech\EMCCadastro\EMCCadastro 1.0\EMCCadastroModel\obj\Release\EMCCadastroModel.dll
+D:\fontes\jlmtech\EMCTech\EMCCadastro\EMCCadastro 1.0\EMCCadastroModel\obj\Release\EMCCadastroModel.pdb
+D:\fontes\jlmtech\EMCTech\EMCCadastro\EMCCadastro 1.0\EMCCadastroModel\obj\Release\EMCCadastroModel.csprojResolveAssemblyReference.cache
+E:\jefferson\fontes\jlmtech\EMCTech\EMCCadastro\EMCCadastro 1.0\EMCCadastroModel\bin\Release\EMCCadastroModel.dll
+E:\jefferson\fontes\jlmtech\EMCTech\EMCCadastro\EMCCadastro 1.0\EMCCadastroModel\bin\Release\EMCCadastroModel.pdb
+E:\jefferson\fontes\jlmtech\EMCTech\EMCCadastro\EMCCadastro 1.0\EMCCadastroModel\obj\Release\EMCCadastroModel.csprojResolveAssemblyReference.cache
+E:\jefferson\fontes\jlmtech\EMCTech\EMCCadastro\EMCCadastro 1.0\EMCCadastroModel\obj\Release\EMCCadastroModel.dll
+E:\jefferson\fontes\jlmtech\EMCTech\EMCCadastro\EMCCadastro 1.0\EMCCadastroModel\obj\Release\EMCCadastroModel.pdb
